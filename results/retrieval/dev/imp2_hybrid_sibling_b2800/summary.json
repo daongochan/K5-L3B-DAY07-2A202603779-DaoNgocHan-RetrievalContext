@@ -1,0 +1,47 @@
+{
+  "config": "imp2_hybrid_sibling_b2800",
+  "method": "hybrid_rrf",
+  "description": "Cải thiện 2: Hybrid RRF (1:1) + Suy luận Filter + top_k=4 + Mở rộng chunk kế cận cùng Điều/cùng trang Phụ lục, Budget=2800 chars",
+  "hypothesis": "Bổ sung các chunk kế cận cùng Điều hoặc phần cuối/chú thích cùng trang Phụ lục sau các hit chính giúp bao phủ trọn điều kiện/ngoại lệ hoặc chú thích biểu mẫu bị tách chunk, đổi lại context tăng thêm ~400-700 ký tự.",
+  "split": "dev",
+  "n": 17,
+  "top_k": 4,
+  "budget_chars": 2800,
+  "expand_siblings": true,
+  "header_style": "rich",
+  "strict_hit1": 13,
+  "strict_hit1_rate": 0.7647,
+  "strict_hit3": 16,
+  "strict_hit3_rate": 0.9412,
+  "strict_hit_topk": 17,
+  "strict_context_hit": 17,
+  "strict_context_rate": 1.0,
+  "any_hit1": 14,
+  "any_hit3": 17,
+  "any_context_hit": 17,
+  "mrr3": 0.902,
+  "avg_context_chars": 2481.9,
+  "avg_est_tokens": 709.1,
+  "median_ms": 170.6,
+  "mean_ms": 188.07,
+  "queries_with_inferred_filter": [
+    {
+      "id": "D15",
+      "filter": {
+        "page_type": "phu_luc_bieu_mau"
+      }
+    },
+    {
+      "id": "D16",
+      "filter": {
+        "page_type": "phu_luc_bieu_mau"
+      }
+    }
+  ],
+  "strict_missed_hit3_ids": [
+    "D17"
+  ],
+  "strict_missed_context_ids": [],
+  "load_seconds": 15.073,
+  "service_cost_usd": 0.0
+}

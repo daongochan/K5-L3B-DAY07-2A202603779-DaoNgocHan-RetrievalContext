@@ -1,0 +1,94 @@
+{
+  "split": "test",
+  "summaries": [
+    {
+      "config": "cfg1_tfidf_b800",
+      "method": "tfidf",
+      "description": "Baseline Lexical TF-IDF (unigram), top_k=3, no filter, budget=800 chars",
+      "hypothesis": "Baseline mặc định từ starter để làm mốc so sánh.",
+      "split": "test",
+      "n": 7,
+      "top_k": 3,
+      "budget_chars": 800,
+      "expand_siblings": false,
+      "header_style": "compat",
+      "strict_hit1": 5,
+      "strict_hit1_rate": 0.7143,
+      "strict_hit3": 5,
+      "strict_hit3_rate": 0.7143,
+      "strict_hit_topk": 5,
+      "strict_context_hit": 5,
+      "strict_context_rate": 0.7143,
+      "any_hit1": 6,
+      "any_hit3": 7,
+      "any_context_hit": 6,
+      "mrr3": 0.9048,
+      "avg_context_chars": 662.6,
+      "avg_est_tokens": 189.3,
+      "median_ms": 2.06,
+      "mean_ms": 2.54,
+      "queries_with_inferred_filter": [],
+      "strict_missed_hit3_ids": [
+        "N_T06",
+        "N_T07"
+      ],
+      "strict_missed_context_ids": [
+        "N_T06",
+        "N_T07"
+      ],
+      "load_seconds": 0.017,
+      "service_cost_usd": 0.0
+    },
+    {
+      "config": "imp3_whyb_qfilter_sibling_b2800",
+      "method": "hybrid_rrf",
+      "description": "Cải thiện 3: Weighted Hybrid RRF (Dense=2.0, BM25=1.0) + Suy luận Filter + top_k=4 + Sibling Expansion, Budget=2800 chars",
+      "hypothesis": "Tăng trọng số Dense gấp đôi BM25 (2:1) trong RRF để khắc phục lỗi BM25 kéo tụt hạng 1 của câu diễn đạt lại (D02, D05), đồng thời giữ nguyên khả năng bao phủ context 100% của Sibling Expansion.",
+      "split": "test",
+      "n": 7,
+      "top_k": 4,
+      "budget_chars": 2800,
+      "expand_siblings": true,
+      "header_style": "rich",
+      "strict_hit1": 5,
+      "strict_hit1_rate": 0.7143,
+      "strict_hit3": 5,
+      "strict_hit3_rate": 0.7143,
+      "strict_hit_topk": 5,
+      "strict_context_hit": 5,
+      "strict_context_rate": 0.7143,
+      "any_hit1": 7,
+      "any_hit3": 7,
+      "any_context_hit": 7,
+      "mrr3": 1.0,
+      "avg_context_chars": 2449.3,
+      "avg_est_tokens": 699.7,
+      "median_ms": 236.0,
+      "mean_ms": 326.16,
+      "queries_with_inferred_filter": [
+        {
+          "id": "N_T05",
+          "filter": {
+            "article": "Điều 35"
+          }
+        },
+        {
+          "id": "N_T06",
+          "filter": {
+            "page_type": "phu_luc_bieu_mau"
+          }
+        }
+      ],
+      "strict_missed_hit3_ids": [
+        "N_T06",
+        "N_T07"
+      ],
+      "strict_missed_context_ids": [
+        "N_T06",
+        "N_T07"
+      ],
+      "load_seconds": 10.112,
+      "service_cost_usd": 0.0
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "config": "agent_baseline_tfidf_b800",
+  "split": "test",
+  "model": "openai/gpt-4o-mini",
+  "agent_params": {
+    "top_k": 3,
+    "budget": 800,
+    "max_searches": 3,
+    "max_llm_turns": 5,
+    "enable_filters": false,
+    "enable_lookup_tool": false,
+    "interleave_batches": false,
+    "expand_siblings": false,
+    "header_style": "compat"
+  },
+  "total_cases": 10,
+  "completed_cases": 10,
+  "error_cases": 0,
+  "status_counts": {
+    "answered": 6,
+    "abstain": 4,
+    "error": 0
+  },
+  "search_calls_distribution": {
+    "1": 3,
+    "2": 2,
+    "3": 5
+  },
+  "avg_search_calls": 2.2,
+  "avg_llm_calls": 2.9,
+  "avg_context_chars": 645.4,
+  "median_elapsed_ms": 6496.1,
+  "total_elapsed_seconds": 83.54,
+  "total_prompt_tokens": 45479,
+  "total_completion_tokens": 3255,
+  "total_cost_usd": 0.006452
+}

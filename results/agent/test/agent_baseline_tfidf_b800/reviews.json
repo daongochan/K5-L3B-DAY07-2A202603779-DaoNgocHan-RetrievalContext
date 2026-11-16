@@ -1,0 +1,74 @@
+[
+  {
+    "query_id": "N_T01",
+    "answer_grade": 0,
+    "citation_support": [
+      false
+    ],
+    "note": "Sau 3 lượt search với budget=800 không trộn batch, context cuối chỉ còn p024:B_para:000 (Điều 28 khoản 3), hoàn toàn không có mệnh đề 'một lần trước khi tiến hành' của Điều 13; model tự nhớ hoặc suy diễn rồi gắn sai citation p024:B_para:000."
+  },
+  {
+    "query_id": "N_T02",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "note": "Trả lời đúng và đủ cả điều kiện lẫn ngoại lệ theo Điều 18 (p016:B_para:002)."
+  },
+  {
+    "query_id": "N_T03",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "note": "Trả lời đúng thứ tự hàng đồng ý và trường hợp không có thân nhân theo Điều 19 (p016:B_para:003)."
+  },
+  {
+    "query_id": "N_T04",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "note": "Trả lời đúng và đủ chi phí in, sao, chụp, bưu chính, fax và phương thức/thời hạn thanh toán theo Điều 14 khoản 9 (p013:B_para:002)."
+  },
+  {
+    "query_id": "N_T05",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "note": "Trả lời đúng đủ 2 khoản trách nhiệm của Bộ KH&CN tại Điều 35 (p026:B_para:003)."
+  },
+  {
+    "query_id": "N_T06",
+    "answer_grade": 0,
+    "citation_support": [],
+    "note": "Từ chối nhầm vì TF-IDF không có filter Phụ lục và không có lookup_article_or_form nên chỉ lấy được Điều 24 trang 21."
+  },
+  {
+    "query_id": "N_T07",
+    "answer_grade": 0,
+    "citation_support": [
+      false
+    ],
+    "note": "Context cuối chỉ có Điều 24 khoản 1 (p019:B_para:001); model tự suy diễn sai ngược pháp luật rằng Bên Xử lý không thuộc nhóm phải lập hồ sơ chuyển dữ liệu ra nước ngoài và gắn sai citation p019:B_para:001."
+  },
+  {
+    "query_id": "U_T01",
+    "abstention_correct": true,
+    "citation_support": [],
+    "note": "Đọc đúng Điều 38 khoản 2 (p027:B_para:002) và từ chối chuẩn xác vì không có thời hạn tháng/năm."
+  },
+  {
+    "query_id": "U_T02",
+    "abstention_correct": true,
+    "citation_support": [],
+    "note": "Từ chối đúng, không bịa danh sách quốc gia tương đương."
+  },
+  {
+    "query_id": "U_T03",
+    "abstention_correct": true,
+    "citation_support": [],
+    "note": "Từ chối đúng, không bịa chuẩn thuật toán AES-256 hay RSA-2048."
+  }
+]

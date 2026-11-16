@@ -1,0 +1,38 @@
+{
+  "config": "cfg1_tfidf_b800",
+  "method": "tfidf",
+  "description": "Baseline Lexical TF-IDF (unigram), top_k=3, no filter, budget=800 chars",
+  "hypothesis": "Baseline mặc định từ starter để làm mốc so sánh.",
+  "split": "test",
+  "n": 7,
+  "top_k": 3,
+  "budget_chars": 800,
+  "expand_siblings": false,
+  "header_style": "compat",
+  "strict_hit1": 5,
+  "strict_hit1_rate": 0.7143,
+  "strict_hit3": 5,
+  "strict_hit3_rate": 0.7143,
+  "strict_hit_topk": 5,
+  "strict_context_hit": 5,
+  "strict_context_rate": 0.7143,
+  "any_hit1": 6,
+  "any_hit3": 7,
+  "any_context_hit": 6,
+  "mrr3": 0.9048,
+  "avg_context_chars": 662.6,
+  "avg_est_tokens": 189.3,
+  "median_ms": 2.06,
+  "mean_ms": 2.54,
+  "queries_with_inferred_filter": [],
+  "strict_missed_hit3_ids": [
+    "N_T06",
+    "N_T07"
+  ],
+  "strict_missed_context_ids": [
+    "N_T06",
+    "N_T07"
+  ],
+  "load_seconds": 0.017,
+  "service_cost_usd": 0.0
+}

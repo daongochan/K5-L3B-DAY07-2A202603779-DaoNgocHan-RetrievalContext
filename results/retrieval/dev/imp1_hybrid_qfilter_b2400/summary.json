@@ -1,0 +1,50 @@
+{
+  "config": "imp1_hybrid_qfilter_b2400",
+  "method": "hybrid_rrf",
+  "description": "Cải thiện 1: Hybrid RRF + Suy luận Filter từ Query (article/page_type) + Context Budget=2400 chars (rich header)",
+  "hypothesis": "Khắc phục 2 lỗi dev: (1) Nâng budget từ 800 lên 2400 chars để không cắt rỗng chunk dài >720 ký tự ở D06, D07 và giữ đủ 2 đoạn cho câu multi-hop D17; (2) Tự suy luận filter từ query ('tại Phụ lục', 'Theo Điều N') để loại nhiễu thân văn bản ở D15, D16.",
+  "split": "dev",
+  "n": 17,
+  "top_k": 3,
+  "budget_chars": 2400,
+  "expand_siblings": false,
+  "header_style": "rich",
+  "strict_hit1": 13,
+  "strict_hit1_rate": 0.7647,
+  "strict_hit3": 16,
+  "strict_hit3_rate": 0.9412,
+  "strict_hit_topk": 16,
+  "strict_context_hit": 15,
+  "strict_context_rate": 0.8824,
+  "any_hit1": 14,
+  "any_hit3": 17,
+  "any_context_hit": 16,
+  "mrr3": 0.902,
+  "avg_context_chars": 2022.9,
+  "avg_est_tokens": 578.1,
+  "median_ms": 170.43,
+  "mean_ms": 175.94,
+  "queries_with_inferred_filter": [
+    {
+      "id": "D15",
+      "filter": {
+        "page_type": "phu_luc_bieu_mau"
+      }
+    },
+    {
+      "id": "D16",
+      "filter": {
+        "page_type": "phu_luc_bieu_mau"
+      }
+    }
+  ],
+  "strict_missed_hit3_ids": [
+    "D17"
+  ],
+  "strict_missed_context_ids": [
+    "D14",
+    "D17"
+  ],
+  "load_seconds": 15.073,
+  "service_cost_usd": 0.0
+}

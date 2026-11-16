@@ -1,0 +1,7 @@
+psycopg[binary]==3.3.8
+pgvector==0.5.1
+python-dotenv>=1,<2
+sentence-transformers==6.3.0
+torch==2.15.0
+numpy==2.5.4
+scikit-learn>=1.5

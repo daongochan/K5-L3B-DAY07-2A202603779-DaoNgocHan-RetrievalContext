@@ -1,0 +1,242 @@
+[
+  {
+    "id": "D01",
+    "split": "dev",
+    "question": "Nghị định 13/2023/NĐ-CP có hiệu lực thi hành từ ngày nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "kind": "direct"
+  },
+  {
+    "id": "D02",
+    "split": "dev",
+    "question": "Dữ liệu cá nhân nhạy cảm được định nghĩa như thế nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "kind": "direct"
+  },
+  {
+    "id": "D03",
+    "split": "dev",
+    "question": "Theo nguyên tắc bảo vệ dữ liệu cá nhân, dữ liệu cá nhân có được mua bán không?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "kind": "direct"
+  },
+  {
+    "id": "D04",
+    "split": "dev",
+    "question": "Khi chủ thể dữ liệu yêu cầu hạn chế xử lý, việc hạn chế phải được thực hiện trong bao lâu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "kind": "direct"
+  },
+  {
+    "id": "D05",
+    "split": "dev",
+    "question": "Sau khi người dùng gửi yêu cầu xóa dữ liệu, doanh nghiệp có bao nhiêu thời gian để thực hiện?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "kind": "rephrased"
+  },
+  {
+    "id": "D06",
+    "split": "dev",
+    "question": "Nếu chủ thể dữ liệu không phản hồi yêu cầu xin đồng ý thì có được coi là đã đồng ý không?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "kind": "conditional"
+  },
+  {
+    "id": "D07",
+    "split": "dev",
+    "question": "Khi xử lý dữ liệu cá nhân của trẻ em, từ độ tuổi nào thì bản thân trẻ em cũng phải đồng ý?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "kind": "conditional"
+  },
+  {
+    "id": "D08",
+    "split": "dev",
+    "question": "Khi phát hiện vi phạm quy định bảo vệ dữ liệu cá nhân, phải thông báo cho cơ quan nào và trong thời hạn bao lâu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "kind": "direct"
+  },
+  {
+    "id": "D09",
+    "split": "dev",
+    "question": "Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân phải gửi cho Bộ Công an trong thời hạn bao nhiêu ngày?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "kind": "rephrased"
+  },
+  {
+    "id": "D10",
+    "split": "dev",
+    "question": "Doanh nghiệp nhỏ mới thành lập được miễn chỉ định bộ phận bảo vệ dữ liệu cá nhân trong bao lâu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "kind": "rephrased"
+  },
+  {
+    "id": "D11",
+    "split": "dev",
+    "question": "Doanh nghiệp nhỏ trực tiếp kinh doanh hoạt động xử lý dữ liệu cá nhân có được hưởng miễn trừ 02 năm không?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "kind": "conditional"
+  },
+  {
+    "id": "D12",
+    "split": "dev",
+    "question": "Cơ quan chuyên trách bảo vệ dữ liệu cá nhân là cơ quan nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "kind": "direct"
+  },
+  {
+    "id": "D13",
+    "split": "dev",
+    "question": "Nếu chủ thể dữ liệu rút lại sự đồng ý thì việc xử lý đã thực hiện trước đó có bị coi là trái pháp luật không?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "kind": "conditional"
+  },
+  {
+    "id": "D14",
+    "split": "dev",
+    "question": "Chủ thể dữ liệu yêu cầu được cấp bản sao dữ liệu của mình thì phải được cung cấp trong bao lâu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "kind": "rephrased"
+  },
+  {
+    "id": "D15",
+    "split": "dev",
+    "question": "Mẫu số 01 tại Phụ lục của Nghị định là phiếu dành cho đối tượng nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "kind": "direct"
+  },
+  {
+    "id": "D16",
+    "split": "dev",
+    "question": "Mẫu số 02 tại Phụ lục dành cho tổ chức, doanh nghiệp có tiêu đề là gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "kind": "direct"
+  },
+  {
+    "id": "D17",
+    "split": "dev",
+    "question": "Một doanh nghiệp khởi nghiệp mới thành lập (không trực tiếp kinh doanh hoạt động xử lý dữ liệu cá nhân) có xử lý dữ liệu cá nhân nhạy cảm thì theo quy định chung về bảo vệ dữ liệu nhạy cảm phải làm gì đối với bộ phận và nhân sự bảo vệ dữ liệu cá nhân, nhưng doanh nghiệp có được hưởng quyền miễn trừ trong bao lâu không?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "kind": "multi_hop"
+  },
+  {
+    "id": "U_D01",
+    "split": "dev",
+    "question": "Mức phạt tiền hành chính tối đa (tính bằng đồng hoặc phần trăm doanh thu) đối với hành vi mua, bán trái phép dữ liệu cá nhân theo Nghị định 13/2023/NĐ-CP là bao nhiêu?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Kiểm tra toàn bộ 37 trang PDF (136 chunks): Điều 3 khoản 4 và Điều 22 cấm mua, bán dữ liệu cá nhân; Điều 4 (trang 5) chỉ nêu nguyên tắc bị xử lý kỷ luật, xử phạt vi phạm hành chính, xử lý hình sự theo quy định, không quy định bất kỳ mức phạt tiền cụ thể hay tỷ lệ phần trăm doanh thu nào (0 kết quả cho 'phạt tiền', 'triệu đồng', 'tỷ đồng', 'doanh thu')."
+  },
+  {
+    "id": "U_D02",
+    "split": "dev",
+    "question": "Khi nộp Hồ sơ đánh giá tác động chuyển dữ liệu cá nhân ra nước ngoài cho Bộ Công an, doanh nghiệp phải nộp mức lệ phí thẩm định hồ sơ là bao nhiêu tiền theo Nghị định 13/2023/NĐ-CP?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Kiểm tra toàn bộ 37 trang PDF (136 chunks), đặc biệt Điều 24, Điều 25 và Phụ lục Mẫu số 04, 06: văn bản quy định thủ tục gửi hồ sơ về Bộ Công an (Cục A05) nhưng hoàn toàn không quy định lệ phí thẩm định hồ sơ (0 kết quả cho 'lệ phí', 'thẩm định')."
+  },
+  {
+    "id": "U_D03",
+    "split": "dev",
+    "question": "Theo Nghị định 13/2023/NĐ-CP, nhân sự được chỉ định phụ trách bảo vệ dữ liệu cá nhân bắt buộc phải có chứng chỉ chuyên môn gì và tối thiểu bao nhiêu năm kinh nghiệm?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Kiểm tra toàn bộ 37 trang PDF (136 chunks), gồm Điều 28 khoản 2, Điều 30 và các Mẫu số 03-06: chỉ yêu cầu chỉ định bộ phận/nhân sự và cung cấp họ tên, chức danh, SĐT, email; không quy định chứng chỉ bắt buộc hay số năm kinh nghiệm tối thiểu (0 kết quả cho 'chứng chỉ', 'năm kinh nghiệm')."
+  },
+  {
+    "id": "N_T01",
+    "split": "test",
+    "question": "Việc thông báo xử lý dữ liệu cá nhân cho chủ thể dữ liệu được thực hiện mấy lần và vào thời điểm nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "kind": "direct"
+  },
+  {
+    "id": "N_T02",
+    "split": "test",
+    "question": "Khi cơ quan, tổ chức có thẩm quyền ghi âm, ghi hình tại nơi công cộng nhằm bảo vệ an ninh quốc gia và trật tự an toàn xã hội thì có cần sự đồng ý của chủ thể dữ liệu không, và cơ quan đó có trách nhiệm thông báo gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "kind": "conditional"
+  },
+  {
+    "id": "N_T03",
+    "split": "test",
+    "question": "Ngoài các trường hợp tại Điều 17 và Điều 18, việc xử lý dữ liệu cá nhân của người đã chết phải được sự đồng ý của những ai; nếu không có bất kỳ người thân nào thuộc diện nêu trên thì xử lý như thế nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "kind": "conditional"
+  },
+  {
+    "id": "N_T04",
+    "split": "test",
+    "question": "Khi giải quyết yêu cầu cung cấp dữ liệu cá nhân hợp lệ, Bên Kiểm soát dữ liệu cá nhân cần thông báo những nội dung gì về chi phí và thanh toán (nếu có) cho người yêu cầu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "kind": "rephrased"
+  },
+  {
+    "id": "N_T05",
+    "split": "test",
+    "question": "Theo Điều 35, Bộ Khoa học và Công nghệ có những trách nhiệm gì trong bảo vệ dữ liệu cá nhân?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "kind": "direct"
+  },
+  {
+    "id": "N_T06",
+    "split": "test",
+    "question": "Mẫu số 05 tại Phụ lục của Nghị định dùng để thông báo về việc gì và áp dụng cho những loại hồ sơ nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "kind": "direct"
+  },
+  {
+    "id": "N_T07",
+    "split": "test",
+    "question": "Nghị định định nghĩa 'Bên Xử lý dữ liệu cá nhân' khác 'Bên Kiểm soát dữ liệu cá nhân' ở điểm nào, và khi chuyển dữ liệu cá nhân của công dân Việt Nam ra nước ngoài thì Bên Xử lý dữ liệu cá nhân có thuộc nhóm Bên chuyển dữ liệu phải lập Hồ sơ đánh giá tác động chuyển dữ liệu ra nước ngoài không?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "kind": "multi_hop"
+  },
+  {
+    "id": "U_T01",
+    "split": "test",
+    "question": "Theo Điều 38 Nghị định 13/2023/NĐ-CP, Bên Kiểm soát dữ liệu cá nhân phải lưu trữ nhật ký hệ thống quá trình xử lý dữ liệu cá nhân trong thời hạn tối thiểu bao nhiêu tháng hoặc bao nhiêu năm?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Kiểm tra toàn bộ 37 trang PDF (136 chunks): cụm 'nhật ký hệ thống' chỉ xuất hiện duy nhất 1 lần tại Điều 38 khoản 2 (trang 27, chunk p027:B_para:002): 'Ghi lại và lưu trữ nhật ký hệ thống quá trình xử lý dữ liệu cá nhân.', không nêu thời hạn lưu trữ tối thiểu bao nhiêu tháng hay năm."
+  },
+  {
+    "id": "U_T02",
+    "split": "test",
+    "question": "Nghị định 13/2023/NĐ-CP công bố danh sách những quốc gia hoặc vùng lãnh thổ nào có mức độ bảo vệ dữ liệu cá nhân tương đương để doanh nghiệp được miễn lập Hồ sơ đánh giá tác động chuyển dữ liệu ra nước ngoài?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Kiểm tra toàn bộ Điều 2 khoản 14, Điều 25 và Phụ lục Mẫu số 06 trên toàn văn 37 trang PDF: Nghị định yêu cầu lập Hồ sơ đánh giá tác động chuyển dữ liệu cá nhân ra nước ngoài theo Điều 25, hoàn toàn không có danh sách quốc gia/vùng lãnh thổ an toàn hoặc cơ chế miễn trừ theo quốc gia tiếp nhận (0 kết quả cho 'danh sách quốc gia', 'vùng lãnh thổ')."
+  },
+  {
+    "id": "U_T03",
+    "split": "test",
+    "question": "Theo Nghị định 13/2023/NĐ-CP, khi áp dụng biện pháp kỹ thuật mã hóa dữ liệu cá nhân, tổ chức bắt buộc phải dùng chuẩn thuật toán mật mã cụ thể nào (ví dụ AES-256 hay RSA-2048)?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Kiểm tra toàn bộ 37 trang PDF (136 chunks): từ 'mã hóa' chỉ xuất hiện duy nhất 1 lần tại Điều 2 khoản 7 (trang 3) khi liệt kê các hoạt động xử lý dữ liệu cá nhân; Điều 26-28 nêu áp dụng biện pháp kỹ thuật nhưng không quy định tên chuẩn thuật toán mật mã cụ thể nào (0 kết quả cho 'AES', 'RSA', 'thuật toán')."
+  }
+]

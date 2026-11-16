@@ -1,0 +1,322 @@
+{
+  "split": "dev",
+  "summaries": [
+    {
+      "config": "cfg1_tfidf_b800",
+      "method": "tfidf",
+      "description": "Baseline Lexical TF-IDF (unigram), top_k=3, no filter, budget=800 chars",
+      "hypothesis": "Baseline mặc định từ starter để làm mốc so sánh.",
+      "split": "dev",
+      "n": 17,
+      "top_k": 3,
+      "budget_chars": 800,
+      "expand_siblings": false,
+      "header_style": "compat",
+      "strict_hit1": 11,
+      "strict_hit1_rate": 0.6471,
+      "strict_hit3": 14,
+      "strict_hit3_rate": 0.8235,
+      "strict_hit_topk": 14,
+      "strict_context_hit": 9,
+      "strict_context_rate": 0.5294,
+      "any_hit1": 12,
+      "any_hit3": 14,
+      "any_context_hit": 10,
+      "mrr3": 0.7549,
+      "avg_context_chars": 611.1,
+      "avg_est_tokens": 174.7,
+      "median_ms": 1.18,
+      "mean_ms": 1.55,
+      "queries_with_inferred_filter": [],
+      "strict_missed_hit3_ids": [
+        "D02",
+        "D05",
+        "D14"
+      ],
+      "strict_missed_context_ids": [
+        "D01",
+        "D02",
+        "D05",
+        "D06",
+        "D07",
+        "D12",
+        "D14",
+        "D17"
+      ],
+      "load_seconds": 0.017,
+      "service_cost_usd": 0.0
+    },
+    {
+      "config": "cfg2_bm25_b800",
+      "method": "bm25_vn",
+      "description": "Phương pháp 2: Okapi BM25 (unigram + Vietnamese word-bigram), top_k=3, no filter, budget=800 chars",
+      "hypothesis": "Chuẩn hóa độ dài đoạn và thêm cụm từ ghép 2 âm tiết tiếng Việt sẽ cải thiện xếp hạng lexical so với TF-IDF thuần.",
+      "split": "dev",
+      "n": 17,
+      "top_k": 3,
+      "budget_chars": 800,
+      "expand_siblings": false,
+      "header_style": "compat",
+      "strict_hit1": 10,
+      "strict_hit1_rate": 0.5882,
+      "strict_hit3": 13,
+      "strict_hit3_rate": 0.7647,
+      "strict_hit_topk": 13,
+      "strict_context_hit": 8,
+      "strict_context_rate": 0.4706,
+      "any_hit1": 11,
+      "any_hit3": 13,
+      "any_context_hit": 9,
+      "mrr3": 0.7059,
+      "avg_context_chars": 642.4,
+      "avg_est_tokens": 183.6,
+      "median_ms": 3.06,
+      "mean_ms": 2.96,
+      "queries_with_inferred_filter": [],
+      "strict_missed_hit3_ids": [
+        "D02",
+        "D05",
+        "D14",
+        "D15"
+      ],
+      "strict_missed_context_ids": [
+        "D02",
+        "D03",
+        "D05",
+        "D06",
+        "D07",
+        "D12",
+        "D14",
+        "D15",
+        "D17"
+      ],
+      "load_seconds": 0.021,
+      "service_cost_usd": 0.0
+    },
+    {
+      "config": "cfg3_dense_b800",
+      "method": "dense_pgvector",
+      "description": "Phương pháp 3: Dense Retrieval (multilingual-e5-base + pgvector Day 6), top_k=3, no filter, budget=800 chars",
+      "hypothesis": "Biểu diễn ngữ nghĩa E5-base sẽ xử lý tốt các câu hỏi diễn đạt lại (D02, D05, D14) mà lexical bị trượt.",
+      "split": "dev",
+      "n": 17,
+      "top_k": 3,
+      "budget_chars": 800,
+      "expand_siblings": false,
+      "header_style": "compat",
+      "strict_hit1": 15,
+      "strict_hit1_rate": 0.8824,
+      "strict_hit3": 16,
+      "strict_hit3_rate": 0.9412,
+      "strict_hit_topk": 16,
+      "strict_context_hit": 12,
+      "strict_context_rate": 0.7059,
+      "any_hit1": 16,
+      "any_hit3": 17,
+      "any_context_hit": 13,
+      "mrr3": 0.9706,
+      "avg_context_chars": 703.6,
+      "avg_est_tokens": 201.2,
+      "median_ms": 169.89,
+      "mean_ms": 193.57,
+      "queries_with_inferred_filter": [],
+      "strict_missed_hit3_ids": [
+        "D17"
+      ],
+      "strict_missed_context_ids": [
+        "D05",
+        "D06",
+        "D07",
+        "D14",
+        "D17"
+      ],
+      "load_seconds": 15.052,
+      "service_cost_usd": 0.0
+    },
+    {
+      "config": "cfg4_hybrid_rrf_b800",
+      "method": "hybrid_rrf",
+      "description": "Phương pháp 4: Hybrid RRF (Dense pgvector + BM25, k_rrf=60, cand=10), top_k=3, no filter, budget=800 chars",
+      "hypothesis": "Kết hợp ngữ nghĩa của E5 và khớp từ khóa/số hiệu chính xác của BM25 bằng RRF sẽ ổn định cả Hit@1 lẫn Hit@3.",
+      "split": "dev",
+      "n": 17,
+      "top_k": 3,
+      "budget_chars": 800,
+      "expand_siblings": false,
+      "header_style": "compat",
+      "strict_hit1": 13,
+      "strict_hit1_rate": 0.7647,
+      "strict_hit3": 16,
+      "strict_hit3_rate": 0.9412,
+      "strict_hit_topk": 16,
+      "strict_context_hit": 11,
+      "strict_context_rate": 0.6471,
+      "any_hit1": 14,
+      "any_hit3": 17,
+      "any_context_hit": 12,
+      "mrr3": 0.902,
+      "avg_context_chars": 703.6,
+      "avg_est_tokens": 201.2,
+      "median_ms": 169.15,
+      "mean_ms": 176.09,
+      "queries_with_inferred_filter": [],
+      "strict_missed_hit3_ids": [
+        "D17"
+      ],
+      "strict_missed_context_ids": [
+        "D02",
+        "D05",
+        "D06",
+        "D07",
+        "D14",
+        "D17"
+      ],
+      "load_seconds": 15.073,
+      "service_cost_usd": 0.0
+    },
+    {
+      "config": "imp1_hybrid_qfilter_b2400",
+      "method": "hybrid_rrf",
+      "description": "Cải thiện 1: Hybrid RRF + Suy luận Filter từ Query (article/page_type) + Context Budget=2400 chars (rich header)",
+      "hypothesis": "Khắc phục 2 lỗi dev: (1) Nâng budget từ 800 lên 2400 chars để không cắt rỗng chunk dài >720 ký tự ở D06, D07 và giữ đủ 2 đoạn cho câu multi-hop D17; (2) Tự suy luận filter từ query ('tại Phụ lục', 'Theo Điều N') để loại nhiễu thân văn bản ở D15, D16.",
+      "split": "dev",
+      "n": 17,
+      "top_k": 3,
+      "budget_chars": 2400,
+      "expand_siblings": false,
+      "header_style": "rich",
+      "strict_hit1": 13,
+      "strict_hit1_rate": 0.7647,
+      "strict_hit3": 16,
+      "strict_hit3_rate": 0.9412,
+      "strict_hit_topk": 16,
+      "strict_context_hit": 15,
+      "strict_context_rate": 0.8824,
+      "any_hit1": 14,
+      "any_hit3": 17,
+      "any_context_hit": 16,
+      "mrr3": 0.902,
+      "avg_context_chars": 2022.9,
+      "avg_est_tokens": 578.1,
+      "median_ms": 170.43,
+      "mean_ms": 175.94,
+      "queries_with_inferred_filter": [
+        {
+          "id": "D15",
+          "filter": {
+            "page_type": "phu_luc_bieu_mau"
+          }
+        },
+        {
+          "id": "D16",
+          "filter": {
+            "page_type": "phu_luc_bieu_mau"
+          }
+        }
+      ],
+      "strict_missed_hit3_ids": [
+        "D17"
+      ],
+      "strict_missed_context_ids": [
+        "D14",
+        "D17"
+      ],
+      "load_seconds": 15.073,
+      "service_cost_usd": 0.0
+    },
+    {
+      "config": "imp2_hybrid_sibling_b2800",
+      "method": "hybrid_rrf",
+      "description": "Cải thiện 2: Hybrid RRF (1:1) + Suy luận Filter + top_k=4 + Mở rộng chunk kế cận cùng Điều/cùng trang Phụ lục, Budget=2800 chars",
+      "hypothesis": "Bổ sung các chunk kế cận cùng Điều hoặc phần cuối/chú thích cùng trang Phụ lục sau các hit chính giúp bao phủ trọn điều kiện/ngoại lệ hoặc chú thích biểu mẫu bị tách chunk, đổi lại context tăng thêm ~400-700 ký tự.",
+      "split": "dev",
+      "n": 17,
+      "top_k": 4,
+      "budget_chars": 2800,
+      "expand_siblings": true,
+      "header_style": "rich",
+      "strict_hit1": 13,
+      "strict_hit1_rate": 0.7647,
+      "strict_hit3": 16,
+      "strict_hit3_rate": 0.9412,
+      "strict_hit_topk": 17,
+      "strict_context_hit": 17,
+      "strict_context_rate": 1.0,
+      "any_hit1": 14,
+      "any_hit3": 17,
+      "any_context_hit": 17,
+      "mrr3": 0.902,
+      "avg_context_chars": 2481.9,
+      "avg_est_tokens": 709.1,
+      "median_ms": 170.6,
+      "mean_ms": 188.07,
+      "queries_with_inferred_filter": [
+        {
+          "id": "D15",
+          "filter": {
+            "page_type": "phu_luc_bieu_mau"
+          }
+        },
+        {
+          "id": "D16",
+          "filter": {
+            "page_type": "phu_luc_bieu_mau"
+          }
+        }
+      ],
+      "strict_missed_hit3_ids": [
+        "D17"
+      ],
+      "strict_missed_context_ids": [],
+      "load_seconds": 15.073,
+      "service_cost_usd": 0.0
+    },
+    {
+      "config": "imp3_whyb_qfilter_sibling_b2800",
+      "method": "hybrid_rrf",
+      "description": "Cải thiện 3: Weighted Hybrid RRF (Dense=2.0, BM25=1.0) + Suy luận Filter + top_k=4 + Sibling Expansion, Budget=2800 chars",
+      "hypothesis": "Tăng trọng số Dense gấp đôi BM25 (2:1) trong RRF để khắc phục lỗi BM25 kéo tụt hạng 1 của câu diễn đạt lại (D02, D05), đồng thời giữ nguyên khả năng bao phủ context 100% của Sibling Expansion.",
+      "split": "dev",
+      "n": 17,
+      "top_k": 4,
+      "budget_chars": 2800,
+      "expand_siblings": true,
+      "header_style": "rich",
+      "strict_hit1": 14,
+      "strict_hit1_rate": 0.8235,
+      "strict_hit3": 16,
+      "strict_hit3_rate": 0.9412,
+      "strict_hit_topk": 16,
+      "strict_context_hit": 17,
+      "strict_context_rate": 1.0,
+      "any_hit1": 15,
+      "any_hit3": 17,
+      "any_context_hit": 17,
+      "mrr3": 0.9314,
+      "avg_context_chars": 2498.2,
+      "avg_est_tokens": 713.7,
+      "median_ms": 182.14,
+      "mean_ms": 189.34,
+      "queries_with_inferred_filter": [
+        {
+          "id": "D15",
+          "filter": {
+            "page_type": "phu_luc_bieu_mau"
+          }
+        },
+        {
+          "id": "D16",
+          "filter": {
+            "page_type": "phu_luc_bieu_mau"
+          }
+        }
+      ],
+      "strict_missed_hit3_ids": [
+        "D17"
+      ],
+      "strict_missed_context_ids": [],
+      "load_seconds": 15.073,
+      "service_cost_usd": 0.0
+    }
+  ]
+}

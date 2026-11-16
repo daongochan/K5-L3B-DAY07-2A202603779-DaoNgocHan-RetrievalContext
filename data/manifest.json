@@ -1,0 +1,214 @@
+{
+  "day7_version": 1,
+  "inherited_from_day6": {
+    "source_id": "nghi-dinh-13-2023-nd-cp",
+    "chunk_strategy": "B_para",
+    "chunk_count": 136,
+    "embedding": {
+      "provider": "sentence-transformers (local, CPU)",
+      "model_name": "intfloat/multilingual-e5-base",
+      "dimensions": 768,
+      "document_prefix": "passage: ",
+      "query_prefix": "query: ",
+      "normalized": true,
+      "library_versions": {
+        "sentence-transformers": "6.3.0",
+        "torch": "2.15.0",
+        "numpy": "2.5.4",
+        "psycopg": "3.3.8",
+        "pgvector": "0.5.1"
+      }
+    },
+    "vector_store": {
+      "engine": "PostgreSQL + pgvector (Docker Compose, project day6_student_starter)",
+      "table": "chunks",
+      "metric": "cosine",
+      "operator": "<=>",
+      "index_type": "exact scan (sequential) — corpus has ~200 chunks, ANN would add approximation error for no real gain",
+      "dimensions": 768,
+      "filter_columns": [
+        "document_id",
+        "page",
+        "printed_page",
+        "page_type",
+        "article",
+        "chapter",
+        "section"
+      ],
+      "default_port_windows": 5433,
+      "container_name": "day6_student_starter-postgres-1"
+    },
+    "corpus_document": {
+      "source_id": "nghi-dinh-13-2023-nd-cp",
+      "title": "Nghị định số 13/2023/NĐ-CP về bảo vệ dữ liệu cá nhân",
+      "document_type": "van_ban_quy_pham_phap_luat",
+      "issuer": "Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam",
+      "issue_number": "13/2023/NĐ-CP",
+      "signed_date": "2023-04-17",
+      "effective_date": "2023-07-01",
+      "effective_date_source": "Điều 43 khoản 1, physical page 29 / printed page 31",
+      "language": "vi",
+      "access_scope": "public",
+      "source_path_or_url": "starter/data/nghi_dinh_13_2023_nd_cp.pdf",
+      "source_path_note": "Đường dẫn tính từ repo root. Pipeline chạy trong starter/ nên trường `source` trên mỗi chunk ghi nhãn tương đối `data/nghi_dinh_13_2023_nd_cp.pdf`; hai giá trị trỏ cùng một file.",
+      "source_provenance": {
+        "publication": "Công báo nước Cộng hòa xã hội chủ nghĩa Việt Nam, số 685 + 686, ngày 30-4-2023",
+        "printed_page_range": "3-39",
+        "embedded_signature": {
+          "present": true,
+          "reason": "Cổng Thông tin điện tử Chính phủ <thongtinchinhphu@chinhphu.vn> đã ký lên văn bản này!",
+          "location": "Việt Nam",
+          "signed_at": "2023-04-28T16:01:47+07:00",
+          "filter": "Adobe.PPKLite",
+          "subfilter": "adbe.pkcs7.detached"
+        },
+        "producer_metadata": "absent from this PDF (no /Info dictionary, no XMP packet)",
+        "note": "PDF metadata carries no /Producer or /Creator. Provenance is recorded from the embedded signature and the Công báo running header, not from tool metadata."
+      },
+      "license_or_permission": {
+        "classification": "public_document",
+        "basis": "Văn bản quy phạm pháp luật do Chính phủ ban hành và công bố trên Công báo; theo Luật Tiếp cận thông tin và thông lệ công bố văn bản quy phạm pháp luật, văn bản được công bố công khai để tra cứu, phổ biến.",
+        "redistribution": "Nội dung văn bản là thông tin công khai. Repo chỉ chứa file PDF tải từ Công báo và trích xuất văn bản phục vụ bài học, không chỉnh sửa nội dung quy phạm.",
+        "restriction": "Không sử dụng cho mục đích tư vấn pháp lý; khi trích dẫn phải ghi nguồn Công báo số 685 + 686 ngày 30-4-2023.",
+        "accessed_at": "2026-11-14T03:09:16Z",
+        "accessed_at_source": "filesystem creation time of the downloaded PDF"
+      },
+      "snapshot": {
+        "sha256": "5b026143b56779199603a164260cc76533a816b9c851a4c769e16a55ef7d6e6f",
+        "bytes": 564538,
+        "pdf_version": "1.4"
+      },
+      "extraction": {
+        "tool": "pypdf",
+        "tool_version": "6.21.4",
+        "python_version": "3.15.0",
+        "mode": "layout",
+        "mode_reason": "The default pypdf mode splits Vietnamese syllables at tone marks on this PDF (e.g. 'dữ liệu' becomes 'd ữ liệu'); layout mode reconstructs them correctly.",
+        "fallback": "plain",
+        "fallback_used": false
+      },
+      "physical_pages": 37,
+      "content_pages": 36,
+      "content_page_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "excluded_pages": [
+        {
+          "physical_page": 30,
+          "printed_page": 32,
+          "reason": "muc_luc_phu_luc",
+          "detail": "Trang bìa Phụ lục, chỉ liệt kê tên 6 biểu mẫu; không có nội dung quy phạm mới."
+        }
+      ],
+      "empty_or_failed_pages": [],
+      "page_counting_rule": {
+        "unit": "physical PDF page",
+        "printed_page_offset": "printed_page = physical_page + 2 (Công báo starts at printed page 3)",
+        "counted": "Trang không phải mục lục Phụ lục và có ít nhất min_content_chars ký tự không phải khoảng trắng sau chuẩn hóa.",
+        "not_counted": "Trang mục lục Phụ lục (physical page 30).",
+        "min_content_chars": 500,
+        "required_content_pages": 30,
+        "all_pages_have_extractable_text": true,
+        "ocr_used": false,
+        "total_content_chars": 53099,
+        "chars_all_pages": 53469,
+        "main_body_chars": 39353,
+        "appendix_chars": 13746,
+        "chars_with_whitespace": 67738,
+        "totals_source": "starter/results/page_audit.json"
+      },
+      "structure": {
+        "chapters": 4,
+        "sections": 4,
+        "articles": 44,
+        "article_numbers_contiguous": true,
+        "appendix_form_pages": 7,
+        "filler_heavy_pages": [
+          34
+        ],
+        "structure_artifact": "starter/results/structure.json"
+      },
+      "quality_findings": [
+        {
+          "finding": "Không có trang rỗng hoặc trang lỗi trích xuất; 0 cảnh báo trên 37 trang.",
+          "evidence": "starter/results/page_audit.csv, cột warnings để trống toàn bộ."
+        },
+        {
+          "finding": "Không có dấu gạch nối cuối dòng và không có ký tự điều khiển, NBSP, zero-width space.",
+          "evidence": "Kiểm tra trên toàn văn bản trích xuất: 0 hyphen linebreak, 0 NBSP, 0 ZWSP."
+        },
+        {
+          "finding": "Dòng tiêu đề chạy đầu trang ('CÔNG BÁO/Số 685 + 686/Ngày 30-4-2023 <số trang>') đã bị loại khỏi nội dung và số trang in được giữ trong metadata printed_page.",
+          "evidence": "starter/src/ingestion.py:strip_running_header; kiểm tra p1 và p37 không còn số trang lẫn vào body."
+        },
+        {
+          "finding": "Page 34 (Mẫu số 03, printed page 36) chủ yếu là dòng chấm điền mẫu; phần lớn ký tự không phải chữ.",
+          "evidence": "starter/results/page_audit.csv, các cột chars_body, chars_without_filler và filler_heavy=true của trang 34."
+        },
+        {
+          "finding": "6 biểu mẫu (Mẫu số 01-06) trải trên 7 trang p31-p37; các trang này chứa nhiều dòng chấm '....' và tiêu đề hành chính, ít ngữ nghĩa cho truy xuất. Vẫn tính là trang nội dung nhưng được đánh dấu page_type=phu_luc_bieu_mau để lọc khi cần.",
+          "evidence": "starter/results/page_audit.json, page_type_counts.phu_luc_bieu_mau = 7."
+        },
+        {
+          "finding": "Trang 29 (printed page 31) chứa chuỗi lạ 'aky]' ngay dưới dòng 'PHÓ THỦ TƯỚNG'. Đây là phần hiển thị của chữ ký số trong file nguồn, không do pipeline sinh ra; giữ nguyên thay vì xóa để không sửa nội dung nguồn.",
+          "evidence": "Trích xuất layout của physical page 29, đoạn cuối trang sau dòng 'PHÓ THỦ TƯỚNG'."
+        }
+      ],
+      "notes_for_benchmark": [
+        "gold_page dùng physical_page (1-37) để khớp với DocumentPage.page; printed_page chỉ dùng khi trích dẫn nguồn Công báo.",
+        "Trường filter khả dụng: page_type (noi_dung / phu_luc_bieu_mau), chapter (Chương I-IV), article (Điều 1-44).",
+        "Giá trị chapter/article lấy từ starter/results/structure.json do script trích xuất từ chính văn bản, không suy đoán."
+      ]
+    }
+  },
+  "benchmark_summary": {
+    "total_cases": 30,
+    "answerable_total": 24,
+    "unanswerable_total": 6,
+    "dev": {
+      "answerable": 17,
+      "unanswerable": 3,
+      "total": 20
+    },
+    "test": {
+      "answerable": 7,
+      "unanswerable": 3,
+      "total": 10
+    }
+  }
+}

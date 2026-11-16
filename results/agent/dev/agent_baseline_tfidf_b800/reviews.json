@@ -1,0 +1,141 @@
+[
+  {
+    "query_id": "D01",
+    "answer_grade": 0,
+    "citation_support": [],
+    "note": "Từ chối nhầm do TF-IDF + budget 800 ký tự làm mất p029:B_para:001."
+  },
+  {
+    "query_id": "D02",
+    "answer_grade": 0,
+    "citation_support": [],
+    "note": "Từ chối nhầm do TF-IDF trượt định nghĩa ở Điều 2."
+  },
+  {
+    "query_id": "D03",
+    "answer_grade": 1,
+    "citation_support": [
+      true,
+      true
+    ],
+    "note": "Nêu đúng Điều 22 (cấm mua bán khi không đồng ý) nhưng thiếu nguyên tắc gốc Điều 3 khoản 4 ('không được mua, bán dưới mọi hình thức, trừ trường hợp luật có quy định khác')."
+  },
+  {
+    "query_id": "D04",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "note": "Đúng 72 giờ và ngoại lệ theo Điều 9 khoản 6 (p008:B_para:000)."
+  },
+  {
+    "query_id": "D05",
+    "answer_grade": 0,
+    "citation_support": [],
+    "note": "Từ chối nhầm do TF-IDF không khớp câu hỏi diễn đạt lại."
+  },
+  {
+    "query_id": "D06",
+    "answer_grade": 0,
+    "citation_support": [],
+    "note": "Từ chối nhầm vì context rỗng 0 ký tự (chunk đúng dài >800 ký tự kể cả header)."
+  },
+  {
+    "query_id": "D07",
+    "answer_grade": 0,
+    "citation_support": [],
+    "note": "Từ chối nhầm vì chunk hạng 1 (p017:B_para:000) vượt budget 800 ký tự bị bỏ qua."
+  },
+  {
+    "query_id": "D08",
+    "answer_grade": 1,
+    "citation_support": [
+      false
+    ],
+    "note": "Nêu đúng 72 giờ nhưng thiếu tên Bộ Công an (Cục A05), và chunk trích dẫn p018:B_para:002 (khoản 3) hoàn toàn không chứa mệnh đề 72 giờ."
+  },
+  {
+    "query_id": "D09",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "note": "Đúng 60 ngày kể từ ngày tiến hành xử lý dữ liệu theo Điều 24 khoản 4."
+  },
+  {
+    "query_id": "D10",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "note": "Đúng 02 năm đầu và nêu rõ ngoại lệ theo Điều 43."
+  },
+  {
+    "query_id": "D11",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "note": "Đúng theo Điều 43 khoản 3."
+  },
+  {
+    "query_id": "D12",
+    "answer_grade": 0,
+    "citation_support": [],
+    "note": "Từ chối nhầm vì p024:B_para:001 đứng hạng 3 bị hết budget 800 ký tự."
+  },
+  {
+    "query_id": "D13",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "note": "Đúng và đầy đủ theo Điều 12 khoản 1."
+  },
+  {
+    "query_id": "D14",
+    "answer_grade": 0,
+    "citation_support": [
+      false
+    ],
+    "note": "Trả lời sai ngược quy định: kết luận Nghị định không quy định thời gian tối đa, trong khi khoản 3 Điều 14 quy định 72 giờ; p013:B_para:002 không chứng minh cho kết luận đó."
+  },
+  {
+    "query_id": "D15",
+    "answer_grade": 0,
+    "citation_support": [],
+    "note": "Từ chối nhầm sau 3 lượt tìm kiếm."
+  },
+  {
+    "query_id": "D16",
+    "answer_grade": 0,
+    "citation_support": [],
+    "note": "Từ chối nhầm sau 3 lượt tìm kiếm."
+  },
+  {
+    "query_id": "D17",
+    "answer_grade": 1,
+    "citation_support": [
+      true
+    ],
+    "note": "Chỉ trả lời được vế miễn trừ 02 năm ở Điều 43 (p029:B_para:001), thiếu quy định cụ thể của Điều 28 do budget 800 ký tự làm rơi p023:B_para:002."
+  },
+  {
+    "query_id": "U_D01",
+    "abstention_correct": true,
+    "citation_support": [],
+    "note": "Từ chối đúng, không bịa mức phạt tiền."
+  },
+  {
+    "query_id": "U_D02",
+    "abstention_correct": true,
+    "citation_support": [],
+    "note": "Từ chối đúng, không bịa lệ phí thẩm định."
+  },
+  {
+    "query_id": "U_D03",
+    "abstention_correct": true,
+    "citation_support": [],
+    "note": "Từ chối đúng, không bịa chứng chỉ/năm kinh nghiệm."
+  }
+]

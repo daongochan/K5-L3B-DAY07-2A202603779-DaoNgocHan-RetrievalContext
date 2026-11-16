@@ -1,0 +1,37 @@
+{
+  "config": "agent_whyb_v2_b3200",
+  "split": "dev",
+  "model": "openai/gpt-4o-mini",
+  "agent_params": {
+    "top_k": 4,
+    "budget": 3200,
+    "max_searches": 4,
+    "max_llm_turns": 6,
+    "enable_filters": false,
+    "enable_lookup_tool": true,
+    "interleave_batches": true,
+    "expand_siblings": true,
+    "header_style": "rich"
+  },
+  "total_cases": 20,
+  "completed_cases": 20,
+  "error_cases": 0,
+  "status_counts": {
+    "answered": 17,
+    "abstain": 3,
+    "error": 0
+  },
+  "search_calls_distribution": {
+    "1": 16,
+    "2": 1,
+    "4": 3
+  },
+  "avg_search_calls": 1.5,
+  "avg_llm_calls": 2.35,
+  "avg_context_chars": 2872.6,
+  "median_elapsed_ms": 7483.5,
+  "total_elapsed_seconds": 180.25,
+  "total_prompt_tokens": 98985,
+  "total_completion_tokens": 4519,
+  "total_cost_usd": 0.015638
+}

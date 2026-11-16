@@ -1,0 +1,1221 @@
+[
+  {
+    "query_id": "N_T01",
+    "split": "test",
+    "question": "Việc thông báo xử lý dữ liệu cá nhân cho chủ thể dữ liệu được thực hiện mấy lần và vào thời điểm nào?",
+    "status": "answered",
+    "answer": "Việc thông báo xử lý dữ liệu cá nhân cho chủ thể dữ liệu được thực hiện một lần, vào thời điểm trước khi dữ liệu cá nhân của họ được xử lý. Cụ thể, Bên Kiểm soát dữ liệu cá nhân phải thông báo cho chủ thể dữ liệu về các thông tin liên quan đến việc xử lý dữ liệu cá nhân của họ, bao gồm mục đích, phạm vi, thời gian lưu trữ và quyền của chủ thể dữ liệu. Trường hợp dữ liệu cá nhân nhạy cảm được xử lý, thông báo cũng phải được thực hiện, trừ trường hợp có quy định khác tại các Điều 13, 17 và 18 của Nghị định này [nghi-dinh-13-2023-nd-cp:p024:B_para:000].",
+    "citations": [
+      "nghi-dinh-13-2023-nd-cp:p024:B_para:000"
+    ],
+    "reasoning": "Thông tin về số lần và thời điểm thông báo được quy định rõ trong các Điều của Nghị định 13/2023/NĐ-CP.",
+    "model": "openai/gpt-4o-mini",
+    "search_calls": 3,
+    "llm_calls": 4,
+    "context": "[nghi-dinh-13-2023-nd-cp:p024:B_para:000 | data/nghi_dinh_13_2023_nd_cp.pdf | page 24]\n[Chương II > Mục 4 > Điều 28. Bảo vệ dữ liệu cá nhân nhạy cảm]\nbảo vệ dữ liệu cá nhân với Cơ quan chuyên trách bảo vệ dữ liệu cá nhân. Trường hợp Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân, Bên Xử lý dữ liệu, Bên thứ ba là cá nhân thì trao đổi thông tin của cá nhân thực hiện.\n\n3. Thông báo cho chủ thể dữ liệu biết việc dữ liệu cá nhân nhạy cảm của chủ thể dữ liệu được xử lý, trừ trường hợp quy định tại khoản 4 Điều 13, Điều 17 và Điều 18 Nghị định này.",
+    "context_ids": [
+      "nghi-dinh-13-2023-nd-cp:p024:B_para:000"
+    ],
+    "context_chars": 570,
+    "prompt_tokens": 6820,
+    "completion_tokens": 602,
+    "total_tokens": 7422,
+    "cost_usd": 0.001077,
+    "elapsed_ms": 14414.9,
+    "events": [
+      {
+        "event": "search",
+        "tool_name": "search_legal_corpus",
+        "query": "thông báo xử lý dữ liệu cá nhân cho chủ thể dữ liệu",
+        "args": {
+          "query": "thông báo xử lý dữ liệu cá nhân cho chủ thể dữ liệu"
+        },
+        "applied_filter": null,
+        "filter_warning": null,
+        "results": [
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p012:B_para:000",
+            "page": 12,
+            "article": "Điều 14",
+            "form": null,
+            "score": 0.534667,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p024:B_para:000",
+            "page": 24,
+            "article": "Điều 28",
+            "form": null,
+            "score": 0.515638,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p014:B_para:000",
+            "page": 14,
+            "article": "Điều 15",
+            "form": null,
+            "score": 0.492574,
+            "strategy": "tfidf"
+          }
+        ],
+        "context_ids": [
+          "nghi-dinh-13-2023-nd-cp:p024:B_para:000"
+        ],
+        "context_chars": 570,
+        "elapsed_ms": 4.59
+      },
+      {
+        "event": "search",
+        "tool_name": "search_legal_corpus",
+        "query": "thời điểm thông báo xử lý dữ liệu cá nhân",
+        "args": {
+          "query": "thời điểm thông báo xử lý dữ liệu cá nhân"
+        },
+        "applied_filter": null,
+        "filter_warning": null,
+        "results": [
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p011:B_para:001",
+            "page": 11,
+            "article": "Điều 13",
+            "form": null,
+            "score": 0.550721,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p019:B_para:002",
+            "page": 19,
+            "article": "Điều 24",
+            "form": null,
+            "score": 0.366054,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p013:B_para:002",
+            "page": 13,
+            "article": "Điều 14",
+            "form": null,
+            "score": 0.365886,
+            "strategy": "tfidf"
+          }
+        ],
+        "context_ids": [
+          "nghi-dinh-13-2023-nd-cp:p024:B_para:000"
+        ],
+        "context_chars": 570,
+        "elapsed_ms": 1.09
+      },
+      {
+        "event": "search",
+        "tool_name": "search_legal_corpus",
+        "query": "số lần thông báo xử lý dữ liệu cá nhân",
+        "args": {
+          "query": "số lần thông báo xử lý dữ liệu cá nhân"
+        },
+        "applied_filter": null,
+        "filter_warning": null,
+        "results": [
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p011:B_para:001",
+            "page": 11,
+            "article": "Điều 13",
+            "form": null,
+            "score": 0.439096,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p031:B_para:001",
+            "page": 31,
+            "article": null,
+            "form": "Mẫu số 01",
+            "score": 0.391543,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p018:B_para:001",
+            "page": 18,
+            "article": "Điều 23",
+            "form": null,
+            "score": 0.349703,
+            "strategy": "tfidf"
+          }
+        ],
+        "context_ids": [
+          "nghi-dinh-13-2023-nd-cp:p024:B_para:000"
+        ],
+        "context_chars": 570,
+        "elapsed_ms": 0.66
+      },
+      {
+        "event": "validation_retry",
+        "reason": "citation_check_failed",
+        "invalid_ids": [
+          "nghi-dinh-13-2023-nd-cp:p011:B_para:001"
+        ]
+      },
+      {
+        "event": "answer",
+        "reasoning": "Thông tin về số lần và thời điểm thông báo được quy định rõ trong các Điều của Nghị định 13/2023/NĐ-CP.",
+        "auto_inlined_citations": []
+      }
+    ]
+  },
+  {
+    "query_id": "N_T02",
+    "split": "test",
+    "question": "Khi cơ quan, tổ chức có thẩm quyền ghi âm, ghi hình tại nơi công cộng nhằm bảo vệ an ninh quốc gia và trật tự an toàn xã hội thì có cần sự đồng ý của chủ thể dữ liệu không, và cơ quan đó có trách nhiệm thông báo gì?",
+    "status": "answered",
+    "answer": "Khi cơ quan, tổ chức có thẩm quyền ghi âm, ghi hình tại nơi công cộng nhằm bảo vệ an ninh quốc gia và trật tự an toàn xã hội, thì không cần có sự đồng ý của chủ thể dữ liệu. Tuy nhiên, cơ quan, tổ chức đó có trách nhiệm thông báo để chủ thể hiểu được mình đang bị ghi âm, ghi hình, trừ trường hợp pháp luật có quy định khác [nghi-dinh-13-2023-nd-cp:p016:B_para:002].",
+    "citations": [
+      "nghi-dinh-13-2023-nd-cp:p016:B_para:002"
+    ],
+    "reasoning": "Nội dung đã được tìm thấy trong Điều 18 của Nghị định 13/2023/NĐ-CP.",
+    "model": "openai/gpt-4o-mini",
+    "search_calls": 2,
+    "llm_calls": 2,
+    "context": "[nghi-dinh-13-2023-nd-cp:p016:B_para:002 | data/nghi_dinh_13_2023_nd_cp.pdf | page 16]\n[Chương II > Mục 2]\nĐiều 18. Xử lý dữ liệu cá nhân thu được từ hoạt động ghi âm, ghi hình tại nơi công cộng\n\nCơ quan, tổ chức có thẩm quyền được ghi âm, ghi hình và xử lý dữ liệu cá nhân thu được từ hoạt động ghi âm, ghi hình tại nơi công cộng với mục đích bảo vệ an ninh quốc gia, trật tự an toàn xã hội, quyền và lợi ích hợp pháp của tổ chức, cá nhân theo quy định của pháp luật mà không cần có sự đồng ý của chủ thể. Khi thực hiện việc ghi âm, ghi hình, cơ quan, tổ chức có thẩm quyền có trách nhiệm thông báo để chủ thể hiểu được mình đang bị ghi âm, ghi hình, trừ trường hợp pháp luật có quy định khác.",
+    "context_ids": [
+      "nghi-dinh-13-2023-nd-cp:p016:B_para:002"
+    ],
+    "context_chars": 694,
+    "prompt_tokens": 2913,
+    "completion_tokens": 267,
+    "total_tokens": 3180,
+    "cost_usd": 0.000444,
+    "elapsed_ms": 6305.05,
+    "events": [
+      {
+        "event": "search",
+        "tool_name": "search_legal_corpus",
+        "query": "ghi âm ghi hình nơi công cộng bảo vệ an ninh quốc gia trật tự an toàn xã hội đồng ý chủ thể dữ liệu",
+        "args": {
+          "query": "ghi âm ghi hình nơi công cộng bảo vệ an ninh quốc gia trật tự an toàn xã hội đồng ý chủ thể dữ liệu"
+        },
+        "applied_filter": null,
+        "filter_warning": null,
+        "results": [
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p016:B_para:002",
+            "page": 16,
+            "article": "Điều 18",
+            "form": null,
+            "score": 0.686311,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p007:B_para:001",
+            "page": 7,
+            "article": "Điều 8",
+            "form": null,
+            "score": 0.307808,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p012:B_para:001",
+            "page": 12,
+            "article": "Điều 14",
+            "form": null,
+            "score": 0.29094,
+            "strategy": "tfidf"
+          }
+        ],
+        "context_ids": [
+          "nghi-dinh-13-2023-nd-cp:p016:B_para:002"
+        ],
+        "context_chars": 694,
+        "elapsed_ms": 1.8
+      },
+      {
+        "event": "search",
+        "tool_name": "search_legal_corpus",
+        "query": "trách nhiệm thông báo ghi âm ghi hình nơi công cộng",
+        "args": {
+          "query": "trách nhiệm thông báo ghi âm ghi hình nơi công cộng"
+        },
+        "applied_filter": null,
+        "filter_warning": null,
+        "results": [
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p016:B_para:002",
+            "page": 16,
+            "article": "Điều 18",
+            "form": null,
+            "score": 0.747693,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p031:B_para:002",
+            "page": 31,
+            "article": null,
+            "form": "Mẫu số 01",
+            "score": 0.304591,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p032:B_para:002",
+            "page": 32,
+            "article": null,
+            "form": "Mẫu số 02",
+            "score": 0.270436,
+            "strategy": "tfidf"
+          }
+        ],
+        "context_ids": [
+          "nghi-dinh-13-2023-nd-cp:p016:B_para:002"
+        ],
+        "context_chars": 694,
+        "elapsed_ms": 0.84
+      },
+      {
+        "event": "answer",
+        "reasoning": "Nội dung đã được tìm thấy trong Điều 18 của Nghị định 13/2023/NĐ-CP.",
+        "auto_inlined_citations": []
+      }
+    ]
+  },
+  {
+    "query_id": "N_T03",
+    "split": "test",
+    "question": "Ngoài các trường hợp tại Điều 17 và Điều 18, việc xử lý dữ liệu cá nhân của người đã chết phải được sự đồng ý của những ai; nếu không có bất kỳ người thân nào thuộc diện nêu trên thì xử lý như thế nào?",
+    "status": "answered",
+    "answer": "Việc xử lý dữ liệu cá nhân của người đã chết phải được sự đồng ý của vợ, chồng hoặc con thành niên của người đó. Nếu không có những người này, thì phải được sự đồng ý của cha, mẹ của người bị tuyên bố mất tích hoặc người đã chết. Trường hợp không có tất cả những người được nêu tại khoản 1 Điều 19, thì được coi là không có sự đồng ý [nghi-dinh-13-2023-nd-cp:p016:B_para:003].",
+    "citations": [
+      "nghi-dinh-13-2023-nd-cp:p016:B_para:003"
+    ],
+    "reasoning": "Đã tìm thấy nội dung quy định về việc xử lý dữ liệu cá nhân của người đã chết trong Điều 19 của Nghị định.",
+    "model": "openai/gpt-4o-mini",
+    "search_calls": 2,
+    "llm_calls": 2,
+    "context": "[nghi-dinh-13-2023-nd-cp:p016:B_para:003 | data/nghi_dinh_13_2023_nd_cp.pdf | page 16]\n[Chương II > Mục 2]\nĐiều 19. Xử lý dữ liệu cá nhân của người bị tuyên bố mất tích, đã chết\n\n1. Việc xử lý dữ liệu cá nhân liên quan đến dữ liệu cá nhân của người bị tuyên bố mất tích, người đã chết phải được sự đồng ý của vợ, chồng hoặc con thành niên của người đó, trường hợp không có những người này thì phải được sự đồng ý của cha, mẹ của người bị tuyên bố mất tích, người đã chết, trừ trường hợp quy định tại Điều 17 và Điều 18 Nghị định này.\n\n2. Trường hợp không có tất cả những người được nêu tại khoản 1 Điều này thì được coi là không có sự đồng ý.",
+    "context_ids": [
+      "nghi-dinh-13-2023-nd-cp:p016:B_para:003"
+    ],
+    "context_chars": 642,
+    "prompt_tokens": 2875,
+    "completion_tokens": 258,
+    "total_tokens": 3133,
+    "cost_usd": 0.000432,
+    "elapsed_ms": 5835.09,
+    "events": [
+      {
+        "event": "search",
+        "tool_name": "search_legal_corpus",
+        "query": "xử lý dữ liệu cá nhân của người đã chết",
+        "args": {
+          "query": "xử lý dữ liệu cá nhân của người đã chết"
+        },
+        "applied_filter": null,
+        "filter_warning": null,
+        "results": [
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p016:B_para:003",
+            "page": 16,
+            "article": "Điều 19",
+            "form": null,
+            "score": 0.549497,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p005:B_para:000",
+            "page": 5,
+            "article": "Điều 3",
+            "form": null,
+            "score": 0.303694,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p014:B_para:001",
+            "page": 14,
+            "article": "Điều 16",
+            "form": null,
+            "score": 0.296638,
+            "strategy": "tfidf"
+          }
+        ],
+        "context_ids": [
+          "nghi-dinh-13-2023-nd-cp:p016:B_para:003"
+        ],
+        "context_chars": 642,
+        "elapsed_ms": 1.35
+      },
+      {
+        "event": "search",
+        "tool_name": "search_legal_corpus",
+        "query": "đồng ý xử lý dữ liệu cá nhân người đã chết",
+        "args": {
+          "query": "đồng ý xử lý dữ liệu cá nhân người đã chết"
+        },
+        "applied_filter": null,
+        "filter_warning": null,
+        "results": [
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p016:B_para:003",
+            "page": 16,
+            "article": "Điều 19",
+            "form": null,
+            "score": 0.564817,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p014:B_para:001",
+            "page": 14,
+            "article": "Điều 16",
+            "form": null,
+            "score": 0.35764,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p009:B_para:002",
+            "page": 9,
+            "article": "Điều 11",
+            "form": null,
+            "score": 0.344272,
+            "strategy": "tfidf"
+          }
+        ],
+        "context_ids": [
+          "nghi-dinh-13-2023-nd-cp:p016:B_para:003"
+        ],
+        "context_chars": 642,
+        "elapsed_ms": 1.11
+      },
+      {
+        "event": "answer",
+        "reasoning": "Đã tìm thấy nội dung quy định về việc xử lý dữ liệu cá nhân của người đã chết trong Điều 19 của Nghị định.",
+        "auto_inlined_citations": []
+      }
+    ]
+  },
+  {
+    "query_id": "N_T04",
+    "split": "test",
+    "question": "Khi giải quyết yêu cầu cung cấp dữ liệu cá nhân hợp lệ, Bên Kiểm soát dữ liệu cá nhân cần thông báo những nội dung gì về chi phí và thanh toán (nếu có) cho người yêu cầu?",
+    "status": "answered",
+    "answer": "Khi giải quyết yêu cầu cung cấp dữ liệu cá nhân hợp lệ, Bên Kiểm soát dữ liệu cá nhân cần thông báo cho người yêu cầu về các nội dung sau: thời hạn, địa điểm, hình thức cung cấp dữ liệu cá nhân; chi phí thực tế để in, sao, chụp, gửi thông tin qua dịch vụ bưu chính, fax (nếu có); phương thức và thời hạn thanh toán. Việc cung cấp dữ liệu cá nhân phải được thực hiện theo trình tự, thủ tục quy định tại Điều 14 của Nghị định 13/2023/NĐ-CP. [nghi-dinh-13-2023-nd-cp:p013:B_para:002]",
+    "citations": [
+      "nghi-dinh-13-2023-nd-cp:p013:B_para:002"
+    ],
+    "reasoning": "Thông tin được trích dẫn từ Điều 14 của Nghị định 13/2023/NĐ-CP, quy định rõ về trách nhiệm của Bên Kiểm soát dữ liệu cá nhân khi cung cấp dữ liệu cá nhân.",
+    "model": "openai/gpt-4o-mini",
+    "search_calls": 1,
+    "llm_calls": 2,
+    "context": "[nghi-dinh-13-2023-nd-cp:p013:B_para:002 | data/nghi_dinh_13_2023_nd_cp.pdf | page 13]\n[Chương II > Mục 2 > Điều 14. Cung cấp dữ liệu cá nhân]\nKhi nhận được yêu cầu cung cấp dữ liệu cá nhân hợp lệ, Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân có trách nhiệm cung cấp dữ liệu cá nhân thông báo về thời hạn, địa điểm, hình thức cung cấp dữ liệu cá nhân; chi phí thực tế để in, sao, chụp, gửi thông tin qua dịch vụ bưu chính, fax (nếu có) và phương thức, thời hạn thanh toán; thực hiện việc cung cấp dữ liệu cá nhân theo trình tự, thủ tục quy định tại Điều này.",
+    "context_ids": [
+      "nghi-dinh-13-2023-nd-cp:p013:B_para:002"
+    ],
+    "context_chars": 583,
+    "prompt_tokens": 2667,
+    "completion_tokens": 251,
+    "total_tokens": 2918,
+    "cost_usd": 0.000397,
+    "elapsed_ms": 6247.75,
+    "events": [
+      {
+        "event": "search",
+        "tool_name": "search_legal_corpus",
+        "query": "yêu cầu cung cấp dữ liệu cá nhân chi phí thanh toán",
+        "args": {
+          "query": "yêu cầu cung cấp dữ liệu cá nhân chi phí thanh toán"
+        },
+        "applied_filter": null,
+        "filter_warning": null,
+        "results": [
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p013:B_para:002",
+            "page": 13,
+            "article": "Điều 14",
+            "form": null,
+            "score": 0.493377,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p013:B_para:001",
+            "page": 13,
+            "article": "Điều 14",
+            "form": null,
+            "score": 0.402404,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p012:B_para:002",
+            "page": 12,
+            "article": "Điều 14",
+            "form": null,
+            "score": 0.38887,
+            "strategy": "tfidf"
+          }
+        ],
+        "context_ids": [
+          "nghi-dinh-13-2023-nd-cp:p013:B_para:002"
+        ],
+        "context_chars": 583,
+        "elapsed_ms": 1.43
+      },
+      {
+        "event": "answer",
+        "reasoning": "Thông tin được trích dẫn từ Điều 14 của Nghị định 13/2023/NĐ-CP, quy định rõ về trách nhiệm của Bên Kiểm soát dữ liệu cá nhân khi cung cấp dữ liệu cá nhân.",
+        "auto_inlined_citations": [
+          "nghi-dinh-13-2023-nd-cp:p013:B_para:002"
+        ]
+      }
+    ]
+  },
+  {
+    "query_id": "N_T05",
+    "split": "test",
+    "question": "Theo Điều 35, Bộ Khoa học và Công nghệ có những trách nhiệm gì trong bảo vệ dữ liệu cá nhân?",
+    "status": "answered",
+    "answer": "Theo Điều 35 của Nghị định 13/2023/NĐ-CP, Bộ Khoa học và Công nghệ có các trách nhiệm sau trong bảo vệ dữ liệu cá nhân:\n\n1. Phối hợp với Bộ Công an trong việc xây dựng Tiêu chuẩn bảo vệ dữ liệu cá nhân và các khuyến nghị áp dụng Tiêu chuẩn bảo vệ dữ liệu cá nhân.\n\n2. Nghiên cứu, trao đổi với Bộ Công an về các biện pháp bảo vệ dữ liệu cá nhân theo kịp sự phát triển của khoa học, công nghệ. [nghi-dinh-13-2023-nd-cp:p026:B_para:003]",
+    "citations": [
+      "nghi-dinh-13-2023-nd-cp:p026:B_para:003"
+    ],
+    "reasoning": "Nội dung đã được tìm thấy trong Điều 35 của Nghị định 13/2023/NĐ-CP.",
+    "model": "openai/gpt-4o-mini",
+    "search_calls": 1,
+    "llm_calls": 2,
+    "context": "[nghi-dinh-13-2023-nd-cp:p026:B_para:003 | data/nghi_dinh_13_2023_nd_cp.pdf | page 26]\n[Chương III > Mục 4]\nĐiều 35. Trách nhiệm của Bộ Khoa học và Công nghệ\n\n1. Phối hợp với Bộ Công an trong xây dựng Tiêu chuẩn bảo vệ dữ liệu cá nhân và các khuyến nghị áp dụng Tiêu chuẩn bảo vệ dữ liệu cá nhân.\n\n2. Nghiên cứu, trao đổi Bộ Công an về các biện pháp bảo vệ dữ liệu cá nhân theo kịp sự phát triển của khoa học, công nghệ.",
+    "context_ids": [
+      "nghi-dinh-13-2023-nd-cp:p026:B_para:003"
+    ],
+    "context_chars": 420,
+    "prompt_tokens": 2582,
+    "completion_tokens": 224,
+    "total_tokens": 2806,
+    "cost_usd": 0.000368,
+    "elapsed_ms": 5770.07,
+    "events": [
+      {
+        "event": "search",
+        "tool_name": "search_legal_corpus",
+        "query": "Điều 35 trách nhiệm Bộ Khoa học và Công nghệ bảo vệ dữ liệu cá nhân",
+        "args": {
+          "query": "Điều 35 trách nhiệm Bộ Khoa học và Công nghệ bảo vệ dữ liệu cá nhân"
+        },
+        "applied_filter": null,
+        "filter_warning": null,
+        "results": [
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p026:B_para:003",
+            "page": 26,
+            "article": "Điều 35",
+            "form": null,
+            "score": 0.657555,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p024:B_para:001",
+            "page": 24,
+            "article": "Điều 29",
+            "form": null,
+            "score": 0.301412,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p028:B_para:000",
+            "page": 28,
+            "article": "Điều 38",
+            "form": null,
+            "score": 0.254735,
+            "strategy": "tfidf"
+          }
+        ],
+        "context_ids": [
+          "nghi-dinh-13-2023-nd-cp:p026:B_para:003"
+        ],
+        "context_chars": 420,
+        "elapsed_ms": 1.78
+      },
+      {
+        "event": "answer",
+        "reasoning": "Nội dung đã được tìm thấy trong Điều 35 của Nghị định 13/2023/NĐ-CP.",
+        "auto_inlined_citations": [
+          "nghi-dinh-13-2023-nd-cp:p026:B_para:003"
+        ]
+      }
+    ]
+  },
+  {
+    "query_id": "N_T06",
+    "split": "test",
+    "question": "Mẫu số 05 tại Phụ lục của Nghị định dùng để thông báo về việc gì và áp dụng cho những loại hồ sơ nào?",
+    "status": "abstain",
+    "answer": "Nghị định 13/2023/NĐ-CP không quy định cụ thể nội dung của Mẫu số 05 tại Phụ lục, cũng như không nêu rõ loại hồ sơ nào áp dụng cho mẫu này.",
+    "citations": [],
+    "reasoning": "Tài liệu không cung cấp thông tin chi tiết về Mẫu số 05.",
+    "model": "openai/gpt-4o-mini",
+    "search_calls": 3,
+    "llm_calls": 4,
+    "context": "[nghi-dinh-13-2023-nd-cp:p021:B_para:000 | data/nghi_dinh_13_2023_nd_cp.pdf | page 21]\n[Chương II > Mục 3 > Điều 24. Đánh giá tác động xử lý dữ liệu cá nhân]\n6. Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân, Bên Xử lý dữ liệu cá nhân cập nhật, bổ sung Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân khi có sự thay đổi về nội dung hồ sơ đã gửi cho Bộ Công an (Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao) theo Mẫu số 05 tại Phụ lục của Nghị định này.",
+    "context_ids": [
+      "nghi-dinh-13-2023-nd-cp:p021:B_para:000"
+    ],
+    "context_chars": 492,
+    "prompt_tokens": 6153,
+    "completion_tokens": 178,
+    "total_tokens": 6331,
+    "cost_usd": 0.000723,
+    "elapsed_ms": 6796.12,
+    "events": [
+      {
+        "event": "search",
+        "tool_name": "search_legal_corpus",
+        "query": "Mẫu số 05 Phụ lục Nghị định 13/2023/NĐ-CP",
+        "args": {
+          "query": "Mẫu số 05 Phụ lục Nghị định 13/2023/NĐ-CP"
+        },
+        "applied_filter": null,
+        "filter_warning": null,
+        "results": [
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p021:B_para:000",
+            "page": 21,
+            "article": "Điều 24",
+            "form": null,
+            "score": 0.197301,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p001:B_para:000",
+            "page": 1,
+            "article": null,
+            "form": null,
+            "score": 0.183904,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p023:B_para:002",
+            "page": 23,
+            "article": "Điều 28",
+            "form": null,
+            "score": 0.124854,
+            "strategy": "tfidf"
+          }
+        ],
+        "context_ids": [
+          "nghi-dinh-13-2023-nd-cp:p021:B_para:000"
+        ],
+        "context_chars": 492,
+        "elapsed_ms": 1.12
+      },
+      {
+        "event": "search",
+        "tool_name": "search_legal_corpus",
+        "query": "Mẫu số 05",
+        "args": {
+          "query": "Mẫu số 05"
+        },
+        "applied_filter": null,
+        "filter_warning": null,
+        "results": [
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p036:B_para:000",
+            "page": 36,
+            "article": null,
+            "form": "Mẫu số 05",
+            "score": 0.223623,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p021:B_para:000",
+            "page": 21,
+            "article": "Điều 24",
+            "form": null,
+            "score": 0.210676,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p002:B_para:002",
+            "page": 2,
+            "article": "Điều 2",
+            "form": null,
+            "score": 0.203158,
+            "strategy": "tfidf"
+          }
+        ],
+        "context_ids": [
+          "nghi-dinh-13-2023-nd-cp:p021:B_para:000"
+        ],
+        "context_chars": 492,
+        "elapsed_ms": 0.44
+      },
+      {
+        "event": "search",
+        "tool_name": "search_legal_corpus",
+        "query": "Mẫu số 05 Phụ lục Nghị định 13/2023/NĐ-CP nội dung",
+        "args": {
+          "query": "Mẫu số 05 Phụ lục Nghị định 13/2023/NĐ-CP nội dung"
+        },
+        "applied_filter": null,
+        "filter_warning": null,
+        "results": [
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p021:B_para:000",
+            "page": 21,
+            "article": "Điều 24",
+            "form": null,
+            "score": 0.233294,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p001:B_para:000",
+            "page": 1,
+            "article": null,
+            "form": null,
+            "score": 0.1852,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p036:B_para:000",
+            "page": 36,
+            "article": null,
+            "form": "Mẫu số 05",
+            "score": 0.146115,
+            "strategy": "tfidf"
+          }
+        ],
+        "context_ids": [
+          "nghi-dinh-13-2023-nd-cp:p021:B_para:000"
+        ],
+        "context_chars": 492,
+        "elapsed_ms": 0.94
+      },
+      {
+        "event": "abstain",
+        "reasoning": "Tài liệu không cung cấp thông tin chi tiết về Mẫu số 05."
+      }
+    ]
+  },
+  {
+    "query_id": "N_T07",
+    "split": "test",
+    "question": "Nghị định định nghĩa 'Bên Xử lý dữ liệu cá nhân' khác 'Bên Kiểm soát dữ liệu cá nhân' ở điểm nào, và khi chuyển dữ liệu cá nhân của công dân Việt Nam ra nước ngoài thì Bên Xử lý dữ liệu cá nhân có thuộc nhóm Bên chuyển dữ liệu phải lập Hồ sơ đánh giá tác động chuyển dữ liệu ra nước ngoài không?",
+    "status": "answered",
+    "answer": "Theo Nghị định 13/2023/NĐ-CP, có sự phân biệt rõ ràng giữa 'Bên Kiểm soát dữ liệu cá nhân' và 'Bên Xử lý dữ liệu cá nhân'. \\n- **Bên Kiểm soát dữ liệu cá nhân** là tổ chức, cá nhân quyết định mục đích và phương thức xử lý dữ liệu cá nhân. \\n- **Bên Xử lý dữ liệu cá nhân** là tổ chức, cá nhân thực hiện việc xử lý dữ liệu cá nhân theo yêu cầu của Bên Kiểm soát dữ liệu cá nhân. \\n\\nKhi chuyển dữ liệu cá nhân của công dân Việt Nam ra nước ngoài, Bên Xử lý dữ liệu cá nhân không thuộc nhóm Bên chuyển dữ liệu phải lập Hồ sơ đánh giá tác động chuyển dữ liệu ra nước ngoài, trừ khi Bên này cũng là Bên Kiểm soát dữ liệu cá nhân hoặc có trách nhiệm trong việc quyết định mục đích và phương thức xử lý dữ liệu cá nhân. \\n\\nCăn cứ vào Điều 24 của Nghị định, Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân phải lập và lưu giữ Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân của mình kể từ thời điểm bắt đầu xử lý dữ liệu cá nhân [nghi-dinh-13-2023-nd-cp:p019:B_para:001].",
+    "citations": [
+      "nghi-dinh-13-2023-nd-cp:p019:B_para:001"
+    ],
+    "reasoning": "Đã tìm kiếm và đối chiếu các điều khoản liên quan đến Bên Kiểm soát và Bên Xử lý dữ liệu cá nhân, cũng như quy định về Hồ sơ đánh giá tác động.",
+    "model": "openai/gpt-4o-mini",
+    "search_calls": 3,
+    "llm_calls": 3,
+    "context": "[nghi-dinh-13-2023-nd-cp:p019:B_para:001 | data/nghi_dinh_13_2023_nd_cp.pdf | page 19]\n[Chương II > Mục 3]\nĐiều 24. Đánh giá tác động xử lý dữ liệu cá nhân\n\n1. Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân lập và lưu giữ Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân của mình kể từ thời điểm bắt đầu xử lý dữ liệu cá nhân.\n\nHồ sơ đánh giá tác động xử lý dữ liệu cá nhân của Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân, bao gồm:\n\na) Thông tin và chi tiết liên lạc của Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân;\n\nb) Họ tên, chi tiết liên lạc của tổ chức được phân công thực hiện nhiệm vụ bảo vệ dữ liệu cá nhân và nhân viên bảo vệ dữ liệu cá nhân của Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân;",
+    "context_ids": [
+      "nghi-dinh-13-2023-nd-cp:p019:B_para:001"
+    ],
+    "context_chars": 797,
+    "prompt_tokens": 5774,
+    "completion_tokens": 912,
+    "total_tokens": 6686,
+    "cost_usd": 0.001087,
+    "elapsed_ms": 18333.43,
+    "events": [
+      {
+        "event": "search",
+        "tool_name": "search_legal_corpus",
+        "query": "Bên Xử lý dữ liệu cá nhân",
+        "args": {
+          "query": "Bên Xử lý dữ liệu cá nhân"
+        },
+        "applied_filter": null,
+        "filter_warning": null,
+        "results": [
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p015:B_para:001",
+            "page": 15,
+            "article": "Điều 16",
+            "form": null,
+            "score": 0.679684,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p019:B_para:001",
+            "page": 19,
+            "article": "Điều 24",
+            "form": null,
+            "score": 0.673356,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p015:B_para:002",
+            "page": 15,
+            "article": "Điều 16",
+            "form": null,
+            "score": 0.651459,
+            "strategy": "tfidf"
+          }
+        ],
+        "context_ids": [
+          "nghi-dinh-13-2023-nd-cp:p019:B_para:001"
+        ],
+        "context_chars": 797,
+        "elapsed_ms": 1.25
+      },
+      {
+        "event": "search",
+        "tool_name": "search_legal_corpus",
+        "query": "Bên Kiểm soát dữ liệu cá nhân",
+        "args": {
+          "query": "Bên Kiểm soát dữ liệu cá nhân"
+        },
+        "applied_filter": null,
+        "filter_warning": null,
+        "results": [
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p019:B_para:001",
+            "page": 19,
+            "article": "Điều 24",
+            "form": null,
+            "score": 0.739542,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p015:B_para:001",
+            "page": 15,
+            "article": "Điều 16",
+            "form": null,
+            "score": 0.737964,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p011:B_para:004",
+            "page": 11,
+            "article": "Điều 14",
+            "form": null,
+            "score": 0.642589,
+            "strategy": "tfidf"
+          }
+        ],
+        "context_ids": [
+          "nghi-dinh-13-2023-nd-cp:p019:B_para:001"
+        ],
+        "context_chars": 797,
+        "elapsed_ms": 1.03
+      },
+      {
+        "event": "search",
+        "tool_name": "search_legal_corpus",
+        "query": "Hồ sơ đánh giá tác động chuyển dữ liệu ra nước ngoài",
+        "args": {
+          "query": "Hồ sơ đánh giá tác động chuyển dữ liệu ra nước ngoài"
+        },
+        "applied_filter": null,
+        "filter_warning": null,
+        "results": [
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p022:B_para:001",
+            "page": 22,
+            "article": "Điều 25",
+            "form": null,
+            "score": 0.702332,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p021:B_para:001",
+            "page": 21,
+            "article": "Điều 25",
+            "form": null,
+            "score": 0.67619,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p037:B_para:002",
+            "page": 37,
+            "article": null,
+            "form": "Mẫu số 06",
+            "score": 0.604296,
+            "strategy": "tfidf"
+          }
+        ],
+        "context_ids": [
+          "nghi-dinh-13-2023-nd-cp:p019:B_para:001"
+        ],
+        "context_chars": 797,
+        "elapsed_ms": 1.28
+      },
+      {
+        "event": "validation_retry",
+        "reason": "citation_check_failed",
+        "invalid_ids": [
+          "nghi-dinh-13-2023-nd-cp:p015:B_para:001",
+          "nghi-dinh-13-2023-nd-cp:p015:B_para:002"
+        ]
+      },
+      {
+        "event": "answer",
+        "reasoning": "Đã tìm kiếm và đối chiếu các điều khoản liên quan đến Bên Kiểm soát và Bên Xử lý dữ liệu cá nhân, cũng như quy định về Hồ sơ đánh giá tác động.",
+        "auto_inlined_citations": []
+      }
+    ]
+  },
+  {
+    "query_id": "U_T01",
+    "split": "test",
+    "question": "Theo Điều 38 Nghị định 13/2023/NĐ-CP, Bên Kiểm soát dữ liệu cá nhân phải lưu trữ nhật ký hệ thống quá trình xử lý dữ liệu cá nhân trong thời hạn tối thiểu bao nhiêu tháng hoặc bao nhiêu năm?",
+    "status": "abstain",
+    "answer": "Nghị định 13/2023/NĐ-CP không quy định cụ thể về thời hạn lưu trữ nhật ký hệ thống quá trình xử lý dữ liệu cá nhân. Do đó, tôi không thể cung cấp thông tin về thời hạn tối thiểu bao nhiêu tháng hoặc bao nhiêu năm.",
+    "citations": [],
+    "reasoning": "Nội dung trong Nghị định 13/2023/NĐ-CP không đề cập đến thời hạn lưu trữ nhật ký hệ thống.",
+    "model": "openai/gpt-4o-mini",
+    "search_calls": 1,
+    "llm_calls": 2,
+    "context": "[nghi-dinh-13-2023-nd-cp:p027:B_para:002 | data/nghi_dinh_13_2023_nd_cp.pdf | page 27]\n[Chương III > Mục 4]\nĐiều 38. Trách nhiệm của Bên Kiểm soát dữ liệu cá nhân\n\n1. Thực hiện các biện pháp tổ chức và kỹ thuật cùng các biện pháp an toàn, bảo mật phù hợp để chứng minh các hoạt động xử lý dữ liệu đã được thực hiện theo quy định của pháp luật về bảo vệ dữ liệu cá nhân, rà soát và cập nhật các biện pháp này khi cần thiết.\n\n2. Ghi lại và lưu trữ nhật ký hệ thống quá trình xử lý dữ liệu cá nhân.\n\n3. Thông báo hành vi vi phạm quy định về bảo vệ dữ liệu cá nhân theo quy định tại Điều 23 Nghị định này.\n\n4. Lựa chọn Bên Xử lý dữ liệu cá nhân phù hợp với nhiệm vụ rõ ràng và chỉ làm việc với Bên Xử lý dữ liệu cá nhân có các biện pháp bảo vệ phù hợp.",
+    "context_ids": [
+      "nghi-dinh-13-2023-nd-cp:p027:B_para:002"
+    ],
+    "context_chars": 748,
+    "prompt_tokens": 2757,
+    "completion_tokens": 166,
+    "total_tokens": 2923,
+    "cost_usd": 0.00036,
+    "elapsed_ms": 5346.79,
+    "events": [
+      {
+        "event": "search",
+        "tool_name": "search_legal_corpus",
+        "query": "Điều 38 Nghị định 13/2023/NĐ-CP lưu trữ nhật ký hệ thống quá trình xử lý dữ liệu cá nhân",
+        "args": {
+          "query": "Điều 38 Nghị định 13/2023/NĐ-CP lưu trữ nhật ký hệ thống quá trình xử lý dữ liệu cá nhân"
+        },
+        "applied_filter": null,
+        "filter_warning": null,
+        "results": [
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p027:B_para:002",
+            "page": 27,
+            "article": "Điều 38",
+            "form": null,
+            "score": 0.326563,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p028:B_para:000",
+            "page": 28,
+            "article": "Điều 38",
+            "form": null,
+            "score": 0.220494,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p027:B_para:003",
+            "page": 27,
+            "article": "Điều 38",
+            "form": null,
+            "score": 0.198319,
+            "strategy": "tfidf"
+          }
+        ],
+        "context_ids": [
+          "nghi-dinh-13-2023-nd-cp:p027:B_para:002"
+        ],
+        "context_chars": 748,
+        "elapsed_ms": 1.21
+      },
+      {
+        "event": "abstain",
+        "reasoning": "Nội dung trong Nghị định 13/2023/NĐ-CP không đề cập đến thời hạn lưu trữ nhật ký hệ thống."
+      }
+    ]
+  },
+  {
+    "query_id": "U_T02",
+    "split": "test",
+    "question": "Nghị định 13/2023/NĐ-CP công bố danh sách những quốc gia hoặc vùng lãnh thổ nào có mức độ bảo vệ dữ liệu cá nhân tương đương để doanh nghiệp được miễn lập Hồ sơ đánh giá tác động chuyển dữ liệu ra nước ngoài?",
+    "status": "abstain",
+    "answer": "Nghị định 13/2023/NĐ-CP không quy định cụ thể danh sách các quốc gia hoặc vùng lãnh thổ có mức độ bảo vệ dữ liệu cá nhân tương đương để doanh nghiệp được miễn lập Hồ sơ đánh giá tác động chuyển dữ liệu ra nước ngoài.",
+    "citations": [],
+    "reasoning": "Tài liệu không cung cấp thông tin về danh sách các quốc gia hoặc vùng lãnh thổ này.",
+    "model": "openai/gpt-4o-mini",
+    "search_calls": 3,
+    "llm_calls": 4,
+    "context": "[nghi-dinh-13-2023-nd-cp:p021:B_para:001 | data/nghi_dinh_13_2023_nd_cp.pdf | page 21]\n[Chương II > Mục 3]\nĐiều 25. Chuyển dữ liệu cá nhân ra nước ngoài\n\n1. Dữ liệu cá nhân của công dân Việt Nam được chuyển ra nước ngoài trong trường hợp Bên chuyển dữ liệu ra nước ngoài lập Hồ sơ đánh giá tác động chuyển dữ liệu cá nhân ra nước ngoài và thực hiện các thủ tục theo quy định tại khoản 3, 4 và 5 Điều này. Bên chuyển dữ liệu ra nước ngoài bao gồm Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân, Bên Xử lý dữ liệu cá nhân, Bên thứ ba.\n\n2. Hồ sơ đánh giá tác động chuyển dữ liệu cá nhân ra nước ngoài, gồm:\n\na) Thông tin và chi tiết liên lạc của Bên chuyển dữ liệu và Bên tiếp nhận dữ liệu cá nhân của công dân Việt Nam;",
+    "context_ids": [
+      "nghi-dinh-13-2023-nd-cp:p021:B_para:001"
+    ],
+    "context_chars": 740,
+    "prompt_tokens": 6510,
+    "completion_tokens": 220,
+    "total_tokens": 6730,
+    "cost_usd": 0.000801,
+    "elapsed_ms": 7802.61,
+    "events": [
+      {
+        "event": "search",
+        "tool_name": "search_legal_corpus",
+        "query": "danh sách quốc gia hoặc vùng lãnh thổ có mức độ bảo vệ dữ liệu cá nhân tương đương miễn lập Hồ sơ đánh giá tác động chuyển dữ liệu ra nước ngoài",
+        "args": {
+          "query": "danh sách quốc gia hoặc vùng lãnh thổ có mức độ bảo vệ dữ liệu cá nhân tương đương miễn lập Hồ sơ đánh giá tác động chuyển dữ liệu ra nước ngoài"
+        },
+        "applied_filter": null,
+        "filter_warning": null,
+        "results": [
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p021:B_para:001",
+            "page": 21,
+            "article": "Điều 25",
+            "form": null,
+            "score": 0.405653,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p022:B_para:001",
+            "page": 22,
+            "article": "Điều 25",
+            "form": null,
+            "score": 0.382439,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p037:B_para:002",
+            "page": 37,
+            "article": null,
+            "form": "Mẫu số 06",
+            "score": 0.377696,
+            "strategy": "tfidf"
+          }
+        ],
+        "context_ids": [
+          "nghi-dinh-13-2023-nd-cp:p021:B_para:001"
+        ],
+        "context_chars": 740,
+        "elapsed_ms": 2.36
+      },
+      {
+        "event": "search",
+        "tool_name": "search_legal_corpus",
+        "query": "quốc gia hoặc vùng lãnh thổ có mức độ bảo vệ dữ liệu cá nhân tương đương",
+        "args": {
+          "query": "quốc gia hoặc vùng lãnh thổ có mức độ bảo vệ dữ liệu cá nhân tương đương"
+        },
+        "applied_filter": null,
+        "filter_warning": null,
+        "results": [
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p006:B_para:003",
+            "page": 6,
+            "article": "Điều 7",
+            "form": null,
+            "score": 0.280835,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p005:B_para:002",
+            "page": 5,
+            "article": "Điều 4",
+            "form": null,
+            "score": 0.244058,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p019:B_para:002",
+            "page": 19,
+            "article": "Điều 24",
+            "form": null,
+            "score": 0.241009,
+            "strategy": "tfidf"
+          }
+        ],
+        "context_ids": [
+          "nghi-dinh-13-2023-nd-cp:p021:B_para:001"
+        ],
+        "context_chars": 740,
+        "elapsed_ms": 1.62
+      },
+      {
+        "event": "search",
+        "tool_name": "search_legal_corpus",
+        "query": "quốc gia vùng lãnh thổ miễn lập hồ sơ đánh giá tác động",
+        "args": {
+          "query": "quốc gia vùng lãnh thổ miễn lập hồ sơ đánh giá tác động"
+        },
+        "applied_filter": null,
+        "filter_warning": null,
+        "results": [
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p020:B_para:002",
+            "page": 20,
+            "article": "Điều 24",
+            "form": null,
+            "score": 0.272263,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p035:B_para:002",
+            "page": 35,
+            "article": null,
+            "form": "Mẫu số 04",
+            "score": 0.26117,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p037:B_para:002",
+            "page": 37,
+            "article": null,
+            "form": "Mẫu số 06",
+            "score": 0.256469,
+            "strategy": "tfidf"
+          }
+        ],
+        "context_ids": [
+          "nghi-dinh-13-2023-nd-cp:p021:B_para:001"
+        ],
+        "context_chars": 740,
+        "elapsed_ms": 0.84
+      },
+      {
+        "event": "abstain",
+        "reasoning": "Tài liệu không cung cấp thông tin về danh sách các quốc gia hoặc vùng lãnh thổ này."
+      }
+    ]
+  },
+  {
+    "query_id": "U_T03",
+    "split": "test",
+    "question": "Theo Nghị định 13/2023/NĐ-CP, khi áp dụng biện pháp kỹ thuật mã hóa dữ liệu cá nhân, tổ chức bắt buộc phải dùng chuẩn thuật toán mật mã cụ thể nào (ví dụ AES-256 hay RSA-2048)?",
+    "status": "abstain",
+    "answer": "Nghị định 13/2023/NĐ-CP không quy định cụ thể về chuẩn thuật toán mật mã nào phải sử dụng khi áp dụng biện pháp kỹ thuật mã hóa dữ liệu cá nhân. Do đó, không có thông tin nào về các chuẩn như AES-256 hay RSA-2048 trong tài liệu này.",
+    "citations": [],
+    "reasoning": "Tài liệu không quy định nội dung về chuẩn thuật toán mật mã cụ thể.",
+    "model": "openai/gpt-4o-mini",
+    "search_calls": 3,
+    "llm_calls": 4,
+    "context": "[nghi-dinh-13-2023-nd-cp:p003:B_para:002 | data/nghi_dinh_13_2023_nd_cp.pdf | page 3]\n[Chương I > Điều 2. Giải thích từ ngữ]\nk) Dữ liệu cá nhân khác được pháp luật quy định là đặc thù và cần có biện pháp bảo mật cần thiết.\n\n5. Bảo vệ dữ liệu cá nhân là hoạt động phòng ngừa, phát hiện, ngăn chặn, xử lý hành vi vi phạm liên quan đến dữ liệu cá nhân theo quy định của pháp luật.\n\n6. Chủ thể dữ liệu là cá nhân được dữ liệu cá nhân phản ánh.\n\n7. Xử lý dữ liệu cá nhân là một hoặc nhiều hoạt động tác động tới dữ liệu cá nhân, như: thu thập, ghi, phân tích, xác nhận, lưu trữ, chỉnh sửa, công khai, kết hợp, truy cập, truy xuất, thu hồi, mã hóa, giải mã, sao chép, chia sẻ, truyền đưa, cung cấp, chuyển giao, xóa, hủy dữ liệu cá nhân hoặc các hành động khác có liên quan.",
+    "context_ids": [
+      "nghi-dinh-13-2023-nd-cp:p003:B_para:002"
+    ],
+    "context_chars": 768,
+    "prompt_tokens": 6428,
+    "completion_tokens": 177,
+    "total_tokens": 6605,
+    "cost_usd": 0.000763,
+    "elapsed_ms": 6687.14,
+    "events": [
+      {
+        "event": "search",
+        "tool_name": "search_legal_corpus",
+        "query": "chuẩn thuật toán mật mã dữ liệu cá nhân",
+        "args": {
+          "query": "chuẩn thuật toán mật mã dữ liệu cá nhân"
+        },
+        "applied_filter": null,
+        "filter_warning": null,
+        "results": [
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p003:B_para:002",
+            "page": 3,
+            "article": "Điều 2",
+            "form": null,
+            "score": 0.232601,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p026:B_para:003",
+            "page": 26,
+            "article": "Điều 35",
+            "form": null,
+            "score": 0.165051,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p027:B_para:002",
+            "page": 27,
+            "article": "Điều 38",
+            "form": null,
+            "score": 0.156982,
+            "strategy": "tfidf"
+          }
+        ],
+        "context_ids": [
+          "nghi-dinh-13-2023-nd-cp:p003:B_para:002"
+        ],
+        "context_chars": 768,
+        "elapsed_ms": 1.17
+      },
+      {
+        "event": "search",
+        "tool_name": "search_legal_corpus",
+        "query": "mã hóa dữ liệu cá nhân",
+        "args": {
+          "query": "mã hóa dữ liệu cá nhân"
+        },
+        "applied_filter": null,
+        "filter_warning": null,
+        "results": [
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p003:B_para:002",
+            "page": 3,
+            "article": "Điều 2",
+            "form": null,
+            "score": 0.339687,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p019:B_para:002",
+            "page": 19,
+            "article": "Điều 24",
+            "form": null,
+            "score": 0.168228,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p028:B_para:001",
+            "page": 28,
+            "article": "Điều 39",
+            "form": null,
+            "score": 0.161618,
+            "strategy": "tfidf"
+          }
+        ],
+        "context_ids": [
+          "nghi-dinh-13-2023-nd-cp:p003:B_para:002"
+        ],
+        "context_chars": 768,
+        "elapsed_ms": 1.04
+      },
+      {
+        "event": "search",
+        "tool_name": "search_legal_corpus",
+        "query": "biện pháp kỹ thuật bảo vệ dữ liệu cá nhân",
+        "args": {
+          "query": "biện pháp kỹ thuật bảo vệ dữ liệu cá nhân"
+        },
+        "applied_filter": null,
+        "filter_warning": null,
+        "results": [
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p023:B_para:000",
+            "page": 23,
+            "article": "Điều 26",
+            "form": null,
+            "score": 0.511219,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p027:B_para:002",
+            "page": 27,
+            "article": "Điều 38",
+            "form": null,
+            "score": 0.434212,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "nghi-dinh-13-2023-nd-cp:p009:B_para:001",
+            "page": 9,
+            "article": "Điều 10",
+            "form": null,
+            "score": 0.362115,
+            "strategy": "tfidf"
+          }
+        ],
+        "context_ids": [
+          "nghi-dinh-13-2023-nd-cp:p003:B_para:002"
+        ],
+        "context_chars": 768,
+        "elapsed_ms": 1.33
+      },
+      {
+        "event": "abstain",
+        "reasoning": "Tài liệu không quy định nội dung về chuẩn thuật toán mật mã cụ thể."
+      }
+    ]
+  }
+]

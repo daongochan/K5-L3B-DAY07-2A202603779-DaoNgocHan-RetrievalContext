@@ -1,0 +1,47 @@
+{
+  "config": "imp3_whyb_qfilter_sibling_b2800",
+  "method": "hybrid_rrf",
+  "description": "Cải thiện 3: Weighted Hybrid RRF (Dense=2.0, BM25=1.0) + Suy luận Filter + top_k=4 + Sibling Expansion, Budget=2800 chars",
+  "hypothesis": "Tăng trọng số Dense gấp đôi BM25 (2:1) trong RRF để khắc phục lỗi BM25 kéo tụt hạng 1 của câu diễn đạt lại (D02, D05), đồng thời giữ nguyên khả năng bao phủ context 100% của Sibling Expansion.",
+  "split": "dev",
+  "n": 17,
+  "top_k": 4,
+  "budget_chars": 2800,
+  "expand_siblings": true,
+  "header_style": "rich",
+  "strict_hit1": 14,
+  "strict_hit1_rate": 0.8235,
+  "strict_hit3": 16,
+  "strict_hit3_rate": 0.9412,
+  "strict_hit_topk": 16,
+  "strict_context_hit": 17,
+  "strict_context_rate": 1.0,
+  "any_hit1": 15,
+  "any_hit3": 17,
+  "any_context_hit": 17,
+  "mrr3": 0.9314,
+  "avg_context_chars": 2498.2,
+  "avg_est_tokens": 713.7,
+  "median_ms": 182.14,
+  "mean_ms": 189.34,
+  "queries_with_inferred_filter": [
+    {
+      "id": "D15",
+      "filter": {
+        "page_type": "phu_luc_bieu_mau"
+      }
+    },
+    {
+      "id": "D16",
+      "filter": {
+        "page_type": "phu_luc_bieu_mau"
+      }
+    }
+  ],
+  "strict_missed_hit3_ids": [
+    "D17"
+  ],
+  "strict_missed_context_ids": [],
+  "load_seconds": 15.073,
+  "service_cost_usd": 0.0
+}

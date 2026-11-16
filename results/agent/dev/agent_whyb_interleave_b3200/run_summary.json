@@ -1,0 +1,37 @@
+{
+  "config": "agent_whyb_interleave_b3200",
+  "split": "dev",
+  "model": "openai/gpt-4o-mini",
+  "agent_params": {
+    "top_k": 4,
+    "budget": 3200,
+    "max_searches": 4,
+    "max_llm_turns": 6,
+    "enable_filters": true,
+    "enable_lookup_tool": true,
+    "interleave_batches": true,
+    "expand_siblings": true,
+    "header_style": "rich"
+  },
+  "total_cases": 20,
+  "completed_cases": 19,
+  "error_cases": 1,
+  "status_counts": {
+    "answered": 16,
+    "abstain": 3,
+    "error": 1
+  },
+  "search_calls_distribution": {
+    "1": 14,
+    "2": 2,
+    "4": 3
+  },
+  "avg_search_calls": 1.58,
+  "avg_llm_calls": 2.79,
+  "avg_context_chars": 2819.7,
+  "median_elapsed_ms": 15134.8,
+  "total_elapsed_seconds": 435.65,
+  "total_prompt_tokens": 121552,
+  "total_completion_tokens": 5343,
+  "total_cost_usd": 0.020218
+}

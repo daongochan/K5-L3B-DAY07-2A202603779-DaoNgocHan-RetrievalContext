@@ -1,0 +1,2334 @@
+[
+  {
+    "query_id": "D01",
+    "split": "dev",
+    "kind": "direct",
+    "question": "Nghị định 13/2023/NĐ-CP có hiệu lực thi hành từ ngày nào?",
+    "config": "imp3_whyb_qfilter_sibling_b2800",
+    "method": "hybrid_rrf",
+    "top_k": 4,
+    "budget_chars": 2800,
+    "expand_siblings": true,
+    "header_style": "rich",
+    "filter_trace": {
+      "applied_filter": null,
+      "filter_reason": null,
+      "fallback_used": false
+    },
+    "results": [
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p029:B_para:001",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 29,
+        "article": "Điều 43",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 1,
+        "score": 0.04918,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 1,
+            "raw_score": 0.864581
+          },
+          "bm25_vn": {
+            "rank": 1,
+            "raw_score": 62.620864
+          }
+        },
+        "char_count": 549,
+        "any_hit": true
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p001:B_para:000",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 1,
+        "article": null,
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 2,
+        "score": 0.048387,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 2,
+            "raw_score": 0.844224
+          },
+          "bm25_vn": {
+            "rank": 2,
+            "raw_score": 39.901805
+          }
+        },
+        "char_count": 636,
+        "any_hit": false
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p029:B_para:002",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 29,
+        "article": "Điều 44",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 3,
+        "score": 0.047619,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 3,
+            "raw_score": 0.821139
+          },
+          "bm25_vn": {
+            "rank": 3,
+            "raw_score": 20.55613
+          }
+        },
+        "char_count": 390,
+        "any_hit": false
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p020:B_para:002",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 20,
+        "article": "Điều 24",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 4,
+        "score": 0.045956,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 4,
+            "raw_score": 0.813269
+          },
+          "bm25_vn": {
+            "rank": 8,
+            "raw_score": 11.662126
+          }
+        },
+        "char_count": 707,
+        "any_hit": false
+      }
+    ],
+    "top3_ids": [
+      "nghi-dinh-13-2023-nd-cp:p029:B_para:001",
+      "nghi-dinh-13-2023-nd-cp:p001:B_para:000",
+      "nghi-dinh-13-2023-nd-cp:p029:B_para:002"
+    ],
+    "context_ids": [
+      "nghi-dinh-13-2023-nd-cp:p029:B_para:001",
+      "nghi-dinh-13-2023-nd-cp:p001:B_para:000",
+      "nghi-dinh-13-2023-nd-cp:p029:B_para:002",
+      "nghi-dinh-13-2023-nd-cp:p020:B_para:002"
+    ],
+    "context_chars": 2732,
+    "est_context_tokens": 781,
+    "context": "[nghi-dinh-13-2023-nd-cp:p029:B_para:001 | data/nghi_dinh_13_2023_nd_cp.pdf | page 29 (Công báo tr.31) | Điều 43]\n[Chương IV > Mục 4]\nĐiều 43. Hiệu lực thi hành\n\n1. Nghị định này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2023.\n\n2. Các doanh nghiệp siêu nhỏ, doanh nghiệp nhỏ, doanh nghiệp vừa, doanh nghiệp khởi nghiệp được quyền lựa chọn miễn trừ quy định về chỉ định cá nhân và bộ phận bảo vệ dữ liệu cá nhân trong thời gian 02 năm đầu kể từ khi thành lập doanh nghiệp.\n\n3. Các doanh nghiệp siêu nhỏ, doanh nghiệp nhỏ, doanh nghiệp vừa, doanh nghiệp khởi nghiệp trực tiếp kinh doanh hoạt động xử lý dữ liệu cá nhân không áp dụng quy định tại khoản 2 Điều này.\n\n[nghi-dinh-13-2023-nd-cp:p001:B_para:000 | data/nghi_dinh_13_2023_nd_cp.pdf | page 1 (Công báo tr.3)]\nVĂN BẢN QUY PHẠM PHÁP LUẬT\n\nCHÍNH PHỦ\n\nCHÍNH PHỦ\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\n\nĐộc lập - Tự do - Hạnh phúc\n\nSố: 13/2023/NĐ-CP\nHà Nội, ngày 17 tháng 4 năm 2023\n\nNGHỊ ĐỊNH\n\nBảo vệ dữ liệu cá nhân\n\nCăn cứ Luật Tổ chức Chính phủ ngày 19 tháng 6 năm 2015; Luật sửa đổi, bổ sung một số điều của Luật Tổ chức Chính phủ và Luật Tổ chức chính quyền địa phương ngày 22 tháng 11 năm 2019;\n\nCăn cứ Bộ luật Dân sự ngày 24 tháng 11 năm 2015;\n\nCăn cứ Luật An ninh quốc gia ngày 03 tháng 12 năm 2004;\n\nCăn cứ Luật An ninh mạng ngày 12 tháng 6 năm 2018;\n\nTheo đề nghị của Bộ trưởng Bộ Công an;\n\nChính phủ ban hành Nghị định bảo vệ dữ liệu cá nhân.\n\n[nghi-dinh-13-2023-nd-cp:p029:B_para:002 | data/nghi_dinh_13_2023_nd_cp.pdf | page 29 (Công báo tr.31) | Điều 44]\n[Chương IV > Mục 4]\nĐiều 44. Trách nhiệm thi hành\n\n1. Bộ trưởng Bộ Công an đôn đốc, kiểm tra, hướng dẫn việc thực hiện Nghị định này.\n\n2. Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc Trung ương chịu trách nhiệm thi hành Nghị định này./.\n\nTM. CHÍNH PHỦ\n\nKT. THỦ TƯỚNG\n\nPHÓ THỦ TƯỚNG\n\naky]\n\nTrần Lưu Quang\n\n[nghi-dinh-13-2023-nd-cp:p020:B_para:002 | data/nghi_dinh_13_2023_nd_cp.pdf | page 20 (Công báo tr.22) | Điều 24]\n[Chương II > Mục 3 > Điều 24. Đánh giá tác động xử lý dữ liệu cá nhân]\n4. Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân phải luôn có sẵn để phục vụ hoạt động kiểm tra, đánh giá của Bộ Công an và gửi Bộ Công an (Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao) 01 bản chính theo Mẫu số 04 tại Phụ lục của Nghị định này trong thời gian 60 ngày kể từ ngày tiến hành xử lý dữ liệu cá nhân.\n\n5. Bộ Công an (Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao) đánh giá, yêu cầu Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân, Bên Xử lý dữ liệu cá nhân hoàn thiện Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân trong trường hợp hồ sơ chưa đầy đủ và đúng quy định.",
+    "elapsed_ms": 196.303,
+    "strict_hit1": true,
+    "strict_hit3": true,
+    "strict_hit_topk": true,
+    "strict_context_hit": true,
+    "any_hit1": true,
+    "any_hit3": true,
+    "any_hit_topk": true,
+    "any_context_hit": true,
+    "rr3": 1.0
+  },
+  {
+    "query_id": "D02",
+    "split": "dev",
+    "kind": "direct",
+    "question": "Dữ liệu cá nhân nhạy cảm được định nghĩa như thế nào?",
+    "config": "imp3_whyb_qfilter_sibling_b2800",
+    "method": "hybrid_rrf",
+    "top_k": 4,
+    "budget_chars": 2800,
+    "expand_siblings": true,
+    "header_style": "rich",
+    "filter_trace": {
+      "applied_filter": null,
+      "filter_reason": null,
+      "fallback_used": false
+    },
+    "results": [
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p003:B_para:000",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 3,
+        "article": "Điều 2",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 1,
+        "score": 0.048172,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 1,
+            "raw_score": 0.883865
+          },
+          "bm25_vn": {
+            "rank": 5,
+            "raw_score": 14.448534
+          }
+        },
+        "char_count": 650,
+        "any_hit": true
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p024:B_para:000",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 24,
+        "article": "Điều 28",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 2,
+        "score": 0.048139,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 3,
+            "raw_score": 0.854408
+          },
+          "bm25_vn": {
+            "rank": 1,
+            "raw_score": 22.507621
+          }
+        },
+        "char_count": 483,
+        "any_hit": false
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p002:B_para:001",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 2,
+        "article": "Điều 2",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 3,
+        "score": 0.047883,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 2,
+            "raw_score": 0.862894
+          },
+          "bm25_vn": {
+            "rank": 4,
+            "raw_score": 16.320645
+          }
+        },
+        "char_count": 664,
+        "any_hit": false
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p010:B_para:000",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 10,
+        "article": "Điều 11",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 4,
+        "score": 0.047379,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 4,
+            "raw_score": 0.850189
+          },
+          "bm25_vn": {
+            "rank": 2,
+            "raw_score": 19.716243
+          }
+        },
+        "char_count": 749,
+        "any_hit": false
+      }
+    ],
+    "top3_ids": [
+      "nghi-dinh-13-2023-nd-cp:p003:B_para:000",
+      "nghi-dinh-13-2023-nd-cp:p024:B_para:000",
+      "nghi-dinh-13-2023-nd-cp:p002:B_para:001"
+    ],
+    "context_ids": [
+      "nghi-dinh-13-2023-nd-cp:p003:B_para:000",
+      "nghi-dinh-13-2023-nd-cp:p024:B_para:000",
+      "nghi-dinh-13-2023-nd-cp:p002:B_para:001",
+      "nghi-dinh-13-2023-nd-cp:p002:B_para:003"
+    ],
+    "context_chars": 2427,
+    "est_context_tokens": 693,
+    "context": "[nghi-dinh-13-2023-nd-cp:p003:B_para:000 | data/nghi_dinh_13_2023_nd_cp.pdf | page 3 (Công báo tr.5) | Điều 2]\n[Chương I > Điều 2. Giải thích từ ngữ]\n4. Dữ liệu cá nhân nhạy cảm là dữ liệu cá nhân gắn liền với quyền riêng tư của cá nhân mà khi bị xâm phạm sẽ gây ảnh hưởng trực tiếp tới quyền và lợi ích hợp pháp của cá nhân gồm:\n\na) Quan điểm chính trị, quan điểm tôn giáo;\n\nb) Tình trạng sức khỏe và đời tư được ghi trong hồ sơ bệnh án, không bao gồm thông tin về nhóm máu;\n\nc) Thông tin liên quan đến nguồn gốc chủng tộc, nguồn gốc dân tộc;\n\nd) Thông tin về đặc điểm di truyền được thừa hưởng hoặc có được của cá nhân;\n\nđ) Thông tin về thuộc tính vật lý, đặc điểm sinh học riêng của cá nhân;\n\ne) Thông tin về đời sống tình dục, xu hướng tình dục của cá nhân;\n\n[nghi-dinh-13-2023-nd-cp:p024:B_para:000 | data/nghi_dinh_13_2023_nd_cp.pdf | page 24 (Công báo tr.26) | Điều 28]\n[Chương II > Mục 4 > Điều 28. Bảo vệ dữ liệu cá nhân nhạy cảm]\nbảo vệ dữ liệu cá nhân với Cơ quan chuyên trách bảo vệ dữ liệu cá nhân. Trường hợp Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân, Bên Xử lý dữ liệu, Bên thứ ba là cá nhân thì trao đổi thông tin của cá nhân thực hiện.\n\n3. Thông báo cho chủ thể dữ liệu biết việc dữ liệu cá nhân nhạy cảm của chủ thể dữ liệu được xử lý, trừ trường hợp quy định tại khoản 4 Điều 13, Điều 17 và Điều 18 Nghị định này.\n\n[nghi-dinh-13-2023-nd-cp:p002:B_para:001 | data/nghi_dinh_13_2023_nd_cp.pdf | page 2 (Công báo tr.4) | Điều 2]\n[Chương I]\nĐiều 2. Giải thích từ ngữ\n\nTrong Nghị định này, các từ ngữ dưới đây được hiểu như sau:\n\n1. Dữ liệu cá nhân là thông tin dưới dạng ký hiệu, chữ viết, chữ số, hình ảnh, âm thanh hoặc dạng tương tự trên môi trường điện tử gắn liền với một con người cụ thể hoặc giúp xác định một con người cụ thể. Dữ liệu cá nhân bao gồm dữ liệu cá nhân cơ bản và dữ liệu cá nhân nhạy cảm.\n\n2. Thông tin giúp xác định một con người cụ thể là thông tin hình thành từ hoạt động của cá nhân mà khi kết hợp với các dữ liệu, thông tin lưu trữ khác có thể xác định một con người cụ thể.\n\n3. Dữ liệu cá nhân cơ bản bao gồm:\n\na) Họ, chữ đệm và tên khai sinh, tên gọi khác (nếu có);\n\n[nghi-dinh-13-2023-nd-cp:p002:B_para:003 | data/nghi_dinh_13_2023_nd_cp.pdf | page 2 (Công báo tr.4) | Điều 2]\n[Chương I > Điều 2. Giải thích từ ngữ]\nl) Các thông tin khác gắn liền với một con người cụ thể hoặc giúp xác định một con người cụ thể không thuộc quy định tại khoản 4 Điều này.",
+    "elapsed_ms": 205.926,
+    "strict_hit1": true,
+    "strict_hit3": true,
+    "strict_hit_topk": true,
+    "strict_context_hit": true,
+    "any_hit1": true,
+    "any_hit3": true,
+    "any_hit_topk": true,
+    "any_context_hit": true,
+    "rr3": 1.0
+  },
+  {
+    "query_id": "D03",
+    "split": "dev",
+    "kind": "direct",
+    "question": "Theo nguyên tắc bảo vệ dữ liệu cá nhân, dữ liệu cá nhân có được mua bán không?",
+    "config": "imp3_whyb_qfilter_sibling_b2800",
+    "method": "hybrid_rrf",
+    "top_k": 4,
+    "budget_chars": 2800,
+    "expand_siblings": true,
+    "header_style": "rich",
+    "filter_trace": {
+      "applied_filter": null,
+      "filter_reason": null,
+      "fallback_used": false
+    },
+    "results": [
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p005:B_para:000",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 5,
+        "article": "Điều 3",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 1,
+        "score": 0.048916,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 1,
+            "raw_score": 0.88203
+          },
+          "bm25_vn": {
+            "rank": 2,
+            "raw_score": 34.830138
+          }
+        },
+        "char_count": 707,
+        "any_hit": true
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p017:B_para:004",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 17,
+        "article": "Điều 22",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 2,
+        "score": 0.047883,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 2,
+            "raw_score": 0.873422
+          },
+          "bm25_vn": {
+            "rank": 4,
+            "raw_score": 23.154794
+          }
+        },
+        "char_count": 301,
+        "any_hit": false
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p005:B_para:001",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 5,
+        "article": "Điều 3",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 3,
+        "score": 0.047619,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 3,
+            "raw_score": 0.868966
+          },
+          "bm25_vn": {
+            "rank": 3,
+            "raw_score": 28.961599
+          }
+        },
+        "char_count": 699,
+        "any_hit": false
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p018:B_para:000",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 18,
+        "article": "Điều 22",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 4,
+        "score": 0.046154,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 5,
+            "raw_score": 0.863666
+          },
+          "bm25_vn": {
+            "rank": 5,
+            "raw_score": 22.927685
+          }
+        },
+        "char_count": 284,
+        "any_hit": false
+      }
+    ],
+    "top3_ids": [
+      "nghi-dinh-13-2023-nd-cp:p005:B_para:000",
+      "nghi-dinh-13-2023-nd-cp:p017:B_para:004",
+      "nghi-dinh-13-2023-nd-cp:p005:B_para:001"
+    ],
+    "context_ids": [
+      "nghi-dinh-13-2023-nd-cp:p005:B_para:000",
+      "nghi-dinh-13-2023-nd-cp:p017:B_para:004",
+      "nghi-dinh-13-2023-nd-cp:p005:B_para:001",
+      "nghi-dinh-13-2023-nd-cp:p018:B_para:000"
+    ],
+    "context_chars": 2447,
+    "est_context_tokens": 699,
+    "context": "[nghi-dinh-13-2023-nd-cp:p005:B_para:000 | data/nghi_dinh_13_2023_nd_cp.pdf | page 5 (Công báo tr.7) | Điều 3]\n[Chương I]\nĐiều 3. Nguyên tắc bảo vệ dữ liệu cá nhân\n\n1. Dữ liệu cá nhân được xử lý theo quy định của pháp luật.\n\n2. Chủ thể dữ liệu được biết về hoạt động liên quan tới xử lý dữ liệu cá nhân của mình, trừ trường hợp luật có quy định khác.\n\n3. Dữ liệu cá nhân chỉ được xử lý đúng với mục đích đã được Bên Kiểm soát dữ liệu cá nhân, Bên Xử lý dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân, Bên thứ ba đăng ký, tuyên bố về xử lý dữ liệu cá nhân.\n\n4. Dữ liệu cá nhân thu thập phải phù hợp và giới hạn trong phạm vi, mục đích cần xử lý. Dữ liệu cá nhân không được mua, bán dưới mọi hình thức, trừ trường hợp luật có quy định khác.\n\n5. Dữ liệu cá nhân được cập nhật, bổ sung phù hợp với mục đích xử lý.\n\n[nghi-dinh-13-2023-nd-cp:p017:B_para:004 | data/nghi_dinh_13_2023_nd_cp.pdf | page 17 (Công báo tr.19) | Điều 22]\n[Chương II > Mục 2]\nĐiều 22. Thu thập, chuyển giao, mua, bán trái phép dữ liệu cá nhân\n\n1. Tổ chức, cá nhân có liên quan tới xử lý dữ liệu cá nhân phải áp dụng các biện pháp bảo vệ dữ liệu cá nhân để ngăn chặn tình trạng thu thập dữ liệu cá nhân trái phép từ hệ thống, trang thiết bị dịch vụ của mình.\n\n[nghi-dinh-13-2023-nd-cp:p005:B_para:001 | data/nghi_dinh_13_2023_nd_cp.pdf | page 5 (Công báo tr.7) | Điều 3]\n[Chương I > Điều 3. Nguyên tắc bảo vệ dữ liệu cá nhân]\n6. Dữ liệu cá nhân được áp dụng các biện pháp bảo vệ, bảo mật trong quá trình xử lý, bao gồm cả việc bảo vệ trước các hành vi vi phạm quy định về bảo vệ dữ liệu cá nhân và phòng, chống sự mất mát, phá hủy hoặc thiệt hại do sự cố, sử dụng các biện pháp kỹ thuật.\n\n7. Dữ liệu cá nhân chỉ được lưu trữ trong khoảng thời gian phù hợp với mục đích xử lý dữ liệu, trừ trường hợp pháp luật có quy định khác.\n\n8. Bên Kiểm soát dữ liệu, Bên Kiểm soát và xử lý dữ liệu cá nhân phải chịu trách nhiệm tuân thủ các nguyên tắc xử lý dữ liệu được quy định từ khoản 1 tới khoản 7 Điều này và chứng minh sự tuân thủ của mình với các nguyên tắc xử lý dữ liệu đó.\n\n[nghi-dinh-13-2023-nd-cp:p018:B_para:000 | data/nghi_dinh_13_2023_nd_cp.pdf | page 18 (Công báo tr.20) | Điều 22]\n[Chương II > Mục 2 > Điều 22. Thu thập, chuyển giao, mua, bán trái phép dữ liệu cá nhân]\n2. Việc thiết lập các hệ thống phần mềm, biện pháp kỹ thuật hoặc tổ chức các hoạt động thu thập, chuyển giao, mua, bán dữ liệu cá nhân không có sự đồng ý của chủ thể dữ liệu là vi phạm pháp luật.",
+    "elapsed_ms": 168.02,
+    "strict_hit1": true,
+    "strict_hit3": true,
+    "strict_hit_topk": true,
+    "strict_context_hit": true,
+    "any_hit1": true,
+    "any_hit3": true,
+    "any_hit_topk": true,
+    "any_context_hit": true,
+    "rr3": 1.0
+  },
+  {
+    "query_id": "D04",
+    "split": "dev",
+    "kind": "direct",
+    "question": "Khi chủ thể dữ liệu yêu cầu hạn chế xử lý, việc hạn chế phải được thực hiện trong bao lâu?",
+    "config": "imp3_whyb_qfilter_sibling_b2800",
+    "method": "hybrid_rrf",
+    "top_k": 4,
+    "budget_chars": 2800,
+    "expand_siblings": true,
+    "header_style": "rich",
+    "filter_trace": {
+      "applied_filter": null,
+      "filter_reason": null,
+      "fallback_used": false
+    },
+    "results": [
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p008:B_para:000",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 8,
+        "article": "Điều 9",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 1,
+        "score": 0.04918,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 1,
+            "raw_score": 0.877697
+          },
+          "bm25_vn": {
+            "rank": 1,
+            "raw_score": 76.024818
+          }
+        },
+        "char_count": 676,
+        "any_hit": true
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p008:B_para:001",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 8,
+        "article": "Điều 9",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 2,
+        "score": 0.048387,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 2,
+            "raw_score": 0.86829
+          },
+          "bm25_vn": {
+            "rank": 2,
+            "raw_score": 31.851864
+          }
+        },
+        "char_count": 735,
+        "any_hit": false
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p012:B_para:000",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 12,
+        "article": "Điều 14",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 3,
+        "score": 0.047123,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 4,
+            "raw_score": 0.862793
+          },
+          "bm25_vn": {
+            "rank": 3,
+            "raw_score": 28.655998
+          }
+        },
+        "char_count": 725,
+        "any_hit": false
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p015:B_para:001",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 15,
+        "article": "Điều 16",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 4,
+        "score": 0.045695,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 5,
+            "raw_score": 0.86018
+          },
+          "bm25_vn": {
+            "rank": 7,
+            "raw_score": 23.552448
+          }
+        },
+        "char_count": 716,
+        "any_hit": false
+      }
+    ],
+    "top3_ids": [
+      "nghi-dinh-13-2023-nd-cp:p008:B_para:000",
+      "nghi-dinh-13-2023-nd-cp:p008:B_para:001",
+      "nghi-dinh-13-2023-nd-cp:p012:B_para:000"
+    ],
+    "context_ids": [
+      "nghi-dinh-13-2023-nd-cp:p008:B_para:000",
+      "nghi-dinh-13-2023-nd-cp:p008:B_para:001",
+      "nghi-dinh-13-2023-nd-cp:p012:B_para:000"
+    ],
+    "context_chars": 2478,
+    "est_context_tokens": 708,
+    "context": "[nghi-dinh-13-2023-nd-cp:p008:B_para:000 | data/nghi_dinh_13_2023_nd_cp.pdf | page 8 (Công báo tr.10) | Điều 9]\n[Chương II > Mục 1 > Điều 9. Quyền của chủ thể dữ liệu]\n4. Quyền rút lại sự đồng ý\n\nChủ thể dữ liệu được quyền rút lại sự đồng ý của mình, trừ trường hợp luật có quy định khác.\n\n5. Quyền xóa dữ liệu\n\nChủ thể dữ liệu được xóa hoặc yêu cầu xóa dữ liệu cá nhân của mình, trừ trường hợp luật có quy định khác.\n\n6. Quyền hạn chế xử lý dữ liệu\n\na) Chủ thể dữ liệu được yêu cầu hạn chế xử lý dữ liệu cá nhân của mình, trừ trường hợp luật có quy định khác;\n\nb) Việc hạn chế xử lý dữ liệu được thực hiện trong 72 giờ sau khi có yêu cầu của chủ thể dữ liệu, với toàn bộ dữ liệu cá nhân mà chủ thể dữ liệu yêu cầu hạn chế, trừ trường hợp luật có quy định khác.\n\n7. Quyền cung cấp dữ liệu\n\n[nghi-dinh-13-2023-nd-cp:p008:B_para:001 | data/nghi_dinh_13_2023_nd_cp.pdf | page 8 (Công báo tr.10) | Điều 9]\n[Chương II > Mục 1 > Điều 9. Quyền của chủ thể dữ liệu]\nChủ thể dữ liệu được yêu cầu Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân cung cấp cho bản thân dữ liệu cá nhân của mình, trừ trường hợp luật có quy định khác.\n\n8. Quyền phản đối xử lý dữ liệu\n\na) Chủ thể dữ liệu được phản đối Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân xử lý dữ liệu cá nhân của mình nhằm ngăn chặn hoặc hạn chế tiết lộ dữ liệu cá nhân hoặc sử dụng cho mục đích quảng cáo, tiếp thị, trừ trường hợp luật có quy định khác;\n\nb) Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân thực hiện yêu cầu của chủ thể dữ liệu trong 72 giờ sau khi nhận được yêu cầu, trừ trường hợp luật có quy định khác.\n\n[nghi-dinh-13-2023-nd-cp:p012:B_para:000 | data/nghi_dinh_13_2023_nd_cp.pdf | page 12 (Công báo tr.14) | Điều 14]\n[Chương II > Mục 2 > Điều 14. Cung cấp dữ liệu cá nhân]\n2. Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân:\n\na) Được cung cấp dữ liệu cá nhân của chủ thể dữ liệu cho tổ chức, cá nhân khác khi có sự đồng ý của chủ thể dữ liệu, trừ trường hợp pháp luật có quy định khác;\n\nb) Thay mặt chủ thể dữ liệu cung cấp dữ liệu cá nhân của chủ thể dữ liệu cho tổ chức hoặc cá nhân khác khi chủ thể dữ liệu đồng ý cho phép đại diện và ủy quyền, trừ trường hợp pháp luật có quy định khác.\n\n3. Việc cung cấp dữ liệu cá nhân của chủ thể dữ liệu được Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân thực hiện trong 72 giờ sau khi có yêu cầu của chủ thể dữ liệu, trừ trường hợp luật có quy định khác.",
+    "elapsed_ms": 178.845,
+    "strict_hit1": true,
+    "strict_hit3": true,
+    "strict_hit_topk": true,
+    "strict_context_hit": true,
+    "any_hit1": true,
+    "any_hit3": true,
+    "any_hit_topk": true,
+    "any_context_hit": true,
+    "rr3": 1.0
+  },
+  {
+    "query_id": "D05",
+    "split": "dev",
+    "kind": "rephrased",
+    "question": "Sau khi người dùng gửi yêu cầu xóa dữ liệu, doanh nghiệp có bao nhiêu thời gian để thực hiện?",
+    "config": "imp3_whyb_qfilter_sibling_b2800",
+    "method": "hybrid_rrf",
+    "top_k": 4,
+    "budget_chars": 2800,
+    "expand_siblings": true,
+    "header_style": "rich",
+    "filter_trace": {
+      "applied_filter": null,
+      "filter_reason": null,
+      "fallback_used": false
+    },
+    "results": [
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p008:B_para:000",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 8,
+        "article": "Điều 9",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 1,
+        "score": 0.048139,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 3,
+            "raw_score": 0.850532
+          },
+          "bm25_vn": {
+            "rank": 1,
+            "raw_score": 29.220338
+          }
+        },
+        "char_count": 676,
+        "any_hit": false
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p015:B_para:001",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 15,
+        "article": "Điều 16",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 2,
+        "score": 0.047938,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 1,
+            "raw_score": 0.878453
+          },
+          "bm25_vn": {
+            "rank": 6,
+            "raw_score": 18.854569
+          }
+        },
+        "char_count": 716,
+        "any_hit": true
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p014:B_para:001",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 14,
+        "article": "Điều 16",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 3,
+        "score": 0.046432,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 6,
+            "raw_score": 0.845656
+          },
+          "bm25_vn": {
+            "rank": 2,
+            "raw_score": 23.058599
+          }
+        },
+        "char_count": 715,
+        "any_hit": false
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p014:B_para:000",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 14,
+        "article": "Điều 15",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 4,
+        "score": 0.032258,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 2,
+            "raw_score": 0.854729
+          }
+        },
+        "char_count": 679,
+        "any_hit": false
+      }
+    ],
+    "top3_ids": [
+      "nghi-dinh-13-2023-nd-cp:p008:B_para:000",
+      "nghi-dinh-13-2023-nd-cp:p015:B_para:001",
+      "nghi-dinh-13-2023-nd-cp:p014:B_para:001"
+    ],
+    "context_ids": [
+      "nghi-dinh-13-2023-nd-cp:p008:B_para:000",
+      "nghi-dinh-13-2023-nd-cp:p015:B_para:001",
+      "nghi-dinh-13-2023-nd-cp:p014:B_para:001"
+    ],
+    "context_chars": 2451,
+    "est_context_tokens": 700,
+    "context": "[nghi-dinh-13-2023-nd-cp:p008:B_para:000 | data/nghi_dinh_13_2023_nd_cp.pdf | page 8 (Công báo tr.10) | Điều 9]\n[Chương II > Mục 1 > Điều 9. Quyền của chủ thể dữ liệu]\n4. Quyền rút lại sự đồng ý\n\nChủ thể dữ liệu được quyền rút lại sự đồng ý của mình, trừ trường hợp luật có quy định khác.\n\n5. Quyền xóa dữ liệu\n\nChủ thể dữ liệu được xóa hoặc yêu cầu xóa dữ liệu cá nhân của mình, trừ trường hợp luật có quy định khác.\n\n6. Quyền hạn chế xử lý dữ liệu\n\na) Chủ thể dữ liệu được yêu cầu hạn chế xử lý dữ liệu cá nhân của mình, trừ trường hợp luật có quy định khác;\n\nb) Việc hạn chế xử lý dữ liệu được thực hiện trong 72 giờ sau khi có yêu cầu của chủ thể dữ liệu, với toàn bộ dữ liệu cá nhân mà chủ thể dữ liệu yêu cầu hạn chế, trừ trường hợp luật có quy định khác.\n\n7. Quyền cung cấp dữ liệu\n\n[nghi-dinh-13-2023-nd-cp:p015:B_para:001 | data/nghi_dinh_13_2023_nd_cp.pdf | page 15 (Công báo tr.17) | Điều 16]\n[Chương II > Mục 2 > Điều 16. Lưu trữ, xóa, hủy dữ liệu cá nhân]\n5. Việc xóa dữ liệu được thực hiện trong 72 giờ sau khi có yêu cầu của chủ thể dữ liệu với toàn bộ dữ liệu cá nhân mà Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân thu thập được, trừ trường hợp pháp luật có quy định khác.\n\n6. Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân, Bên Xử lý dữ liệu cá nhân, Bên thứ ba lưu trữ dữ liệu cá nhân theo hình thức phù hợp với hoạt động của mình và có biện pháp bảo vệ dữ liệu cá nhân theo quy định của pháp luật.\n\n7. Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân, Bên Xử lý dữ liệu cá nhân, Bên thứ ba xóa không thể khôi phục trong trường hợp:\n\n[nghi-dinh-13-2023-nd-cp:p014:B_para:001 | data/nghi_dinh_13_2023_nd_cp.pdf | page 14 (Công báo tr.16) | Điều 16]\n[Chương II > Mục 2]\nĐiều 16. Lưu trữ, xóa, hủy dữ liệu cá nhân\n\n1. Chủ thể dữ liệu được yêu cầu Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân xóa dữ liệu cá nhân của mình trong các trường hợp sau:\n\na) Nhận thấy không còn cần thiết cho mục đích thu thập đã đồng ý và chấp nhận các thiệt hại có thể xảy ra khi yêu cầu xóa dữ liệu;\n\nb) Rút lại sự đồng ý;\n\nc) Phản đối việc xử lý dữ liệu và Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân không có lý do chính đáng để tiếp tục xử lý;\n\nd) Dữ liệu cá nhân được xử lý không đúng với mục đích đã đồng ý hoặc việc xử lý dữ liệu cá nhân là vi phạm quy định của pháp luật;\n\nđ) Dữ liệu cá nhân phải xóa theo quy định của pháp luật.",
+    "elapsed_ms": 178.293,
+    "strict_hit1": false,
+    "strict_hit3": true,
+    "strict_hit_topk": true,
+    "strict_context_hit": true,
+    "any_hit1": false,
+    "any_hit3": true,
+    "any_hit_topk": true,
+    "any_context_hit": true,
+    "rr3": 0.5
+  },
+  {
+    "query_id": "D06",
+    "split": "dev",
+    "kind": "conditional",
+    "question": "Nếu chủ thể dữ liệu không phản hồi yêu cầu xin đồng ý thì có được coi là đã đồng ý không?",
+    "config": "imp3_whyb_qfilter_sibling_b2800",
+    "method": "hybrid_rrf",
+    "top_k": 4,
+    "budget_chars": 2800,
+    "expand_siblings": true,
+    "header_style": "rich",
+    "filter_trace": {
+      "applied_filter": null,
+      "filter_reason": null,
+      "fallback_used": false
+    },
+    "results": [
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p010:B_para:000",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 10,
+        "article": "Điều 11",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 1,
+        "score": 0.04918,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 1,
+            "raw_score": 0.882279
+          },
+          "bm25_vn": {
+            "rank": 1,
+            "raw_score": 52.195792
+          }
+        },
+        "char_count": 749,
+        "any_hit": true
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p010:B_para:003",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 10,
+        "article": "Điều 12",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 2,
+        "score": 0.046875,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 4,
+            "raw_score": 0.869484
+          },
+          "bm25_vn": {
+            "rank": 4,
+            "raw_score": 31.351631
+          }
+        },
+        "char_count": 555,
+        "any_hit": false
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p010:B_para:001",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 10,
+        "article": "Điều 11",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 3,
+        "score": 0.046751,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 2,
+            "raw_score": 0.87815
+          },
+          "bm25_vn": {
+            "rank": 9,
+            "raw_score": 23.67763
+          }
+        },
+        "char_count": 384,
+        "any_hit": false
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p016:B_para:003",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 16,
+        "article": "Điều 19",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 4,
+        "score": 0.045541,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 8,
+            "raw_score": 0.85467
+          },
+          "bm25_vn": {
+            "rank": 2,
+            "raw_score": 34.978108
+          }
+        },
+        "char_count": 555,
+        "any_hit": false
+      }
+    ],
+    "top3_ids": [
+      "nghi-dinh-13-2023-nd-cp:p010:B_para:000",
+      "nghi-dinh-13-2023-nd-cp:p010:B_para:003",
+      "nghi-dinh-13-2023-nd-cp:p010:B_para:001"
+    ],
+    "context_ids": [
+      "nghi-dinh-13-2023-nd-cp:p010:B_para:000",
+      "nghi-dinh-13-2023-nd-cp:p010:B_para:003",
+      "nghi-dinh-13-2023-nd-cp:p010:B_para:001",
+      "nghi-dinh-13-2023-nd-cp:p016:B_para:003"
+    ],
+    "context_chars": 2705,
+    "est_context_tokens": 773,
+    "context": "[nghi-dinh-13-2023-nd-cp:p010:B_para:000 | data/nghi_dinh_13_2023_nd_cp.pdf | page 10 (Công báo tr.12) | Điều 11]\n[Chương II > Mục 2 > Điều 11. Sự đồng ý của chủ thể dữ liệu]\n4. Sự đồng ý phải được tiến hành cho cùng một mục đích. Khi có nhiều mục đích, Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân liệt kê các mục đích để chủ thể dữ liệu đồng ý với một hoặc nhiều mục đích nêu ra.\n\n5. Sự đồng ý của chủ thể dữ liệu phải được thể hiện ở một định dạng có thể được in, sao chép bằng văn bản, bao gồm cả dưới dạng điện tử hoặc định dạng kiểm chứng được.\n\n6. Sự im lặng hoặc không phản hồi của chủ thể dữ liệu không được coi là sự đồng ý.\n\n7. Chủ thể dữ liệu có thể đồng ý một phần hoặc với điều kiện kèm theo.\n\n8. Đối với xử lý dữ liệu cá nhân nhạy cảm, chủ thể dữ liệu phải được thông báo rằng dữ liệu cần xử lý là dữ liệu cá nhân nhạy cảm.\n\n[nghi-dinh-13-2023-nd-cp:p010:B_para:003 | data/nghi_dinh_13_2023_nd_cp.pdf | page 10 (Công báo tr.12) | Điều 12]\n[Chương II > Mục 2]\nĐiều 12. Rút lại sự đồng ý\n\n1. Việc rút lại sự đồng ý không ảnh hưởng đến tính hợp pháp của việc xử lý dữ liệu đã được đồng ý trước khi rút lại sự đồng ý.\n\n2. Việc rút lại sự đồng ý phải được thể hiện ở một định dạng có thể được in, sao chép bằng văn bản, bao gồm cả dưới dạng điện tử hoặc định dạng kiểm chứng được.\n\n3. Khi nhận yêu cầu rút lại sự đồng ý của chủ thể dữ liệu, Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân thông báo cho chủ thể dữ liệu về hậu quả, thiệt hại có thể xảy ra khi rút lại sự đồng ý.\n\n[nghi-dinh-13-2023-nd-cp:p010:B_para:001 | data/nghi_dinh_13_2023_nd_cp.pdf | page 10 (Công báo tr.12) | Điều 11]\n[Chương II > Mục 2 > Điều 11. Sự đồng ý của chủ thể dữ liệu]\n9. Sự đồng ý của chủ thể dữ liệu có hiệu lực cho tới khi chủ thể dữ liệu có quyết định khác hoặc khi cơ quan nhà nước có thẩm quyền yêu cầu bằng văn bản.\n\n10. Trong trường hợp có tranh chấp, trách nhiệm chứng minh sự đồng ý của chủ thể dữ liệu thuộc về Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân.\n\n[nghi-dinh-13-2023-nd-cp:p016:B_para:003 | data/nghi_dinh_13_2023_nd_cp.pdf | page 16 (Công báo tr.18) | Điều 19]\n[Chương II > Mục 2]\nĐiều 19. Xử lý dữ liệu cá nhân của người bị tuyên bố mất tích, đã chết\n\n1. Việc xử lý dữ liệu cá nhân liên quan đến dữ liệu cá nhân của người bị tuyên bố mất tích, người đã chết phải được sự đồng ý của vợ, chồng hoặc con thành niên của người đó, trường hợp không có những người này thì phải được sự đồng ý của cha, mẹ của người bị tuyên bố mất tích, người đã chết, trừ trường hợp quy định tại Điều 17 và Điều 18 Nghị định này.\n\n2. Trường hợp không có tất cả những người được nêu tại khoản 1 Điều này thì được coi là không có sự đồng ý.",
+    "elapsed_ms": 174.338,
+    "strict_hit1": true,
+    "strict_hit3": true,
+    "strict_hit_topk": true,
+    "strict_context_hit": true,
+    "any_hit1": true,
+    "any_hit3": true,
+    "any_hit_topk": true,
+    "any_context_hit": true,
+    "rr3": 1.0
+  },
+  {
+    "query_id": "D07",
+    "split": "dev",
+    "kind": "conditional",
+    "question": "Khi xử lý dữ liệu cá nhân của trẻ em, từ độ tuổi nào thì bản thân trẻ em cũng phải đồng ý?",
+    "config": "imp3_whyb_qfilter_sibling_b2800",
+    "method": "hybrid_rrf",
+    "top_k": 4,
+    "budget_chars": 2800,
+    "expand_siblings": true,
+    "header_style": "rich",
+    "filter_trace": {
+      "applied_filter": null,
+      "filter_reason": null,
+      "fallback_used": false
+    },
+    "results": [
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p017:B_para:000",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 17,
+        "article": "Điều 20",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 1,
+        "score": 0.04918,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 1,
+            "raw_score": 0.921147
+          },
+          "bm25_vn": {
+            "rank": 1,
+            "raw_score": 68.010632
+          }
+        },
+        "char_count": 756,
+        "any_hit": true
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p017:B_para:001",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 17,
+        "article": "Điều 20",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 2,
+        "score": 0.048387,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 2,
+            "raw_score": 0.889343
+          },
+          "bm25_vn": {
+            "rank": 2,
+            "raw_score": 46.933494
+          }
+        },
+        "char_count": 415,
+        "any_hit": false
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p016:B_para:004",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 16,
+        "article": "Điều 20",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 3,
+        "score": 0.047619,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 3,
+            "raw_score": 0.874713
+          },
+          "bm25_vn": {
+            "rank": 3,
+            "raw_score": 43.038842
+          }
+        },
+        "char_count": 186,
+        "any_hit": false
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p010:B_para:000",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 10,
+        "article": "Điều 11",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 4,
+        "score": 0.045956,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 4,
+            "raw_score": 0.862396
+          },
+          "bm25_vn": {
+            "rank": 8,
+            "raw_score": 18.401206
+          }
+        },
+        "char_count": 749,
+        "any_hit": false
+      }
+    ],
+    "top3_ids": [
+      "nghi-dinh-13-2023-nd-cp:p017:B_para:000",
+      "nghi-dinh-13-2023-nd-cp:p017:B_para:001",
+      "nghi-dinh-13-2023-nd-cp:p016:B_para:004"
+    ],
+    "context_ids": [
+      "nghi-dinh-13-2023-nd-cp:p017:B_para:000",
+      "nghi-dinh-13-2023-nd-cp:p017:B_para:001",
+      "nghi-dinh-13-2023-nd-cp:p016:B_para:004",
+      "nghi-dinh-13-2023-nd-cp:p010:B_para:000"
+    ],
+    "context_chars": 2568,
+    "est_context_tokens": 734,
+    "context": "[nghi-dinh-13-2023-nd-cp:p017:B_para:000 | data/nghi_dinh_13_2023_nd_cp.pdf | page 17 (Công báo tr.19) | Điều 20]\n[Chương II > Mục 2 > Điều 20. Xử lý dữ liệu cá nhân của trẻ em]\n2. Việc xử lý dữ liệu cá nhân của trẻ em phải có sự đồng ý của trẻ em trong trường hợp trẻ em từ đủ 7 tuổi trở lên và có sự đồng ý của cha, mẹ hoặc người giám hộ theo quy định, trừ trường hợp quy định tại Điều 17 Nghị định này. Bên Kiểm soát dữ liệu cá nhân, Bên Xử lý dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân, Bên thứ ba phải xác minh tuổi của trẻ em trước khi xử lý dữ liệu cá nhân của trẻ em.\n\n3. Ngừng xử lý dữ liệu cá nhân của trẻ em, xóa không thể khôi phục hoặc hủy dữ liệu cá nhân của trẻ em trong trường hợp:\n\na) Xử lý dữ liệu không đúng mục đích hoặc đã hoàn thành mục đích xử lý dữ liệu cá nhân được chủ thể dữ liệu đồng ý, trừ trường hợp pháp luật có quy định khác;\n\n[nghi-dinh-13-2023-nd-cp:p017:B_para:001 | data/nghi_dinh_13_2023_nd_cp.pdf | page 17 (Công báo tr.19) | Điều 20]\n[Chương II > Mục 2 > Điều 20. Xử lý dữ liệu cá nhân của trẻ em]\nb) Cha, mẹ hoặc người giám hộ của trẻ em rút lại sự đồng ý cho phép xử lý dữ liệu cá nhân của trẻ em, trừ trường hợp pháp luật có quy định khác;\n\nc) Theo yêu cầu của cơ quan chức năng có thẩm quyền khi có đủ căn cứ chứng minh việc xử lý dữ liệu cá nhân gây ảnh hưởng tới quyền và lợi ích hợp pháp của trẻ em, trừ trường hợp pháp luật có quy định khác.\n\n[nghi-dinh-13-2023-nd-cp:p016:B_para:004 | data/nghi_dinh_13_2023_nd_cp.pdf | page 16 (Công báo tr.18) | Điều 20]\n[Chương II > Mục 2]\nĐiều 20. Xử lý dữ liệu cá nhân của trẻ em\n\n1. Xử lý dữ liệu cá nhân của trẻ em luôn được thực hiện theo nguyên tắc bảo vệ các quyền và vì lợi ích tốt nhất của trẻ em.\n\n[nghi-dinh-13-2023-nd-cp:p010:B_para:000 | data/nghi_dinh_13_2023_nd_cp.pdf | page 10 (Công báo tr.12) | Điều 11]\n[Chương II > Mục 2 > Điều 11. Sự đồng ý của chủ thể dữ liệu]\n4. Sự đồng ý phải được tiến hành cho cùng một mục đích. Khi có nhiều mục đích, Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân liệt kê các mục đích để chủ thể dữ liệu đồng ý với một hoặc nhiều mục đích nêu ra.\n\n5. Sự đồng ý của chủ thể dữ liệu phải được thể hiện ở một định dạng có thể được in, sao chép bằng văn bản, bao gồm cả dưới dạng điện tử hoặc định dạng kiểm chứng được.\n\n6. Sự im lặng hoặc không phản hồi của chủ thể dữ liệu không được coi là sự đồng ý.\n\n7. Chủ thể dữ liệu có thể đồng ý một phần hoặc với điều kiện kèm theo.\n\n8. Đối với xử lý dữ liệu cá nhân nhạy cảm, chủ thể dữ liệu phải được thông báo rằng dữ liệu cần xử lý là dữ liệu cá nhân nhạy cảm.",
+    "elapsed_ms": 178.561,
+    "strict_hit1": true,
+    "strict_hit3": true,
+    "strict_hit_topk": true,
+    "strict_context_hit": true,
+    "any_hit1": true,
+    "any_hit3": true,
+    "any_hit_topk": true,
+    "any_context_hit": true,
+    "rr3": 1.0
+  },
+  {
+    "query_id": "D08",
+    "split": "dev",
+    "kind": "direct",
+    "question": "Khi phát hiện vi phạm quy định bảo vệ dữ liệu cá nhân, phải thông báo cho cơ quan nào và trong thời hạn bao lâu?",
+    "config": "imp3_whyb_qfilter_sibling_b2800",
+    "method": "hybrid_rrf",
+    "top_k": 4,
+    "budget_chars": 2800,
+    "expand_siblings": true,
+    "header_style": "rich",
+    "filter_trace": {
+      "applied_filter": null,
+      "filter_reason": null,
+      "fallback_used": false
+    },
+    "results": [
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p018:B_para:001",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 18,
+        "article": "Điều 23",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 1,
+        "score": 0.04918,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 1,
+            "raw_score": 0.908614
+          },
+          "bm25_vn": {
+            "rank": 1,
+            "raw_score": 55.773073
+          }
+        },
+        "char_count": 661,
+        "any_hit": true
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p018:B_para:003",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 18,
+        "article": "Điều 23",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 2,
+        "score": 0.048387,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 2,
+            "raw_score": 0.897839
+          },
+          "bm25_vn": {
+            "rank": 2,
+            "raw_score": 50.795387
+          }
+        },
+        "char_count": 660,
+        "any_hit": false
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p019:B_para:000",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 19,
+        "article": "Điều 23",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 3,
+        "score": 0.047131,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 3,
+            "raw_score": 0.879856
+          },
+          "bm25_vn": {
+            "rank": 5,
+            "raw_score": 31.702214
+          }
+        },
+        "char_count": 476,
+        "any_hit": false
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p018:B_para:002",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 18,
+        "article": "Điều 23",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 4,
+        "score": 0.047123,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 4,
+            "raw_score": 0.873371
+          },
+          "bm25_vn": {
+            "rank": 3,
+            "raw_score": 37.785104
+          }
+        },
+        "char_count": 685,
+        "any_hit": false
+      }
+    ],
+    "top3_ids": [
+      "nghi-dinh-13-2023-nd-cp:p018:B_para:001",
+      "nghi-dinh-13-2023-nd-cp:p018:B_para:003",
+      "nghi-dinh-13-2023-nd-cp:p019:B_para:000"
+    ],
+    "context_ids": [
+      "nghi-dinh-13-2023-nd-cp:p018:B_para:001",
+      "nghi-dinh-13-2023-nd-cp:p018:B_para:003",
+      "nghi-dinh-13-2023-nd-cp:p019:B_para:000"
+    ],
+    "context_chars": 2143,
+    "est_context_tokens": 612,
+    "context": "[nghi-dinh-13-2023-nd-cp:p018:B_para:001 | data/nghi_dinh_13_2023_nd_cp.pdf | page 18 (Công báo tr.20) | Điều 23]\n[Chương II > Mục 2]\nĐiều 23. Thông báo vi phạm quy định về bảo vệ dữ liệu cá nhân\n\n1. Trường hợp phát hiện xảy ra vi phạm quy định bảo vệ dữ liệu cá nhân, Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân thông báo cho Bộ Công an (Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao) chậm nhất 72 giờ sau khi xảy ra hành vi vi phạm theo Mẫu số 03 tại Phụ lục của Nghị định này. Trường hợp thông báo sau 72 giờ thì phải kèm theo lý do thông báo chậm, muộn.\n\n2. Bên Xử lý dữ liệu cá nhân phải thông báo cho Bên Kiểm soát dữ liệu cá nhân một cách nhanh nhất có thể sau khi nhận thấy có sự vi phạm quy định về bảo vệ dữ liệu cá nhân.\n\n[nghi-dinh-13-2023-nd-cp:p018:B_para:003 | data/nghi_dinh_13_2023_nd_cp.pdf | page 18 (Công báo tr.20) | Điều 23]\n[Chương II > Mục 2 > Điều 23. Thông báo vi phạm quy định về bảo vệ dữ liệu cá nhân]\n4. Trường hợp không thể thông báo đầy đủ các nội dung quy định tại khoản 3 Điều này, việc thông báo có thể được thực hiện theo từng đợt, từng giai đoạn.\n\n5. Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân phải lập Biên bản xác nhận về việc xảy ra hành vi vi phạm quy định bảo vệ dữ liệu cá nhân, phối hợp với Bộ Công an (Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao) xử lý hành vi vi phạm.\n\n6. Tổ chức, cá nhân thông báo cho Bộ Công an (Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao) khi phát hiện các trường hợp sau:\n\n[nghi-dinh-13-2023-nd-cp:p019:B_para:000 | data/nghi_dinh_13_2023_nd_cp.pdf | page 19 (Công báo tr.21) | Điều 23]\n[Chương II > Mục 2 > Điều 23. Thông báo vi phạm quy định về bảo vệ dữ liệu cá nhân]\na) Phát hiện hành vi vi phạm pháp luật đối với dữ liệu cá nhân;\n\nb) Dữ liệu cá nhân bị xử lý sai mục đích, không đúng thỏa thuận ban đầu giữa chủ thể dữ liệu và Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân hoặc vi phạm quy định của pháp luật;\n\nc) Không bảo đảm quyền của chủ thể dữ liệu hoặc không được thực hiện đúng;\n\nd) Trường hợp khác theo quy định của pháp luật.",
+    "elapsed_ms": 192.06,
+    "strict_hit1": true,
+    "strict_hit3": true,
+    "strict_hit_topk": true,
+    "strict_context_hit": true,
+    "any_hit1": true,
+    "any_hit3": true,
+    "any_hit_topk": true,
+    "any_context_hit": true,
+    "rr3": 1.0
+  },
+  {
+    "query_id": "D09",
+    "split": "dev",
+    "kind": "rephrased",
+    "question": "Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân phải gửi cho Bộ Công an trong thời hạn bao nhiêu ngày?",
+    "config": "imp3_whyb_qfilter_sibling_b2800",
+    "method": "hybrid_rrf",
+    "top_k": 4,
+    "budget_chars": 2800,
+    "expand_siblings": true,
+    "header_style": "rich",
+    "filter_trace": {
+      "applied_filter": null,
+      "filter_reason": null,
+      "fallback_used": false
+    },
+    "results": [
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p020:B_para:002",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 20,
+        "article": "Điều 24",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 1,
+        "score": 0.04918,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 1,
+            "raw_score": 0.932232
+          },
+          "bm25_vn": {
+            "rank": 1,
+            "raw_score": 70.438347
+          }
+        },
+        "char_count": 707,
+        "any_hit": true
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p022:B_para:000",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 22,
+        "article": "Điều 25",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 2,
+        "score": 0.047643,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 2,
+            "raw_score": 0.908398
+          },
+          "bm25_vn": {
+            "rank": 5,
+            "raw_score": 52.299964
+          }
+        },
+        "char_count": 715,
+        "any_hit": false
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p022:B_para:001",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 22,
+        "article": "Điều 25",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 3,
+        "score": 0.047619,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 3,
+            "raw_score": 0.896689
+          },
+          "bm25_vn": {
+            "rank": 3,
+            "raw_score": 59.728952
+          }
+        },
+        "char_count": 710,
+        "any_hit": false
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p021:B_para:000",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 21,
+        "article": "Điều 24",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 4,
+        "score": 0.047379,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 4,
+            "raw_score": 0.892796
+          },
+          "bm25_vn": {
+            "rank": 2,
+            "raw_score": 62.978403
+          }
+        },
+        "char_count": 405,
+        "any_hit": false
+      }
+    ],
+    "top3_ids": [
+      "nghi-dinh-13-2023-nd-cp:p020:B_para:002",
+      "nghi-dinh-13-2023-nd-cp:p022:B_para:000",
+      "nghi-dinh-13-2023-nd-cp:p022:B_para:001"
+    ],
+    "context_ids": [
+      "nghi-dinh-13-2023-nd-cp:p020:B_para:002",
+      "nghi-dinh-13-2023-nd-cp:p022:B_para:000",
+      "nghi-dinh-13-2023-nd-cp:p022:B_para:001"
+    ],
+    "context_chars": 2478,
+    "est_context_tokens": 708,
+    "context": "[nghi-dinh-13-2023-nd-cp:p020:B_para:002 | data/nghi_dinh_13_2023_nd_cp.pdf | page 20 (Công báo tr.22) | Điều 24]\n[Chương II > Mục 3 > Điều 24. Đánh giá tác động xử lý dữ liệu cá nhân]\n4. Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân phải luôn có sẵn để phục vụ hoạt động kiểm tra, đánh giá của Bộ Công an và gửi Bộ Công an (Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao) 01 bản chính theo Mẫu số 04 tại Phụ lục của Nghị định này trong thời gian 60 ngày kể từ ngày tiến hành xử lý dữ liệu cá nhân.\n\n5. Bộ Công an (Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao) đánh giá, yêu cầu Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân, Bên Xử lý dữ liệu cá nhân hoàn thiện Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân trong trường hợp hồ sơ chưa đầy đủ và đúng quy định.\n\n[nghi-dinh-13-2023-nd-cp:p022:B_para:000 | data/nghi_dinh_13_2023_nd_cp.pdf | page 22 (Công báo tr.24) | Điều 25]\n[Chương II > Mục 3 > Điều 25. Chuyển dữ liệu cá nhân ra nước ngoài]\n3. Hồ sơ đánh giá tác động chuyển dữ liệu cá nhân ra nước ngoài phải luôn có sẵn để phục vụ hoạt động kiểm tra, đánh giá của Bộ Công an.\n\nBên chuyển dữ liệu ra nước ngoài gửi 01 bản chính hồ sơ tới Bộ Công an (Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao) theo Mẫu số 06 tại Phụ lục của Nghị định này trong thời gian 60 ngày kể từ ngày tiến hành xử lý dữ liệu cá nhân.\n\n4. Bên chuyển dữ liệu thông báo gửi Bộ Công an (Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao) thông tin về việc chuyển dữ liệu và chi tiết liên lạc của tổ chức, cá nhân phụ trách bằng văn bản sau khi việc chuyển dữ liệu diễn ra thành công.\n\n[nghi-dinh-13-2023-nd-cp:p022:B_para:001 | data/nghi_dinh_13_2023_nd_cp.pdf | page 22 (Công báo tr.24) | Điều 25]\n[Chương II > Mục 3 > Điều 25. Chuyển dữ liệu cá nhân ra nước ngoài]\n5. Bộ Công an (Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao) đánh giá, yêu cầu Bên chuyển dữ liệu ra nước ngoài hoàn thiện Hồ sơ đánh giá tác động chuyển dữ liệu cá nhân ra nước ngoài trong trường hợp hồ sơ chưa đầy đủ và đúng quy định.\n\n6. Bên chuyển dữ liệu ra nước ngoài cập nhật, bổ sung Hồ sơ đánh giá tác động chuyển dữ liệu cá nhân ra nước ngoài khi có sự thay đổi về nội dung hồ sơ đã gửi cho Bộ Công an (Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao) theo Mẫu số 05 tại Phụ lục của Nghị định này. Thời gian hoàn thiện hồ sơ dành cho Bên chuyển dữ liệu ra nước ngoài là 10 ngày kể từ ngày yêu cầu.",
+    "elapsed_ms": 180.558,
+    "strict_hit1": true,
+    "strict_hit3": true,
+    "strict_hit_topk": true,
+    "strict_context_hit": true,
+    "any_hit1": true,
+    "any_hit3": true,
+    "any_hit_topk": true,
+    "any_context_hit": true,
+    "rr3": 1.0
+  },
+  {
+    "query_id": "D10",
+    "split": "dev",
+    "kind": "rephrased",
+    "question": "Doanh nghiệp nhỏ mới thành lập được miễn chỉ định bộ phận bảo vệ dữ liệu cá nhân trong bao lâu?",
+    "config": "imp3_whyb_qfilter_sibling_b2800",
+    "method": "hybrid_rrf",
+    "top_k": 4,
+    "budget_chars": 2800,
+    "expand_siblings": true,
+    "header_style": "rich",
+    "filter_trace": {
+      "applied_filter": null,
+      "filter_reason": null,
+      "fallback_used": false
+    },
+    "results": [
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p029:B_para:001",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 29,
+        "article": "Điều 43",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 1,
+        "score": 0.04918,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 1,
+            "raw_score": 0.871848
+          },
+          "bm25_vn": {
+            "rank": 1,
+            "raw_score": 70.122017
+          }
+        },
+        "char_count": 549,
+        "any_hit": true
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p025:B_para:000",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 25,
+        "article": "Điều 30",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 2,
+        "score": 0.047123,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 4,
+            "raw_score": 0.846868
+          },
+          "bm25_vn": {
+            "rank": 3,
+            "raw_score": 28.047196
+          }
+        },
+        "char_count": 682,
+        "any_hit": false
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p008:B_para:001",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 8,
+        "article": "Điều 9",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 3,
+        "score": 0.032258,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 2,
+            "raw_score": 0.852164
+          }
+        },
+        "char_count": 735,
+        "any_hit": false
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p012:B_para:000",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 12,
+        "article": "Điều 14",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 4,
+        "score": 0.031746,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 3,
+            "raw_score": 0.849756
+          }
+        },
+        "char_count": 725,
+        "any_hit": false
+      }
+    ],
+    "top3_ids": [
+      "nghi-dinh-13-2023-nd-cp:p029:B_para:001",
+      "nghi-dinh-13-2023-nd-cp:p025:B_para:000",
+      "nghi-dinh-13-2023-nd-cp:p008:B_para:001"
+    ],
+    "context_ids": [
+      "nghi-dinh-13-2023-nd-cp:p029:B_para:001",
+      "nghi-dinh-13-2023-nd-cp:p025:B_para:000",
+      "nghi-dinh-13-2023-nd-cp:p008:B_para:001",
+      "nghi-dinh-13-2023-nd-cp:p024:B_para:003"
+    ],
+    "context_chars": 2654,
+    "est_context_tokens": 758,
+    "context": "[nghi-dinh-13-2023-nd-cp:p029:B_para:001 | data/nghi_dinh_13_2023_nd_cp.pdf | page 29 (Công báo tr.31) | Điều 43]\n[Chương IV > Mục 4]\nĐiều 43. Hiệu lực thi hành\n\n1. Nghị định này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2023.\n\n2. Các doanh nghiệp siêu nhỏ, doanh nghiệp nhỏ, doanh nghiệp vừa, doanh nghiệp khởi nghiệp được quyền lựa chọn miễn trừ quy định về chỉ định cá nhân và bộ phận bảo vệ dữ liệu cá nhân trong thời gian 02 năm đầu kể từ khi thành lập doanh nghiệp.\n\n3. Các doanh nghiệp siêu nhỏ, doanh nghiệp nhỏ, doanh nghiệp vừa, doanh nghiệp khởi nghiệp trực tiếp kinh doanh hoạt động xử lý dữ liệu cá nhân không áp dụng quy định tại khoản 2 Điều này.\n\n[nghi-dinh-13-2023-nd-cp:p025:B_para:000 | data/nghi_dinh_13_2023_nd_cp.pdf | page 25 (Công báo tr.27) | Điều 30]\n[Chương II > Mục 4 > Điều 30. Điều kiện bảo đảm hoạt động bảo vệ dữ liệu cá nhân]\nb) Bộ phận, nhân sự có chức năng bảo vệ dữ liệu cá nhân được chỉ định trong cơ quan, tổ chức, doanh nghiệp nhằm bảo đảm thực hiện quy định về bảo vệ dữ liệu cá nhân;\n\nc) Tổ chức, cá nhân được huy động tham gia bảo vệ dữ liệu cá nhân;\n\nd) Bộ Công an xây dựng chương trình, kế hoạch cụ thể nhằm phát triển nguồn nhân lực bảo vệ dữ liệu cá nhân.\n\n2. Cơ quan, tổ chức, cá nhân có trách nhiệm tuyên truyền, phổ biến kiến thức, kỹ năng, nâng cao nhận thức bảo vệ dữ liệu cá nhân cho cơ quan, tổ chức, cá nhân.\n\n3. Bảo đảm cơ sở vật chất, điều kiện hoạt động cho Cơ quan chuyên trách bảo vệ dữ liệu cá nhân.\n\n[nghi-dinh-13-2023-nd-cp:p008:B_para:001 | data/nghi_dinh_13_2023_nd_cp.pdf | page 8 (Công báo tr.10) | Điều 9]\n[Chương II > Mục 1 > Điều 9. Quyền của chủ thể dữ liệu]\nChủ thể dữ liệu được yêu cầu Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân cung cấp cho bản thân dữ liệu cá nhân của mình, trừ trường hợp luật có quy định khác.\n\n8. Quyền phản đối xử lý dữ liệu\n\na) Chủ thể dữ liệu được phản đối Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân xử lý dữ liệu cá nhân của mình nhằm ngăn chặn hoặc hạn chế tiết lộ dữ liệu cá nhân hoặc sử dụng cho mục đích quảng cáo, tiếp thị, trừ trường hợp luật có quy định khác;\n\nb) Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân thực hiện yêu cầu của chủ thể dữ liệu trong 72 giờ sau khi nhận được yêu cầu, trừ trường hợp luật có quy định khác.\n\n[nghi-dinh-13-2023-nd-cp:p024:B_para:003 | data/nghi_dinh_13_2023_nd_cp.pdf | page 24 (Công báo tr.26) | Điều 30]\n[Chương II > Mục 4]\nĐiều 30. Điều kiện bảo đảm hoạt động bảo vệ dữ liệu cá nhân\n\n1. Lực lượng bảo vệ dữ liệu cá nhân:\n\na) Lực lượng chuyên trách bảo vệ dữ liệu cá nhân được bố trí tại Cơ quan chuyên trách bảo vệ dữ liệu cá nhân;",
+    "elapsed_ms": 189.488,
+    "strict_hit1": true,
+    "strict_hit3": true,
+    "strict_hit_topk": true,
+    "strict_context_hit": true,
+    "any_hit1": true,
+    "any_hit3": true,
+    "any_hit_topk": true,
+    "any_context_hit": true,
+    "rr3": 1.0
+  },
+  {
+    "query_id": "D11",
+    "split": "dev",
+    "kind": "conditional",
+    "question": "Doanh nghiệp nhỏ trực tiếp kinh doanh hoạt động xử lý dữ liệu cá nhân có được hưởng miễn trừ 02 năm không?",
+    "config": "imp3_whyb_qfilter_sibling_b2800",
+    "method": "hybrid_rrf",
+    "top_k": 4,
+    "budget_chars": 2800,
+    "expand_siblings": true,
+    "header_style": "rich",
+    "filter_trace": {
+      "applied_filter": null,
+      "filter_reason": null,
+      "fallback_used": false
+    },
+    "results": [
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p029:B_para:001",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 29,
+        "article": "Điều 43",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 1,
+        "score": 0.04918,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 1,
+            "raw_score": 0.875965
+          },
+          "bm25_vn": {
+            "rank": 1,
+            "raw_score": 88.923778
+          }
+        },
+        "char_count": 549,
+        "any_hit": true
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p020:B_para:000",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 20,
+        "article": "Điều 24",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 2,
+        "score": 0.032258,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 2,
+            "raw_score": 0.847423
+          }
+        },
+        "char_count": 734,
+        "any_hit": false
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p016:B_para:000",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 16,
+        "article": "Điều 17",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 3,
+        "score": 0.031746,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 3,
+            "raw_score": 0.846688
+          }
+        },
+        "char_count": 808,
+        "any_hit": false
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p012:B_para:000",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 12,
+        "article": "Điều 14",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 4,
+        "score": 0.03125,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 4,
+            "raw_score": 0.845224
+          }
+        },
+        "char_count": 725,
+        "any_hit": false
+      }
+    ],
+    "top3_ids": [
+      "nghi-dinh-13-2023-nd-cp:p029:B_para:001",
+      "nghi-dinh-13-2023-nd-cp:p020:B_para:000",
+      "nghi-dinh-13-2023-nd-cp:p016:B_para:000"
+    ],
+    "context_ids": [
+      "nghi-dinh-13-2023-nd-cp:p029:B_para:001",
+      "nghi-dinh-13-2023-nd-cp:p020:B_para:000",
+      "nghi-dinh-13-2023-nd-cp:p016:B_para:000"
+    ],
+    "context_chars": 2437,
+    "est_context_tokens": 696,
+    "context": "[nghi-dinh-13-2023-nd-cp:p029:B_para:001 | data/nghi_dinh_13_2023_nd_cp.pdf | page 29 (Công báo tr.31) | Điều 43]\n[Chương IV > Mục 4]\nĐiều 43. Hiệu lực thi hành\n\n1. Nghị định này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2023.\n\n2. Các doanh nghiệp siêu nhỏ, doanh nghiệp nhỏ, doanh nghiệp vừa, doanh nghiệp khởi nghiệp được quyền lựa chọn miễn trừ quy định về chỉ định cá nhân và bộ phận bảo vệ dữ liệu cá nhân trong thời gian 02 năm đầu kể từ khi thành lập doanh nghiệp.\n\n3. Các doanh nghiệp siêu nhỏ, doanh nghiệp nhỏ, doanh nghiệp vừa, doanh nghiệp khởi nghiệp trực tiếp kinh doanh hoạt động xử lý dữ liệu cá nhân không áp dụng quy định tại khoản 2 Điều này.\n\n[nghi-dinh-13-2023-nd-cp:p020:B_para:000 | data/nghi_dinh_13_2023_nd_cp.pdf | page 20 (Công báo tr.22) | Điều 24]\n[Chương II > Mục 3 > Điều 24. Đánh giá tác động xử lý dữ liệu cá nhân]\ni) Đánh giá mức độ ảnh hưởng của việc xử lý dữ liệu cá nhân; hậu quả, thiệt hại không mong muốn có khả năng xảy ra, các biện pháp giảm thiểu hoặc loại bỏ nguy cơ, tác hại đó.\n\n2. Bên Xử lý dữ liệu cá nhân tiến hành lập và lưu giữ Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân trong trường hợp thực hiện hợp đồng với Bên Kiểm soát dữ liệu cá nhân. Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân của Bên Xử lý dữ liệu cá nhân, bao gồm:\n\na) Thông tin và chi tiết liên lạc của Bên Xử lý dữ liệu cá nhân;\n\nb) Họ tên, chi tiết liên lạc của tổ chức được phân công thực hiện xử lý dữ liệu cá nhân và nhân viên thực hiện xử lý dữ liệu cá nhân của Bên Xử lý dữ liệu cá nhân;\n\n[nghi-dinh-13-2023-nd-cp:p016:B_para:000 | data/nghi_dinh_13_2023_nd_cp.pdf | page 16 (Công báo tr.18) | Điều 17]\n[Chương II > Mục 2 > Điều 17. Xử lý dữ liệu cá nhân trong trường hợp không cần sự đồng ý của chủ thể dữ liệu]\ndữ liệu cá nhân, Bên Xử lý dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân, Bên thứ ba có trách nhiệm chứng minh trường hợp này.\n\n2. Việc công khai dữ liệu cá nhân theo quy định của luật.\n\n3. Việc xử lý dữ liệu của cơ quan nhà nước có thẩm quyền trong trường hợp tình trạng khẩn cấp về quốc phòng, an ninh quốc gia, trật tự an toàn xã hội, thảm họa lớn, dịch bệnh nguy hiểm; khi có nguy cơ đe dọa an ninh, quốc phòng nhưng chưa đến mức ban bố tình trạng khẩn cấp; phòng, chống bạo loạn, khủng bố, phòng, chống tội phạm và vi phạm pháp luật theo quy định của luật.\n\n4. Để thực hiện nghĩa vụ theo hợp đồng của chủ thể dữ liệu với cơ quan, tổ chức, cá nhân có liên quan theo quy định của luật.",
+    "elapsed_ms": 182.142,
+    "strict_hit1": true,
+    "strict_hit3": true,
+    "strict_hit_topk": true,
+    "strict_context_hit": true,
+    "any_hit1": true,
+    "any_hit3": true,
+    "any_hit_topk": true,
+    "any_context_hit": true,
+    "rr3": 1.0
+  },
+  {
+    "query_id": "D12",
+    "split": "dev",
+    "kind": "direct",
+    "question": "Cơ quan chuyên trách bảo vệ dữ liệu cá nhân là cơ quan nào?",
+    "config": "imp3_whyb_qfilter_sibling_b2800",
+    "method": "hybrid_rrf",
+    "top_k": 4,
+    "budget_chars": 2800,
+    "expand_siblings": true,
+    "header_style": "rich",
+    "filter_trace": {
+      "applied_filter": null,
+      "filter_reason": null,
+      "fallback_used": false
+    },
+    "results": [
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p024:B_para:001",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 24,
+        "article": "Điều 29",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 1,
+        "score": 0.048916,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 1,
+            "raw_score": 0.90397
+          },
+          "bm25_vn": {
+            "rank": 2,
+            "raw_score": 38.331066
+          }
+        },
+        "char_count": 648,
+        "any_hit": true
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p024:B_para:003",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 24,
+        "article": "Điều 30",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 2,
+        "score": 0.048139,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 3,
+            "raw_score": 0.877894
+          },
+          "bm25_vn": {
+            "rank": 1,
+            "raw_score": 38.424386
+          }
+        },
+        "char_count": 228,
+        "any_hit": false
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p025:B_para:000",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 25,
+        "article": "Điều 30",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 3,
+        "score": 0.048131,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 2,
+            "raw_score": 0.878252
+          },
+          "bm25_vn": {
+            "rank": 3,
+            "raw_score": 28.024669
+          }
+        },
+        "char_count": 682,
+        "any_hit": false
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p024:B_para:000",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 24,
+        "article": "Điều 28",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 4,
+        "score": 0.046875,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 4,
+            "raw_score": 0.87555
+          },
+          "bm25_vn": {
+            "rank": 4,
+            "raw_score": 27.815002
+          }
+        },
+        "char_count": 483,
+        "any_hit": false
+      }
+    ],
+    "top3_ids": [
+      "nghi-dinh-13-2023-nd-cp:p024:B_para:001",
+      "nghi-dinh-13-2023-nd-cp:p024:B_para:003",
+      "nghi-dinh-13-2023-nd-cp:p025:B_para:000"
+    ],
+    "context_ids": [
+      "nghi-dinh-13-2023-nd-cp:p024:B_para:001",
+      "nghi-dinh-13-2023-nd-cp:p024:B_para:003",
+      "nghi-dinh-13-2023-nd-cp:p025:B_para:000",
+      "nghi-dinh-13-2023-nd-cp:p024:B_para:000"
+    ],
+    "context_chars": 2503,
+    "est_context_tokens": 715,
+    "context": "[nghi-dinh-13-2023-nd-cp:p024:B_para:001 | data/nghi_dinh_13_2023_nd_cp.pdf | page 24 (Công báo tr.26) | Điều 29]\n[Chương II > Mục 4]\nĐiều 29. Cơ quan chuyên trách bảo vệ dữ liệu cá nhân và Cổng thông tin quốc gia về bảo vệ dữ liệu cá nhân\n\n1. Cơ quan chuyên trách bảo vệ dữ liệu cá nhân là Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao - Bộ Công an, có trách nhiệm giúp Bộ Công an thực hiện quản lý nhà nước về bảo vệ dữ liệu cá nhân.\n\n2. Cổng thông tin quốc gia về bảo vệ dữ liệu cá nhân:\n\na) Cung cấp thông tin về chủ trương, đường lối, chính sách của Đảng, pháp luật của Nhà nước về bảo vệ dữ liệu cá nhân;\n\nb) Tuyên truyền, phổ biến chính sách, pháp luật về bảo vệ dữ liệu cá nhân;\n\nc) Cập nhật thông tin, tình hình bảo vệ dữ liệu cá nhân;\n\n[nghi-dinh-13-2023-nd-cp:p024:B_para:003 | data/nghi_dinh_13_2023_nd_cp.pdf | page 24 (Công báo tr.26) | Điều 30]\n[Chương II > Mục 4]\nĐiều 30. Điều kiện bảo đảm hoạt động bảo vệ dữ liệu cá nhân\n\n1. Lực lượng bảo vệ dữ liệu cá nhân:\n\na) Lực lượng chuyên trách bảo vệ dữ liệu cá nhân được bố trí tại Cơ quan chuyên trách bảo vệ dữ liệu cá nhân;\n\n[nghi-dinh-13-2023-nd-cp:p025:B_para:000 | data/nghi_dinh_13_2023_nd_cp.pdf | page 25 (Công báo tr.27) | Điều 30]\n[Chương II > Mục 4 > Điều 30. Điều kiện bảo đảm hoạt động bảo vệ dữ liệu cá nhân]\nb) Bộ phận, nhân sự có chức năng bảo vệ dữ liệu cá nhân được chỉ định trong cơ quan, tổ chức, doanh nghiệp nhằm bảo đảm thực hiện quy định về bảo vệ dữ liệu cá nhân;\n\nc) Tổ chức, cá nhân được huy động tham gia bảo vệ dữ liệu cá nhân;\n\nd) Bộ Công an xây dựng chương trình, kế hoạch cụ thể nhằm phát triển nguồn nhân lực bảo vệ dữ liệu cá nhân.\n\n2. Cơ quan, tổ chức, cá nhân có trách nhiệm tuyên truyền, phổ biến kiến thức, kỹ năng, nâng cao nhận thức bảo vệ dữ liệu cá nhân cho cơ quan, tổ chức, cá nhân.\n\n3. Bảo đảm cơ sở vật chất, điều kiện hoạt động cho Cơ quan chuyên trách bảo vệ dữ liệu cá nhân.\n\n[nghi-dinh-13-2023-nd-cp:p024:B_para:000 | data/nghi_dinh_13_2023_nd_cp.pdf | page 24 (Công báo tr.26) | Điều 28]\n[Chương II > Mục 4 > Điều 28. Bảo vệ dữ liệu cá nhân nhạy cảm]\nbảo vệ dữ liệu cá nhân với Cơ quan chuyên trách bảo vệ dữ liệu cá nhân. Trường hợp Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân, Bên Xử lý dữ liệu, Bên thứ ba là cá nhân thì trao đổi thông tin của cá nhân thực hiện.\n\n3. Thông báo cho chủ thể dữ liệu biết việc dữ liệu cá nhân nhạy cảm của chủ thể dữ liệu được xử lý, trừ trường hợp quy định tại khoản 4 Điều 13, Điều 17 và Điều 18 Nghị định này.",
+    "elapsed_ms": 178.613,
+    "strict_hit1": true,
+    "strict_hit3": true,
+    "strict_hit_topk": true,
+    "strict_context_hit": true,
+    "any_hit1": true,
+    "any_hit3": true,
+    "any_hit_topk": true,
+    "any_context_hit": true,
+    "rr3": 1.0
+  },
+  {
+    "query_id": "D13",
+    "split": "dev",
+    "kind": "conditional",
+    "question": "Nếu chủ thể dữ liệu rút lại sự đồng ý thì việc xử lý đã thực hiện trước đó có bị coi là trái pháp luật không?",
+    "config": "imp3_whyb_qfilter_sibling_b2800",
+    "method": "hybrid_rrf",
+    "top_k": 4,
+    "budget_chars": 2800,
+    "expand_siblings": true,
+    "header_style": "rich",
+    "filter_trace": {
+      "applied_filter": null,
+      "filter_reason": null,
+      "fallback_used": false
+    },
+    "results": [
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p010:B_para:003",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 10,
+        "article": "Điều 12",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 1,
+        "score": 0.04918,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 1,
+            "raw_score": 0.88908
+          },
+          "bm25_vn": {
+            "rank": 1,
+            "raw_score": 63.718403
+          }
+        },
+        "char_count": 555,
+        "any_hit": true
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p011:B_para:000",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 11,
+        "article": "Điều 12",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 2,
+        "score": 0.048387,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 2,
+            "raw_score": 0.88049
+          },
+          "bm25_vn": {
+            "rank": 2,
+            "raw_score": 50.060253
+          }
+        },
+        "char_count": 303,
+        "any_hit": false
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p008:B_para:000",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 8,
+        "article": "Điều 9",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 3,
+        "score": 0.047371,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 3,
+            "raw_score": 0.86376
+          },
+          "bm25_vn": {
+            "rank": 4,
+            "raw_score": 44.459658
+          }
+        },
+        "char_count": 676,
+        "any_hit": false
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p017:B_para:001",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 17,
+        "article": "Điều 20",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 4,
+        "score": 0.046175,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 4,
+            "raw_score": 0.86314
+          },
+          "bm25_vn": {
+            "rank": 7,
+            "raw_score": 36.109017
+          }
+        },
+        "char_count": 415,
+        "any_hit": false
+      }
+    ],
+    "top3_ids": [
+      "nghi-dinh-13-2023-nd-cp:p010:B_para:003",
+      "nghi-dinh-13-2023-nd-cp:p011:B_para:000",
+      "nghi-dinh-13-2023-nd-cp:p008:B_para:000"
+    ],
+    "context_ids": [
+      "nghi-dinh-13-2023-nd-cp:p010:B_para:003",
+      "nghi-dinh-13-2023-nd-cp:p011:B_para:000",
+      "nghi-dinh-13-2023-nd-cp:p008:B_para:000",
+      "nghi-dinh-13-2023-nd-cp:p017:B_para:001"
+    ],
+    "context_chars": 2409,
+    "est_context_tokens": 688,
+    "context": "[nghi-dinh-13-2023-nd-cp:p010:B_para:003 | data/nghi_dinh_13_2023_nd_cp.pdf | page 10 (Công báo tr.12) | Điều 12]\n[Chương II > Mục 2]\nĐiều 12. Rút lại sự đồng ý\n\n1. Việc rút lại sự đồng ý không ảnh hưởng đến tính hợp pháp của việc xử lý dữ liệu đã được đồng ý trước khi rút lại sự đồng ý.\n\n2. Việc rút lại sự đồng ý phải được thể hiện ở một định dạng có thể được in, sao chép bằng văn bản, bao gồm cả dưới dạng điện tử hoặc định dạng kiểm chứng được.\n\n3. Khi nhận yêu cầu rút lại sự đồng ý của chủ thể dữ liệu, Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân thông báo cho chủ thể dữ liệu về hậu quả, thiệt hại có thể xảy ra khi rút lại sự đồng ý.\n\n[nghi-dinh-13-2023-nd-cp:p011:B_para:000 | data/nghi_dinh_13_2023_nd_cp.pdf | page 11 (Công báo tr.13) | Điều 12]\n[Chương II > Mục 2 > Điều 12. Rút lại sự đồng ý]\n4. Sau khi thực hiện quy định tại khoản 2 Điều này, Bên Kiểm soát dữ liệu, Bên Xử lý dữ liệu, Bên Kiểm soát và xử lý dữ liệu, Bên thứ ba phải ngừng và yêu cầu các tổ chức, cá nhân có liên quan ngừng xử lý dữ liệu của chủ thể dữ liệu đã rút lại sự đồng ý.\n\n[nghi-dinh-13-2023-nd-cp:p008:B_para:000 | data/nghi_dinh_13_2023_nd_cp.pdf | page 8 (Công báo tr.10) | Điều 9]\n[Chương II > Mục 1 > Điều 9. Quyền của chủ thể dữ liệu]\n4. Quyền rút lại sự đồng ý\n\nChủ thể dữ liệu được quyền rút lại sự đồng ý của mình, trừ trường hợp luật có quy định khác.\n\n5. Quyền xóa dữ liệu\n\nChủ thể dữ liệu được xóa hoặc yêu cầu xóa dữ liệu cá nhân của mình, trừ trường hợp luật có quy định khác.\n\n6. Quyền hạn chế xử lý dữ liệu\n\na) Chủ thể dữ liệu được yêu cầu hạn chế xử lý dữ liệu cá nhân của mình, trừ trường hợp luật có quy định khác;\n\nb) Việc hạn chế xử lý dữ liệu được thực hiện trong 72 giờ sau khi có yêu cầu của chủ thể dữ liệu, với toàn bộ dữ liệu cá nhân mà chủ thể dữ liệu yêu cầu hạn chế, trừ trường hợp luật có quy định khác.\n\n7. Quyền cung cấp dữ liệu\n\n[nghi-dinh-13-2023-nd-cp:p017:B_para:001 | data/nghi_dinh_13_2023_nd_cp.pdf | page 17 (Công báo tr.19) | Điều 20]\n[Chương II > Mục 2 > Điều 20. Xử lý dữ liệu cá nhân của trẻ em]\nb) Cha, mẹ hoặc người giám hộ của trẻ em rút lại sự đồng ý cho phép xử lý dữ liệu cá nhân của trẻ em, trừ trường hợp pháp luật có quy định khác;\n\nc) Theo yêu cầu của cơ quan chức năng có thẩm quyền khi có đủ căn cứ chứng minh việc xử lý dữ liệu cá nhân gây ảnh hưởng tới quyền và lợi ích hợp pháp của trẻ em, trừ trường hợp pháp luật có quy định khác.",
+    "elapsed_ms": 235.333,
+    "strict_hit1": true,
+    "strict_hit3": true,
+    "strict_hit_topk": true,
+    "strict_context_hit": true,
+    "any_hit1": true,
+    "any_hit3": true,
+    "any_hit_topk": true,
+    "any_context_hit": true,
+    "rr3": 1.0
+  },
+  {
+    "query_id": "D14",
+    "split": "dev",
+    "kind": "rephrased",
+    "question": "Chủ thể dữ liệu yêu cầu được cấp bản sao dữ liệu của mình thì phải được cung cấp trong bao lâu?",
+    "config": "imp3_whyb_qfilter_sibling_b2800",
+    "method": "hybrid_rrf",
+    "top_k": 4,
+    "budget_chars": 2800,
+    "expand_siblings": true,
+    "header_style": "rich",
+    "filter_trace": {
+      "applied_filter": null,
+      "filter_reason": null,
+      "fallback_used": false
+    },
+    "results": [
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p008:B_para:001",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 8,
+        "article": "Điều 9",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 1,
+        "score": 0.048412,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 1,
+            "raw_score": 0.88172
+          },
+          "bm25_vn": {
+            "rank": 4,
+            "raw_score": 27.888307
+          }
+        },
+        "char_count": 735,
+        "any_hit": false
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p008:B_para:000",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 8,
+        "article": "Điều 9",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 2,
+        "score": 0.047875,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 3,
+            "raw_score": 0.869176
+          },
+          "bm25_vn": {
+            "rank": 2,
+            "raw_score": 34.471653
+          }
+        },
+        "char_count": 676,
+        "any_hit": false
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p012:B_para:000",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 12,
+        "article": "Điều 14",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 3,
+        "score": 0.047643,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 2,
+            "raw_score": 0.880477
+          },
+          "bm25_vn": {
+            "rank": 5,
+            "raw_score": 27.476495
+          }
+        },
+        "char_count": 725,
+        "any_hit": true
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p013:B_para:000",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 13,
+        "article": "Điều 14",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 4,
+        "score": 0.046244,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 7,
+            "raw_score": 0.857698
+          },
+          "bm25_vn": {
+            "rank": 1,
+            "raw_score": 35.902696
+          }
+        },
+        "char_count": 593,
+        "any_hit": false
+      }
+    ],
+    "top3_ids": [
+      "nghi-dinh-13-2023-nd-cp:p008:B_para:001",
+      "nghi-dinh-13-2023-nd-cp:p008:B_para:000",
+      "nghi-dinh-13-2023-nd-cp:p012:B_para:000"
+    ],
+    "context_ids": [
+      "nghi-dinh-13-2023-nd-cp:p008:B_para:001",
+      "nghi-dinh-13-2023-nd-cp:p008:B_para:000",
+      "nghi-dinh-13-2023-nd-cp:p012:B_para:000"
+    ],
+    "context_chars": 2478,
+    "est_context_tokens": 708,
+    "context": "[nghi-dinh-13-2023-nd-cp:p008:B_para:001 | data/nghi_dinh_13_2023_nd_cp.pdf | page 8 (Công báo tr.10) | Điều 9]\n[Chương II > Mục 1 > Điều 9. Quyền của chủ thể dữ liệu]\nChủ thể dữ liệu được yêu cầu Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân cung cấp cho bản thân dữ liệu cá nhân của mình, trừ trường hợp luật có quy định khác.\n\n8. Quyền phản đối xử lý dữ liệu\n\na) Chủ thể dữ liệu được phản đối Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân xử lý dữ liệu cá nhân của mình nhằm ngăn chặn hoặc hạn chế tiết lộ dữ liệu cá nhân hoặc sử dụng cho mục đích quảng cáo, tiếp thị, trừ trường hợp luật có quy định khác;\n\nb) Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân thực hiện yêu cầu của chủ thể dữ liệu trong 72 giờ sau khi nhận được yêu cầu, trừ trường hợp luật có quy định khác.\n\n[nghi-dinh-13-2023-nd-cp:p008:B_para:000 | data/nghi_dinh_13_2023_nd_cp.pdf | page 8 (Công báo tr.10) | Điều 9]\n[Chương II > Mục 1 > Điều 9. Quyền của chủ thể dữ liệu]\n4. Quyền rút lại sự đồng ý\n\nChủ thể dữ liệu được quyền rút lại sự đồng ý của mình, trừ trường hợp luật có quy định khác.\n\n5. Quyền xóa dữ liệu\n\nChủ thể dữ liệu được xóa hoặc yêu cầu xóa dữ liệu cá nhân của mình, trừ trường hợp luật có quy định khác.\n\n6. Quyền hạn chế xử lý dữ liệu\n\na) Chủ thể dữ liệu được yêu cầu hạn chế xử lý dữ liệu cá nhân của mình, trừ trường hợp luật có quy định khác;\n\nb) Việc hạn chế xử lý dữ liệu được thực hiện trong 72 giờ sau khi có yêu cầu của chủ thể dữ liệu, với toàn bộ dữ liệu cá nhân mà chủ thể dữ liệu yêu cầu hạn chế, trừ trường hợp luật có quy định khác.\n\n7. Quyền cung cấp dữ liệu\n\n[nghi-dinh-13-2023-nd-cp:p012:B_para:000 | data/nghi_dinh_13_2023_nd_cp.pdf | page 12 (Công báo tr.14) | Điều 14]\n[Chương II > Mục 2 > Điều 14. Cung cấp dữ liệu cá nhân]\n2. Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân:\n\na) Được cung cấp dữ liệu cá nhân của chủ thể dữ liệu cho tổ chức, cá nhân khác khi có sự đồng ý của chủ thể dữ liệu, trừ trường hợp pháp luật có quy định khác;\n\nb) Thay mặt chủ thể dữ liệu cung cấp dữ liệu cá nhân của chủ thể dữ liệu cho tổ chức hoặc cá nhân khác khi chủ thể dữ liệu đồng ý cho phép đại diện và ủy quyền, trừ trường hợp pháp luật có quy định khác.\n\n3. Việc cung cấp dữ liệu cá nhân của chủ thể dữ liệu được Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân thực hiện trong 72 giờ sau khi có yêu cầu của chủ thể dữ liệu, trừ trường hợp luật có quy định khác.",
+    "elapsed_ms": 198.543,
+    "strict_hit1": false,
+    "strict_hit3": true,
+    "strict_hit_topk": true,
+    "strict_context_hit": true,
+    "any_hit1": false,
+    "any_hit3": true,
+    "any_hit_topk": true,
+    "any_context_hit": true,
+    "rr3": 0.3333
+  },
+  {
+    "query_id": "D15",
+    "split": "dev",
+    "kind": "direct",
+    "question": "Mẫu số 01 tại Phụ lục của Nghị định là phiếu dành cho đối tượng nào?",
+    "config": "imp3_whyb_qfilter_sibling_b2800",
+    "method": "hybrid_rrf",
+    "top_k": 4,
+    "budget_chars": 2800,
+    "expand_siblings": true,
+    "header_style": "rich",
+    "filter_trace": {
+      "applied_filter": {
+        "page_type": "phu_luc_bieu_mau"
+      },
+      "filter_reason": "Query nêu rõ phạm vi 'tại/trong Phụ lục' -> lọc page_type='phu_luc_bieu_mau'.",
+      "fallback_used": false
+    },
+    "results": [
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p031:B_para:000",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 31,
+        "article": null,
+        "form": "Mẫu số 01",
+        "page_type": "phu_luc_bieu_mau",
+        "rank": 1,
+        "score": 0.04918,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 1,
+            "raw_score": 0.843759
+          },
+          "bm25_vn": {
+            "rank": 1,
+            "raw_score": 34.640982
+          }
+        },
+        "char_count": 664,
+        "any_hit": true
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p032:B_para:000",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 32,
+        "article": null,
+        "form": "Mẫu số 02",
+        "page_type": "phu_luc_bieu_mau",
+        "rank": 2,
+        "score": 0.048387,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 2,
+            "raw_score": 0.827013
+          },
+          "bm25_vn": {
+            "rank": 2,
+            "raw_score": 26.2679
+          }
+        },
+        "char_count": 593,
+        "any_hit": false
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p037:B_para:000",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 37,
+        "article": null,
+        "form": "Mẫu số 06",
+        "page_type": "phu_luc_bieu_mau",
+        "rank": 3,
+        "score": 0.047131,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 3,
+            "raw_score": 0.817544
+          },
+          "bm25_vn": {
+            "rank": 5,
+            "raw_score": 7.701525
+          }
+        },
+        "char_count": 591,
+        "any_hit": false
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p033:B_para:000",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 33,
+        "article": null,
+        "form": "Mẫu số 03",
+        "page_type": "phu_luc_bieu_mau",
+        "rank": 4,
+        "score": 0.047123,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 4,
+            "raw_score": 0.812458
+          },
+          "bm25_vn": {
+            "rank": 3,
+            "raw_score": 7.808396
+          }
+        },
+        "char_count": 679,
+        "any_hit": false
+      }
+    ],
+    "top3_ids": [
+      "nghi-dinh-13-2023-nd-cp:p031:B_para:000",
+      "nghi-dinh-13-2023-nd-cp:p032:B_para:000",
+      "nghi-dinh-13-2023-nd-cp:p037:B_para:000"
+    ],
+    "context_ids": [
+      "nghi-dinh-13-2023-nd-cp:p031:B_para:000",
+      "nghi-dinh-13-2023-nd-cp:p032:B_para:000",
+      "nghi-dinh-13-2023-nd-cp:p037:B_para:000",
+      "nghi-dinh-13-2023-nd-cp:p032:B_para:003"
+    ],
+    "context_chars": 2799,
+    "est_context_tokens": 800,
+    "context": "[nghi-dinh-13-2023-nd-cp:p031:B_para:000 | data/nghi_dinh_13_2023_nd_cp.pdf | page 31 (Công báo tr.33) | Mẫu số 01]\nMẫu số 01\n\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\n\nĐộc lập - Tự do - Hạnh phúc\n\n.........., ngày...... tháng...... năm......\n\nPHIẾU YÊU CẦU CUNG CẤP DỮ LIỆU CÁ NHÂN\n\n(Dành cho cá nhân)\n\nKính gửi:..................................................\n\n1. Họ, tên cá nhân yêu cầu cung cấp dữ liệu cá nhân:..........................................\n\n..............................................................................................................................\n\n2. Người đại diện/Người giám hộ1:.......................................................................\n\n3. Số CMTND/Thẻ căn cước công dân/Hộ chiếu.................................................\n\n[nghi-dinh-13-2023-nd-cp:p032:B_para:000 | data/nghi_dinh_13_2023_nd_cp.pdf | page 32 (Công báo tr.34) | Mẫu số 02]\nMẫu số 02\n\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\n\nĐộc lập - Tự do - Hạnh phúc\n\n.........., ngày...... tháng...... năm......\n\nPHIẾU YÊU CẦU CUNG CẤP DỮ LIỆU CÁ NHÂN\n\n(Dành cho tổ chức, doanh nghiệp)\n\nKính gửi:...............................................\n\n1. Tên tổ chức, doanh nghiệp:...............................................................................\n\n....................................................................................... .......................................\n\n2. Người đại diện của tổ chức, doanh nghiệp1:6:............................ ........................\n\n[nghi-dinh-13-2023-nd-cp:p037:B_para:000 | data/nghi_dinh_13_2023_nd_cp.pdf | page 37 (Công báo tr.39) | Mẫu số 06]\nMẫu số 06\n\nTÊN TỔ CHỨC\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\n\nĐộc lập - Tự do - Hạnh phúc\n\nSố:\n........, ngày…. tháng... năm...\n\nHỒ SƠ ĐÁNH GIÁ TÁC ĐỘNG CHUYỂN DỮ LIỆU CÁ NHÂN\n\nRA NƯỚC NGOÀI\n\nKính gửi: Bộ Công an\n\n(Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao, Bộ Công an)\n\nThực hiện quy định về bảo vệ dữ liệu cá nhân,..................114 gửi Bộ Công an Hồ sơ đánh giá tác động chuyển dữ liệu cá nhân ra nước ngoài, như sau:\n\n1. Thông tin về tổ chức, doanh nghiệp\n\n- Tên tổ chức, doanh nghiệp:................................................................................\n\n[nghi-dinh-13-2023-nd-cp:p032:B_para:003 | data/nghi_dinh_13_2023_nd_cp.pdf | page 32 (Công báo tr.34) | Mẫu số 02]\n□ Hình thức khác (ghi rõ):...................................................................................\n\n11. Văn bản kèm theo (trong trường hợp có điều kiện):....\n\nNGƯỜI YÊU CẦU49\n\n(Ký, ghi rõ họ tên)\n\n1 Theo quy định của Bộ luật Dân sự về người đại diện của tổ chức, doanh nghiệp.\n\n2 Ghi số điện thoại, fax, email của người đại diện yêu cầu cung cấp thông tin.\n\n3 In, sao, chụp hoặc file dữ liệu.\n\n4 Người đại diện ký, ghi rõ họ tên và đóng dấu của tổ chức, doanh nghiệp đó.",
+    "elapsed_ms": 185.856,
+    "strict_hit1": true,
+    "strict_hit3": true,
+    "strict_hit_topk": true,
+    "strict_context_hit": true,
+    "any_hit1": true,
+    "any_hit3": true,
+    "any_hit_topk": true,
+    "any_context_hit": true,
+    "rr3": 1.0
+  },
+  {
+    "query_id": "D16",
+    "split": "dev",
+    "kind": "direct",
+    "question": "Mẫu số 02 tại Phụ lục dành cho tổ chức, doanh nghiệp có tiêu đề là gì?",
+    "config": "imp3_whyb_qfilter_sibling_b2800",
+    "method": "hybrid_rrf",
+    "top_k": 4,
+    "budget_chars": 2800,
+    "expand_siblings": true,
+    "header_style": "rich",
+    "filter_trace": {
+      "applied_filter": {
+        "page_type": "phu_luc_bieu_mau"
+      },
+      "filter_reason": "Query nêu rõ phạm vi 'tại/trong Phụ lục' -> lọc page_type='phu_luc_bieu_mau'.",
+      "fallback_used": false
+    },
+    "results": [
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p032:B_para:000",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 32,
+        "article": null,
+        "form": "Mẫu số 02",
+        "page_type": "phu_luc_bieu_mau",
+        "rank": 1,
+        "score": 0.04918,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 1,
+            "raw_score": 0.86859
+          },
+          "bm25_vn": {
+            "rank": 1,
+            "raw_score": 59.535621
+          }
+        },
+        "char_count": 593,
+        "any_hit": true
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p036:B_para:000",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 36,
+        "article": null,
+        "form": "Mẫu số 05",
+        "page_type": "phu_luc_bieu_mau",
+        "rank": 2,
+        "score": 0.046898,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 5,
+            "raw_score": 0.819174
+          },
+          "bm25_vn": {
+            "rank": 2,
+            "raw_score": 23.959211
+          }
+        },
+        "char_count": 667,
+        "any_hit": false
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p031:B_para:000",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 31,
+        "article": null,
+        "form": "Mẫu số 01",
+        "page_type": "phu_luc_bieu_mau",
+        "rank": 3,
+        "score": 0.046402,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 4,
+            "raw_score": 0.820824
+          },
+          "bm25_vn": {
+            "rank": 6,
+            "raw_score": 20.698834
+          }
+        },
+        "char_count": 664,
+        "any_hit": false
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p032:B_para:003",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 32,
+        "article": null,
+        "form": "Mẫu số 02",
+        "page_type": "phu_luc_bieu_mau",
+        "rank": 4,
+        "score": 0.046032,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 3,
+            "raw_score": 0.822123
+          },
+          "bm25_vn": {
+            "rank": 10,
+            "raw_score": 18.930064
+          }
+        },
+        "char_count": 481,
+        "any_hit": false
+      }
+    ],
+    "top3_ids": [
+      "nghi-dinh-13-2023-nd-cp:p032:B_para:000",
+      "nghi-dinh-13-2023-nd-cp:p036:B_para:000",
+      "nghi-dinh-13-2023-nd-cp:p031:B_para:000"
+    ],
+    "context_ids": [
+      "nghi-dinh-13-2023-nd-cp:p032:B_para:000",
+      "nghi-dinh-13-2023-nd-cp:p036:B_para:000",
+      "nghi-dinh-13-2023-nd-cp:p031:B_para:000"
+    ],
+    "context_chars": 2276,
+    "est_context_tokens": 650,
+    "context": "[nghi-dinh-13-2023-nd-cp:p032:B_para:000 | data/nghi_dinh_13_2023_nd_cp.pdf | page 32 (Công báo tr.34) | Mẫu số 02]\nMẫu số 02\n\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\n\nĐộc lập - Tự do - Hạnh phúc\n\n.........., ngày...... tháng...... năm......\n\nPHIẾU YÊU CẦU CUNG CẤP DỮ LIỆU CÁ NHÂN\n\n(Dành cho tổ chức, doanh nghiệp)\n\nKính gửi:...............................................\n\n1. Tên tổ chức, doanh nghiệp:...............................................................................\n\n....................................................................................... .......................................\n\n2. Người đại diện của tổ chức, doanh nghiệp1:6:............................ ........................\n\n[nghi-dinh-13-2023-nd-cp:p036:B_para:000 | data/nghi_dinh_13_2023_nd_cp.pdf | page 36 (Công báo tr.38) | Mẫu số 05]\nMẫu số 05\n\nTÊN TỔ CHỨC\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\n\nĐộc lập - Tự do - Hạnh phúc\n\nSố:\n........, ngày…. tháng... năm...\n\nTHÔNG BÁO\n\nTHAY ĐỔI NỘI DUNG HỒ SƠ......1\n12\n\nKính gửi: Bộ Công an\n\n(Qua Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao)\n\nThực hiện quy định về bảo vệ dữ liệu cá nhân,..................213 gửi Bộ Công an Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân, như sau:\n\n1. Thông tin về tổ chức, doanh nghiệp\n\n- Tên tổ chức, doanh nghiệp:................................................................................\n\n- Địa chỉ trụ sở chính:...........................................................................................\n\n[nghi-dinh-13-2023-nd-cp:p031:B_para:000 | data/nghi_dinh_13_2023_nd_cp.pdf | page 31 (Công báo tr.33) | Mẫu số 01]\nMẫu số 01\n\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\n\nĐộc lập - Tự do - Hạnh phúc\n\n.........., ngày...... tháng...... năm......\n\nPHIẾU YÊU CẦU CUNG CẤP DỮ LIỆU CÁ NHÂN\n\n(Dành cho cá nhân)\n\nKính gửi:..................................................\n\n1. Họ, tên cá nhân yêu cầu cung cấp dữ liệu cá nhân:..........................................\n\n..............................................................................................................................\n\n2. Người đại diện/Người giám hộ1:.......................................................................\n\n3. Số CMTND/Thẻ căn cước công dân/Hộ chiếu.................................................",
+    "elapsed_ms": 171.069,
+    "strict_hit1": true,
+    "strict_hit3": true,
+    "strict_hit_topk": true,
+    "strict_context_hit": true,
+    "any_hit1": true,
+    "any_hit3": true,
+    "any_hit_topk": true,
+    "any_context_hit": true,
+    "rr3": 1.0
+  },
+  {
+    "query_id": "D17",
+    "split": "dev",
+    "kind": "multi_hop",
+    "question": "Một doanh nghiệp khởi nghiệp mới thành lập (không trực tiếp kinh doanh hoạt động xử lý dữ liệu cá nhân) có xử lý dữ liệu cá nhân nhạy cảm thì theo quy định chung về bảo vệ dữ liệu nhạy cảm phải làm gì đối với bộ phận và nhân sự bảo vệ dữ liệu cá nhân, nhưng doanh nghiệp có được hưởng quyền miễn trừ trong bao lâu không?",
+    "config": "imp3_whyb_qfilter_sibling_b2800",
+    "method": "hybrid_rrf",
+    "top_k": 4,
+    "budget_chars": 2800,
+    "expand_siblings": true,
+    "header_style": "rich",
+    "filter_trace": {
+      "applied_filter": null,
+      "filter_reason": null,
+      "fallback_used": false
+    },
+    "results": [
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p029:B_para:001",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 29,
+        "article": "Điều 43",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 1,
+        "score": 0.04918,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 1,
+            "raw_score": 0.866476
+          },
+          "bm25_vn": {
+            "rank": 1,
+            "raw_score": 110.522107
+          }
+        },
+        "char_count": 549,
+        "any_hit": true
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p024:B_para:000",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 24,
+        "article": "Điều 28",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 2,
+        "score": 0.047883,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 2,
+            "raw_score": 0.863613
+          },
+          "bm25_vn": {
+            "rank": 4,
+            "raw_score": 41.693906
+          }
+        },
+        "char_count": 483,
+        "any_hit": false
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p025:B_para:000",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 25,
+        "article": "Điều 30",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 3,
+        "score": 0.043697,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 8,
+            "raw_score": 0.853412
+          },
+          "bm25_vn": {
+            "rank": 10,
+            "raw_score": 39.319292
+          }
+        },
+        "char_count": 682,
+        "any_hit": false
+      },
+      {
+        "id": "nghi-dinh-13-2023-nd-cp:p008:B_para:001",
+        "source_id": "nghi-dinh-13-2023-nd-cp",
+        "source": "data/nghi_dinh_13_2023_nd_cp.pdf",
+        "page": 8,
+        "article": "Điều 9",
+        "form": null,
+        "page_type": "noi_dung",
+        "rank": 4,
+        "score": 0.031746,
+        "strategy": "hybrid_rrf",
+        "component_ranks": {
+          "dense_pgvector": {
+            "rank": 3,
+            "raw_score": 0.861112
+          }
+        },
+        "char_count": 735,
+        "any_hit": false
+      }
+    ],
+    "top3_ids": [
+      "nghi-dinh-13-2023-nd-cp:p029:B_para:001",
+      "nghi-dinh-13-2023-nd-cp:p024:B_para:000",
+      "nghi-dinh-13-2023-nd-cp:p025:B_para:000"
+    ],
+    "context_ids": [
+      "nghi-dinh-13-2023-nd-cp:p029:B_para:001",
+      "nghi-dinh-13-2023-nd-cp:p024:B_para:000",
+      "nghi-dinh-13-2023-nd-cp:p025:B_para:000",
+      "nghi-dinh-13-2023-nd-cp:p023:B_para:002"
+    ],
+    "context_chars": 2484,
+    "est_context_tokens": 710,
+    "context": "[nghi-dinh-13-2023-nd-cp:p029:B_para:001 | data/nghi_dinh_13_2023_nd_cp.pdf | page 29 (Công báo tr.31) | Điều 43]\n[Chương IV > Mục 4]\nĐiều 43. Hiệu lực thi hành\n\n1. Nghị định này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2023.\n\n2. Các doanh nghiệp siêu nhỏ, doanh nghiệp nhỏ, doanh nghiệp vừa, doanh nghiệp khởi nghiệp được quyền lựa chọn miễn trừ quy định về chỉ định cá nhân và bộ phận bảo vệ dữ liệu cá nhân trong thời gian 02 năm đầu kể từ khi thành lập doanh nghiệp.\n\n3. Các doanh nghiệp siêu nhỏ, doanh nghiệp nhỏ, doanh nghiệp vừa, doanh nghiệp khởi nghiệp trực tiếp kinh doanh hoạt động xử lý dữ liệu cá nhân không áp dụng quy định tại khoản 2 Điều này.\n\n[nghi-dinh-13-2023-nd-cp:p024:B_para:000 | data/nghi_dinh_13_2023_nd_cp.pdf | page 24 (Công báo tr.26) | Điều 28]\n[Chương II > Mục 4 > Điều 28. Bảo vệ dữ liệu cá nhân nhạy cảm]\nbảo vệ dữ liệu cá nhân với Cơ quan chuyên trách bảo vệ dữ liệu cá nhân. Trường hợp Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân, Bên Xử lý dữ liệu, Bên thứ ba là cá nhân thì trao đổi thông tin của cá nhân thực hiện.\n\n3. Thông báo cho chủ thể dữ liệu biết việc dữ liệu cá nhân nhạy cảm của chủ thể dữ liệu được xử lý, trừ trường hợp quy định tại khoản 4 Điều 13, Điều 17 và Điều 18 Nghị định này.\n\n[nghi-dinh-13-2023-nd-cp:p025:B_para:000 | data/nghi_dinh_13_2023_nd_cp.pdf | page 25 (Công báo tr.27) | Điều 30]\n[Chương II > Mục 4 > Điều 30. Điều kiện bảo đảm hoạt động bảo vệ dữ liệu cá nhân]\nb) Bộ phận, nhân sự có chức năng bảo vệ dữ liệu cá nhân được chỉ định trong cơ quan, tổ chức, doanh nghiệp nhằm bảo đảm thực hiện quy định về bảo vệ dữ liệu cá nhân;\n\nc) Tổ chức, cá nhân được huy động tham gia bảo vệ dữ liệu cá nhân;\n\nd) Bộ Công an xây dựng chương trình, kế hoạch cụ thể nhằm phát triển nguồn nhân lực bảo vệ dữ liệu cá nhân.\n\n2. Cơ quan, tổ chức, cá nhân có trách nhiệm tuyên truyền, phổ biến kiến thức, kỹ năng, nâng cao nhận thức bảo vệ dữ liệu cá nhân cho cơ quan, tổ chức, cá nhân.\n\n3. Bảo đảm cơ sở vật chất, điều kiện hoạt động cho Cơ quan chuyên trách bảo vệ dữ liệu cá nhân.\n\n[nghi-dinh-13-2023-nd-cp:p023:B_para:002 | data/nghi_dinh_13_2023_nd_cp.pdf | page 23 (Công báo tr.25) | Điều 28]\n[Chương II > Mục 4]\nĐiều 28. Bảo vệ dữ liệu cá nhân nhạy cảm\n\n1. Áp dụng các biện pháp được quy định tại khoản 2 Điều 26 và Điều 27 Nghị định này.\n\n2. Chỉ định bộ phận có chức năng bảo vệ dữ liệu cá nhân, chỉ định nhân sự phụ trách bảo vệ dữ liệu cá nhân và trao đổi thông tin về bộ phận và cá nhân phụ trách",
+    "elapsed_ms": 224.769,
+    "strict_hit1": false,
+    "strict_hit3": false,
+    "strict_hit_topk": false,
+    "strict_context_hit": true,
+    "any_hit1": true,
+    "any_hit3": true,
+    "any_hit_topk": true,
+    "any_context_hit": true,
+    "rr3": 1.0
+  }
+]

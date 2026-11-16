@@ -1,0 +1,152 @@
+[
+  {
+    "query_id": "D01",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "note": "Đúng ngày 01/7/2023 theo Điều 43."
+  },
+  {
+    "query_id": "D02",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      false
+    ],
+    "note": "Định nghĩa đúng theo p003:B_para:000, nhưng gắn thừa citation p002:B_para:001 (dữ liệu cơ bản)."
+  },
+  {
+    "query_id": "D03",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "note": "Đúng nguyên tắc và ngoại lệ tại Điều 3 khoản 4."
+  },
+  {
+    "query_id": "D04",
+    "answer_grade": 0,
+    "citation_support": [],
+    "note": "Từ chối nhầm sau khi tự đoán sai filter Điều 18 và gõ nhầm đuôi mã p008:B_para:006."
+  },
+  {
+    "query_id": "D05",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "note": "Đúng 72 giờ và ngoại lệ theo Điều 16 khoản 5."
+  },
+  {
+    "query_id": "D06",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "note": "Đúng theo Điều 11 khoản 6."
+  },
+  {
+    "query_id": "D07",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "note": "Đúng từ đủ 7 tuổi trở lên kèm đồng ý của cha/mẹ/giám hộ theo Điều 20 khoản 2."
+  },
+  {
+    "query_id": "D08",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "note": "Đúng Bộ Công an (Cục A05) và chậm nhất 72 giờ theo Điều 23 khoản 1."
+  },
+  {
+    "query_id": "D09",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "note": "Đúng 60 ngày theo Điều 24 khoản 4."
+  },
+  {
+    "query_id": "D10",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "note": "Đúng 02 năm đầu và ngoại lệ theo Điều 43."
+  },
+  {
+    "query_id": "D11",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "note": "Đúng theo Điều 43 khoản 3."
+  },
+  {
+    "query_id": "D12",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "note": "Đúng Cục A05 - Bộ Công an theo Điều 29 khoản 1."
+  },
+  {
+    "query_id": "D13",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "note": "Đúng và đầy đủ cả khoản 1 (p010:003) và khoản 4 (p011:000) Điều 12."
+  },
+  {
+    "query_id": "D14",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "note": "Đúng 72 giờ theo Điều 14 khoản 3."
+  },
+  {
+    "query_id": "D15",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "note": "Đúng đối tượng cá nhân của Mẫu số 01 (p031:000)."
+  },
+  {
+    "query_id": "D16",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "note": "Đúng tiêu đề Mẫu số 02 dành cho tổ chức, doanh nghiệp (p032:000)."
+  },
+  {
+    "query_id": "D17",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true,
+      true
+    ],
+    "note": "Kết hợp đầy đủ cả Điều 28 (p023:002, p024:000) và Điều 43 (p029:001)."
+  },
+  {
+    "query_id": "U_D01",
+    "abstention_correct": true,
+    "citation_support": [],
+    "note": "Từ chối đúng."
+  },
+  {
+    "query_id": "U_D02",
+    "abstention_correct": true,
+    "citation_support": [],
+    "note": "Từ chối đúng."
+  }
+]

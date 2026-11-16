@@ -1,0 +1,156 @@
+{
+  "scale": "0 = không có evidence; 1 = có nhưng thiếu điều kiện/phần bằng chứng bắt buộc; 2 = đủ evidence và nguồn",
+  "cfg1_tfidf_b800": {
+    "counts": {
+      "0": 1,
+      "1": 1,
+      "2": 5,
+      "N": 7,
+      "mean": 1.5714
+    },
+    "items": [
+      {
+        "query_id": "N_T01",
+        "context_grade": 2,
+        "context_ids": [
+          "nghi-dinh-13-2023-nd-cp:p011:B_para:001"
+        ],
+        "reason": "Có trọn khoản 1 Điều 13 (trang 11) nêu thực hiện một lần trước khi tiến hành xử lý dữ liệu."
+      },
+      {
+        "query_id": "N_T02",
+        "context_grade": 2,
+        "context_ids": [
+          "nghi-dinh-13-2023-nd-cp:p016:B_para:002"
+        ],
+        "reason": "Có trọn Điều 18 (trang 16) nêu không cần đồng ý nhưng phải thông báo đang ghi âm, ghi hình và ngoại lệ."
+      },
+      {
+        "query_id": "N_T03",
+        "context_grade": 2,
+        "context_ids": [
+          "nghi-dinh-13-2023-nd-cp:p016:B_para:003"
+        ],
+        "reason": "Có trọn khoản 1 và khoản 2 Điều 19 (trang 16)."
+      },
+      {
+        "query_id": "N_T04",
+        "context_grade": 2,
+        "context_ids": [
+          "nghi-dinh-13-2023-nd-cp:p013:B_para:002"
+        ],
+        "reason": "Có trọn khoản 9 Điều 14 (trang 13) nêu chi phí in, sao, chụp, bưu chính, fax và phương thức, thời hạn thanh toán."
+      },
+      {
+        "query_id": "N_T05",
+        "context_grade": 2,
+        "context_ids": [
+          "nghi-dinh-13-2023-nd-cp:p026:B_para:003",
+          "nghi-dinh-13-2023-nd-cp:p029:B_para:000"
+        ],
+        "reason": "Có trọn khoản 1 và 2 Điều 35 (trang 26)."
+      },
+      {
+        "query_id": "N_T06",
+        "context_grade": 0,
+        "context_ids": [
+          "nghi-dinh-13-2023-nd-cp:p021:B_para:000"
+        ],
+        "reason": "Không có filter Phụ lục nên TF-IDF lấy khoản 6 Điều 24 (trang 21) chỉ nhắc tên Mẫu số 05, thiếu hoàn toàn trang 36 của biểu mẫu."
+      },
+      {
+        "query_id": "N_T07",
+        "context_grade": 1,
+        "context_ids": [
+          "nghi-dinh-13-2023-nd-cp:p021:B_para:001"
+        ],
+        "reason": "Có Điều 25 khoản 1 (trang 21) xác nhận Bên Xử lý thuộc Bên chuyển dữ liệu ra nước ngoài, nhưng thiếu định nghĩa phân biệt tại Điều 2 (trang 4)."
+      }
+    ]
+  },
+  "imp3_whyb_qfilter_sibling_b2800": {
+    "counts": {
+      "0": 0,
+      "1": 2,
+      "2": 5,
+      "N": 7,
+      "mean": 1.7143
+    },
+    "items": [
+      {
+        "query_id": "N_T01",
+        "context_grade": 2,
+        "context_ids": [
+          "nghi-dinh-13-2023-nd-cp:p011:B_para:001",
+          "nghi-dinh-13-2023-nd-cp:p011:B_para:002",
+          "nghi-dinh-13-2023-nd-cp:p024:B_para:000",
+          "nghi-dinh-13-2023-nd-cp:p011:B_para:003"
+        ],
+        "reason": "Đầy đủ cả khoản 1 lẫn các trường hợp miễn thông báo tại khoản 4 Điều 13 nhờ mở rộng sibling."
+      },
+      {
+        "query_id": "N_T02",
+        "context_grade": 2,
+        "context_ids": [
+          "nghi-dinh-13-2023-nd-cp:p016:B_para:002",
+          "nghi-dinh-13-2023-nd-cp:p016:B_para:000",
+          "nghi-dinh-13-2023-nd-cp:p010:B_para:001",
+          "nghi-dinh-13-2023-nd-cp:p016:B_para:001"
+        ],
+        "reason": "Đầy đủ trọn vẹn Điều 18 (trang 16) và nguồn Công báo tr.18."
+      },
+      {
+        "query_id": "N_T03",
+        "context_grade": 2,
+        "context_ids": [
+          "nghi-dinh-13-2023-nd-cp:p016:B_para:003",
+          "nghi-dinh-13-2023-nd-cp:p017:B_para:000",
+          "nghi-dinh-13-2023-nd-cp:p015:B_para:003",
+          "nghi-dinh-13-2023-nd-cp:p010:B_para:000"
+        ],
+        "reason": "Đầy đủ trọn vẹn khoản 1 và 2 Điều 19 (trang 16)."
+      },
+      {
+        "query_id": "N_T04",
+        "context_grade": 2,
+        "context_ids": [
+          "nghi-dinh-13-2023-nd-cp:p013:B_para:002",
+          "nghi-dinh-13-2023-nd-cp:p013:B_para:001",
+          "nghi-dinh-13-2023-nd-cp:p012:B_para:000"
+        ],
+        "reason": "Đầy đủ khoản 8-9 Điều 14 (trang 13) kèm khoản 3 (trang 12) nhờ mở rộng sibling."
+      },
+      {
+        "query_id": "N_T05",
+        "context_grade": 2,
+        "context_ids": [
+          "nghi-dinh-13-2023-nd-cp:p026:B_para:003",
+          "nghi-dinh-13-2023-nd-cp:p026:B_para:001",
+          "nghi-dinh-13-2023-nd-cp:p027:B_para:000",
+          "nghi-dinh-13-2023-nd-cp:p024:B_para:001"
+        ],
+        "reason": "Tự suy luận đúng filter article='Điều 35', xếp p026:B_para:003 lên hạng 1 với đủ 2 khoản."
+      },
+      {
+        "query_id": "N_T06",
+        "context_grade": 1,
+        "context_ids": [
+          "nghi-dinh-13-2023-nd-cp:p036:B_para:000",
+          "nghi-dinh-13-2023-nd-cp:p037:B_para:000",
+          "nghi-dinh-13-2023-nd-cp:p032:B_para:002"
+        ],
+        "reason": "Tự suy luận đúng filter page_type='phu_luc_bieu_mau' nên lấy trúng tiêu đề Mẫu số 05 (p036:000), nhưng truy xuất đơn lượt budget 2800 chưa kịp nhét thêm chú thích cuối trang p036:003 (được khắc phục ở tầng Agent bằng lookup_article_or_form)."
+      },
+      {
+        "query_id": "N_T07",
+        "context_grade": 1,
+        "context_ids": [
+          "nghi-dinh-13-2023-nd-cp:p021:B_para:001",
+          "nghi-dinh-13-2023-nd-cp:p021:B_para:002",
+          "nghi-dinh-13-2023-nd-cp:p022:B_para:001"
+        ],
+        "reason": "Truy vấn gộp đơn lượt lấy được Điều 25 khoản 1 (trang 21), nhưng thiếu định nghĩa phân biệt Bên Kiểm soát và Bên Xử lý ở Điều 2 (trang 4)."
+      }
+    ]
+  }
+}
